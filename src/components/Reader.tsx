@@ -79,6 +79,19 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
     enabled: !!selectedBook && !!selectedChapter
   });
 
+  const handleVerseClick = (verse: BibleVerse) => {
+    const verseNum = verse.verse;
+    setSelectedVerses(prev => {
+      const newSelection = new Set(prev);
+      if (newSelection.has(verseNum)) {
+        newSelection.delete(verseNum);
+      } else {
+        newSelection.add(verseNum);
+      }
+      return newSelection;
+    });
+  };
+
   const saveVersesMutation = useMutation<
     { savedVerses: number[] },
     Error,
@@ -86,7 +99,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
     unknown
   >({
     mutationFn: async () => {
-      const versesToSave = new Set(Array.from(selectedVerses));
+      const versesToSave = Array.from(selectedVerses).sort((a, b) => a - b);
       
       const { data: { user } } = await supabase.auth.getUser();
       
@@ -94,7 +107,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
         throw new Error('Not authenticated');
       }
 
-      if (versesToSave.size === 0) {
+      if (versesToSave.length === 0) {
         throw new Error('Please select at least one verse to save');
       }
 
@@ -106,11 +119,11 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
         user_id: user.id,
         book_name: selectedBook,
         chapter_number: selectedChapter,
-        selectedVerses: versesToSave,
+        selectedVerses: new Set(versesToSave),
         chapterData
       });
 
-      return { savedVerses: Array.from(versesToSave) };
+      return { savedVerses: versesToSave };
     },
     
     onSuccess: (data) => {
@@ -223,19 +236,6 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       });
     }
   }, [selectedBook, selectedChapter, queryClient]);
-
-  const handleVerseClick = (verse: BibleVerse) => {
-    const verseNum = verse.verse;
-    setSelectedVerses(prev => {
-      const newSelection = new Set(prev);
-      if (newSelection.has(verseNum)) {
-        newSelection.delete(verseNum);
-      } else {
-        newSelection.add(verseNum);
-      }
-      return newSelection;
-    });
-  };
 
   const getSelectedVerseText = () => {
     if (!chapterData?.verses || selectedVerses.size === 0) return '';

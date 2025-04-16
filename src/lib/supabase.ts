@@ -33,6 +33,51 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   }
 });
 
+export async function checkExistingVerse({
+  user_id,
+  book_name,
+  chapter_number,
+  selectedVerses
+}: {
+  user_id: string;
+  book_name: string;
+  chapter_number: number;
+  selectedVerses: Set<number>;
+}): Promise<string | null> {
+  try {
+    const selectedArray = Array.from(selectedVerses).sort((a, b) => a - b);
+    if (!selectedArray.length) {
+      console.error('No verses selected');
+      return null;
+    }
+
+    // Query using raw SQL comparison for JSONB
+    const { data, error } = await supabase
+      .from('user_saved_verses')
+      .select('id')
+      .eq('user_id', user_id)
+      .eq('book_name', book_name)
+      .eq('chapter_number', chapter_number)
+      .filter('verse_selections', 'cs', `[{"start": ${selectedArray[0]}, "end": ${selectedArray[0]}}]`)
+      .single();
+
+    if (error) {
+      if (error.code === 'PGRST116') { // No rows found
+        console.log('No existing verse found');
+        return null;
+      }
+      console.error('Error checking for existing verse:', error);
+      throw error;
+    }
+
+    console.log('Found existing verse with ID:', data.id);
+    return data.id;
+  } catch (error) {
+    console.error('Error checking for existing verse:', error);
+    throw error;
+  }
+}
+
 export async function insertSavedVerse({
   user_id,
   book_name,
@@ -47,49 +92,43 @@ export async function insertSavedVerse({
   chapterData: { verses: BibleVerse[] };
 }): Promise<{ data: UserSavedVerse; savedVerses: number[] }> {
   try {
-    console.log('Starting verse save with:', {
-      user_id,
-      book_name,
-      chapter_number,
-      selectedVerses: Array.from(selectedVerses),
-    });
-
     const selectedArray = Array.from(selectedVerses).sort((a, b) => a - b);
     if (!selectedArray.length) {
       console.error('No verses selected');
       throw new Error('No verses selected');
     }
 
-    // Convert to verse selections format
-    const verse_selections = [];
-    let start = selectedArray[0];
-    let end = start;
+    // First check if the verse already exists
+    const existingVerseId = await checkExistingVerse({
+      user_id,
+      book_name,
+      chapter_number,
+      selectedVerses
+    });
 
-    // Process all verses including the last one
-    for (let i = 1; i <= selectedArray.length; i++) {
-      if (i === selectedArray.length || selectedArray[i] !== end + 1) {
-        verse_selections.push({ start, end });
-        if (i < selectedArray.length) {
-          start = end = selectedArray[i];
-        }
-      } else {
-        end = selectedArray[i];
+    if (existingVerseId) {
+      console.log('Verse already exists, deleting it:', existingVerseId);
+      const { error: deleteError } = await supabase
+        .from('user_saved_verses')
+        .delete()
+        .eq('id', existingVerseId);
+
+      if (deleteError) {
+        console.error('Error deleting existing verse:', deleteError);
+        throw deleteError;
       }
+
+      console.log('Successfully deleted existing verse');
+      return { data: null, savedVerses: [] };
     }
 
-    console.log('Processed verse selections:', verse_selections);
+    // Create verse selections array with proper spacing
+    const verse_selections = [{ start: selectedArray[0], end: selectedArray[0] }];
+    console.log('Inserting verse selections:', verse_selections);
 
     const versesToSave = chapterData?.verses.filter(v => selectedVerses.has(v.verse)) || [];
     const verse_text = versesToSave.map(v => v.text).join('\n');
     const display_reference = formatVerseReference(book_name, chapter_number, verse_selections);
-
-    console.log('Saving verse with data:', {
-      verse_selections,
-      verse_text,
-      display_reference,
-      is_composite: selectedArray.length > 1,
-      verseCount: selectedArray.length
-    });
 
     const { data, error } = await supabase
       .from('user_saved_verses')
@@ -111,10 +150,10 @@ export async function insertSavedVerse({
       throw error;
     }
     
-    console.log('Successfully saved verse:', data);
+    console.log('Successfully saved new verse:', data);
     return { data, savedVerses: selectedArray };
   } catch (error) {
-    console.error('Error saving verses:', error);
+    console.error('Error in verse save process:', error);
     throw error;
   }
 }
