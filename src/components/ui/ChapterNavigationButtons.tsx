@@ -1,0 +1,107 @@
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { bibleBooks } from '@/data/bibleBooks';
+import { useEffect } from 'react';
+
+interface ChapterNavigationButtonsProps {
+  selectedBook: string;
+  selectedChapter: number;
+  onBookChange: (bookId: string) => void;
+  onChapterChange: (chapter: number) => void;
+}
+
+export function ChapterNavigationButtons({
+  selectedBook,
+  selectedChapter,
+  onBookChange,
+  onChapterChange,
+}: ChapterNavigationButtonsProps) {
+  const currentBook = bibleBooks.find(book => book.id === selectedBook)!;
+  const currentBookIndex = bibleBooks.findIndex(book => book.id === selectedBook);
+
+  const handlePreviousChapter = () => {
+    if (selectedChapter > 1) {
+      onChapterChange(selectedChapter - 1);
+    } else if (currentBookIndex > 0) {
+      const previousBook = bibleBooks[currentBookIndex - 1];
+      onBookChange(previousBook.id);
+      onChapterChange(previousBook.chapters);
+    }
+  };
+
+  const handleNextChapter = () => {
+    if (selectedChapter < currentBook.chapters) {
+      onChapterChange(selectedChapter + 1);
+    } else if (currentBookIndex < bibleBooks.length - 1) {
+      const nextBook = bibleBooks[currentBookIndex + 1];
+      onBookChange(nextBook.id);
+      onChapterChange(1);
+    }
+  };
+
+  const canGoPrevious = selectedChapter > 1 || currentBookIndex > 0;
+  const canGoNext = selectedChapter < currentBook.chapters || currentBookIndex < bibleBooks.length - 1;
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      // Ignore key events if user is typing in an input or textarea
+      if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) {
+        return;
+      }
+
+      if (event.key === 'ArrowLeft' && canGoPrevious) {
+        handlePreviousChapter();
+      } else if (event.key === 'ArrowRight' && canGoNext) {
+        handleNextChapter();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [canGoPrevious, canGoNext, selectedBook, selectedChapter]);
+
+  return (
+    <>
+      {/* Desktop Navigation */}
+      <div className="fixed top-1/2 -translate-y-1/2 left-0 hidden lg:block z-[60]" style={{ left: 'calc(50% - 32rem)' }}>
+        <button
+          onClick={handlePreviousChapter}
+          disabled={!canGoPrevious}
+          className="p-3 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none"
+          aria-label="Previous chapter"
+        >
+          <ChevronLeft className="w-6 h-6" />
+        </button>
+      </div>
+      <div className="fixed top-1/2 -translate-y-1/2 right-0 hidden lg:block z-[60]" style={{ right: 'calc(50% - 32rem)' }}>
+        <button
+          onClick={handleNextChapter}
+          disabled={!canGoNext}
+          className="p-3 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none"
+          aria-label="Next chapter"
+        >
+          <ChevronRight className="w-6 h-6" />
+        </button>
+      </div>
+
+      {/* Mobile Navigation */}
+      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 flex gap-20 lg:hidden z-[60]">
+        <button
+          onClick={handlePreviousChapter}
+          disabled={!canGoPrevious}
+          className="p-4 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
+          aria-label="Previous chapter"
+        >
+          <ChevronLeft className="w-7 h-7" />
+        </button>
+        <button
+          onClick={handleNextChapter}
+          disabled={!canGoNext}
+          className="p-4 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
+          aria-label="Next chapter"
+        >
+          <ChevronRight className="w-7 h-7" />
+        </button>
+      </div>
+    </>
+  );
+} 
