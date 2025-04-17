@@ -336,7 +336,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
   return (
     <div className="relative min-h-screen">
       <div className="bg-dark-900 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-3">
+        <div className="md:container md:mx-auto px-4 py-4 md:px-8 md:py-3 md:pt-8 border-b md:border-b-0 border-dark-800">
           <div className="max-w-2xl mx-auto relative">
             <ChapterNavigation
               selectedBook={selectedBook}
@@ -357,7 +357,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       />
       
       <div className="flex flex-col h-full">
-        <div className="container mx-auto px-4 flex-1 overflow-y-auto" ref={contentRef}>
+        <div className="md:container md:mx-auto px-4 py-4 md:p-8 flex-1 overflow-y-auto" ref={contentRef}>
           <div className="max-w-2xl mx-auto">
             {renderContent()}
           </div>

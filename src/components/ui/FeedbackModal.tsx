@@ -158,7 +158,7 @@ function FeedbackModal({ open, onOpenChange }: FeedbackModalProps) {
             <>
               <Dialog.Overlay asChild>
                 <motion.div
-                  className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50"
+                  className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[80]"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
@@ -168,7 +168,7 @@ function FeedbackModal({ open, onOpenChange }: FeedbackModalProps) {
 
               <Dialog.Content asChild>
                 <motion.div
-                  className="fixed left-[50%] top-[50%] max-h-[85vh] w-[90vw] max-w-[500px] translate-x-[-50%] translate-y-[-50%] rounded-lg bg-dark-800 p-6 shadow-xl focus:outline-none z-50 overflow-y-auto"
+                  className="fixed left-[50%] top-[50%] max-h-[85vh] w-[90vw] max-w-[500px] translate-x-[-50%] translate-y-[-50%] rounded-lg bg-dark-800 p-6 shadow-xl focus:outline-none z-[80] overflow-y-auto"
                   initial={{ opacity: 0, y: '-48%', x: '-50%', scale: 0.95 }}
                   animate={{ opacity: 1, y: '-50%', x: '-50%', scale: 1 }}
                   exit={{ opacity: 0, y: '-48%', x: '-50%', scale: 0.95 }}

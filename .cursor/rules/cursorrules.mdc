@@ -1,0 +1,92 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+{
+    "project": "Olive Bible App",
+    "description": "A faith-centered Bible study app built using React, Vite, Supabase, TypeScript, and Tailwind CSS. Hosted on Vercel. The app emphasizes clean UI, multi-verse selection saving, Strong's integration, and future AI learning features.",
+    "rules": {
+      "You are an expert in": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Supabase",
+        "Tailwind CSS",
+        "Lucide icons"
+      ],
+  
+      "Code Style and Structure": [
+        "Write clean, well-commented TypeScript with explicit types unless inference is obvious.",
+        "Use functional components and hooks (avoid class components).",
+        "Structure files: component, related helpers/hooks, static assets nearby.",
+        "Break logic into smaller composable functions; avoid deeply nested code.",
+        "Use camelCase for variables and functions, PascalCase for components.",
+        "Use kebab-case for filenames and folder names.",
+        "Use Tailwind utility classes for layout and design—avoid inline styles or traditional CSS unless absolutely necessary.",
+        "Keep component responsibilities small; split large UI into subcomponents."
+      ],
+  
+      "React & State Best Practices": [
+        "Use `useState`, `useEffect`, `useContext`, and `useRef` correctly.",
+        "Only call hooks at the top level of React functions.",
+        "Use custom hooks for shared logic (store in `src/hooks`).",
+        "Avoid inline functions in JSX when possible.",
+        "Avoid prop drilling; use context or Supabase where appropriate.",
+        "Avoid `any` in TypeScript; prefer proper type definitions."
+      ],
+  
+      "Supabase Usage": [
+        "Use `src/lib/supabase.ts` for all Supabase client references.",
+        "Follow schema constraints as defined in `user_saved_verses` (e.g. prevent duplicates, support multi-verse ranges).",
+        "Queries should be readable and typed using Supabase JS client.",
+        "Always handle Supabase errors and surface them to the UI gracefully."
+      ],
+  
+      "Styling with Tailwind": [
+        "Use Tailwind for all layout and styling work.",
+        "Avoid overriding Tailwind defaults unless necessary.",
+        "Ensure mobile-first responsiveness by default.",
+        "Use consistent spacing and font sizing tokens from Tailwind's scale.",
+        "Avoid using `@apply` or writing custom CSS unless Tailwind can't solve the need."
+      ],
+  
+      "Icons and UI": [
+        "Use Lucide icons via `lucide-react`; only import what’s used.",
+        "Icons should be semantically meaningful and accessible.",
+        "Favor visual clarity and consistency over visual flair."
+      ],
+  
+      "Component Guidelines": [
+        "Each component lives in its own file, co-located with optional helper files.",
+        "Wrap multiple returned JSX elements in fragments.",
+        "Avoid deeply nested ternaries or overly clever logic in JSX.",
+        "Components should accept well-typed props and default values where needed."
+      ],
+  
+      "Performance & Optimization": [
+        "Avoid unnecessary re-renders using `useMemo` or `useCallback` when needed.",
+        "Split large features into lazy-loaded chunks if future performance requires.",
+        "Defer expensive computations away from render cycle."
+      ],
+  
+      "Error Handling": [
+        "Handle and log Supabase/API errors with user-friendly fallback UI.",
+        "Avoid silent failures; errors should surface in the UI or be logged meaningfully.",
+        "Use early returns to prevent deep nesting."
+      ],
+  
+      "Testing & Validation": [
+        "Testing is not enforced unless explicitly requested.",
+        "All core logic (e.g. verse saving/selection/formatting) should be written to be testable."
+      ],
+  
+      "Additional Project-Specific Guidelines": [
+        "Format verse references using sentence-case book names, dash ranges (e.g., Proverbs 18:4–7), and semicolons for non-consecutive verses (e.g., Proverbs 18:4–5; 9).",
+        "Use hover and selection UI states with specific text colors and underlines per design spec.",
+        "New features must preserve local-first behavior (minimize external API reliance).",
+        "Favor explicit control and clarity over cleverness—this app should be easily maintainable by non-engineers."
+      ]
+    }
+  }
+  

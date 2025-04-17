@@ -1,4 +1,4 @@
-import { AArrowDown as Add, MoreVertical, Edit, Delete, X, Search, Undo2 } from 'lucide-react';
+import { AArrowDown as Add, MoreVertical, Edit, Delete, X, Search, Undo2, Plus } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { format, formatDistanceToNow } from 'date-fns';
@@ -12,6 +12,7 @@ import { GroupDialog } from '@/components/ui/GroupDialog';
 import { AuthButton } from '@/components/ui/AuthButton';
 import { NotebookSelectDialog } from '@/components/ui/NotebookSelectDialog';
 import { EditorToolbar } from './ui/EditorToolbar';
+import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
 
 interface Note {
   id: string;
@@ -58,6 +59,7 @@ function Notes() {
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
   const [isSaving, setIsSaving] = useState(false);
   const [localNotes, setLocalNotes] = useState<(Note & { notebooks: Notebook | null })[]>([]);
+  const [noteToDelete, setNoteToDelete] = useState<Note | null>(null);
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data: { user } }) => {
@@ -327,8 +329,9 @@ function Notes() {
   };
 
   const handleDelete = async (noteId: string) => {
-    if (window.confirm('Are you sure you want to delete this note?')) {
-      deleteNoteMutation.mutate(noteId);
+    const note = notesData?.find(n => n.id === noteId);
+    if (note) {
+      setNoteToDelete(note);
     }
   };
 
@@ -550,27 +553,27 @@ function Notes() {
   }
 
   return (
-    <div className="fixed top-16 md:top-[4rem] inset-x-0 bottom-0 flex flex-col bg-dark-900">
+    <div className="fixed top-0 md:top-[4rem] inset-x-0 bottom-0 flex flex-col bg-dark-900">
       <div className="flex-1 overflow-hidden">
-        <div className="h-full flex flex-col md:flex-row max-w-[100rem] mx-auto px-4 md:px-8">
-          <div className="hidden md:flex flex-col w-64 border-r border-dark-800">
+        <div className="h-full flex flex-col md:flex-row max-w-[100rem] mx-auto">
+          <div className="hidden md:flex flex-col min-w-[16rem] max-w-fit border-r border-dark-800">
             <div className="p-6 md:pt-12">
-              <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center gap-2 mb-6">
                 <h2 className="text-2xl font-serif italic text-dark-100">Notebooks</h2>
                 <button
                   onClick={() => setShowNotebookForm(true)}
-                  className="p-2 text-olive-300 hover:text-olive-200 rounded-full hover:bg-dark-800"
+                  className="p-2 text-olive-300 hover:text-olive-200 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors"
                 >
-                  <Add className="w-5 h-5" />
+                  <Plus className="w-5 h-5" />
                 </button>
               </div>
             </div>
 
-            <div className="overflow-y-auto flex-1 px-6">
+            <div className="overflow-y-auto flex-1 px-4">
               <div className="space-y-2">
                 <button
                   onClick={() => setSelectedNotebook(null)}
-                  className={`w-full text-left px-4 py-3 rounded-lg transition-colors ${
+                  className={`w-full text-left px-4 py-3 rounded-lg transition-colors text-sm ${
                     !selectedNotebook
                       ? 'bg-dark-800 text-olive-300'
                       : 'text-dark-200 hover:bg-dark-800/50'
@@ -583,7 +586,7 @@ function Notes() {
                   <div
                     key={notebook.id}
                     className={`
-                      group flex items-center justify-between px-4 py-3 rounded-lg transition-colors
+                      group flex items-center px-4 py-3 rounded-lg transition-colors w-full
                       ${selectedNotebook === notebook.id
                         ? 'bg-dark-800 text-olive-300'
                         : 'text-dark-200 hover:bg-dark-800/50'
@@ -592,13 +595,13 @@ function Notes() {
                   >
                     <button
                       onClick={() => setSelectedNotebook(notebook.id)}
-                      className="flex-1 text-left"
+                      className="flex-1 text-left text-sm min-w-0 truncate"
                     >
                       {notebook.name}
                     </button>
                     <button
                       onClick={() => setEditingNotebook(notebook)}
-                      className="p-1 text-dark-400 hover:text-dark-300 opacity-0 group-hover:opacity-100 transition-opacity"
+                      className="flex-none text-dark-400 hover:text-dark-300 opacity-0 group-hover:opacity-100 transition-opacity"
                     >
                       <MoreVertical className="w-4 h-4" />
                     </button>
@@ -611,20 +614,20 @@ function Notes() {
           <div className="flex-1 flex flex-col min-h-0">
             <div className="p-4 md:p-8 md:pt-12 border-b border-dark-800">
               <div className="md:hidden mb-4">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-2 mb-4">
                   <h2 className="text-2xl font-serif italic text-dark-100">Notebooks</h2>
                   <button
                     onClick={() => setShowNotebookForm(true)}
-                    className="p-2 text-olive-300 hover:text-olive-200 rounded-full hover:bg-dark-800"
+                    className="p-2 text-olive-300 hover:text-olive-200 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors"
                   >
-                    <Add className="w-5 h-5" />
+                    <Plus className="w-5 h-5" />
                   </button>
                 </div>
                 <div className="overflow-x-auto -mx-4 px-4">
                   <div className="flex gap-2 min-w-min pb-2">
                     <button
                       onClick={() => setSelectedNotebook(null)}
-                      className={`shrink-0 px-4 py-2 rounded-lg transition-colors ${
+                      className={`shrink-0 px-4 py-2 rounded-lg transition-colors text-sm ${
                         !selectedNotebook
                           ? 'bg-dark-800 text-olive-300'
                           : 'bg-dark-800/50 text-dark-200 hover:bg-dark-800'
@@ -644,15 +647,21 @@ function Notes() {
                           rounded-lg
                         `}
                       >
-                        <button
-                          onClick={() => setSelectedNotebook(notebook.id)}
-                          className="px-3 py-2"
-                        >
-                          {notebook.name}
-                        </button>
+                        <div className="pl-2 pr-0 py-1.5">
+                          <button
+                            onClick={() => setSelectedNotebook(notebook.id)}
+                            className={`text-sm max-w-[12rem] overflow-hidden text-ellipsis whitespace-nowrap ${
+                              selectedNotebook === notebook.id
+                                ? 'text-olive-300'
+                                : 'text-dark-200 hover:text-dark-100'
+                            }`}
+                          >
+                            {notebook.name}
+                          </button>
+                        </div>
                         <button
                           onClick={() => setEditingNotebook(notebook)}
-                          className="p-2 text-dark-400 hover:text-dark-300"
+                          className="pl-0 pr-1.5 py-1.5 text-dark-400 hover:text-dark-300"
                         >
                           <MoreVertical className="w-4 h-4" />
                         </button>
@@ -855,6 +864,22 @@ function Notes() {
         notebooks={notebooks || []}
         selectedNotebookId={selectedNoteForNotebook?.notebook_id || null}
         onSelect={handleNotebookSelect}
+        className="z-[60]"
+      />
+
+      <ConfirmDialog
+        open={!!noteToDelete}
+        onOpenChange={(open) => !open && setNoteToDelete(null)}
+        title="Delete Note"
+        description={`Are you sure you want to delete this note${noteToDelete?.title ? `: "${noteToDelete.title}"` : ''}? This action cannot be undone.`}
+        confirmLabel="Delete"
+        variant="destructive"
+        onConfirm={() => {
+          if (noteToDelete) {
+            deleteNoteMutation.mutate(noteToDelete.id);
+            setNoteToDelete(null);
+          }
+        }}
         className="z-[60]"
       />
     </div>

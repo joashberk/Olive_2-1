@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Settings } from 'lucide-react';
 import { bibleBooks } from '@/data/bibleBooks';
 import { BibleNavigationModal } from './BibleNavigationModal';
-import { ReadingSettingsIcon } from './icons/ReadingSettingsIcon';
 
 interface ChapterNavigationProps {
   selectedBook: string;
@@ -27,7 +26,7 @@ export function ChapterNavigation({
       <div className="flex justify-between items-start">
         <button
           onClick={() => setShowNavigation(true)}
-          className="group text-2xl md:text-3xl font-serif italic text-dark-100 hover:text-olive-300 transition-colors flex items-center gap-2"
+          className="group text-2xl font-serif italic text-dark-100 hover:text-olive-300 transition-colors flex items-center gap-2 -ml-1 md:ml-0"
         >
           {currentBook.name} {selectedChapter}
           <ChevronDown className="w-5 h-5 text-dark-400 group-hover:text-olive-300 transition-colors" />
@@ -36,7 +35,7 @@ export function ChapterNavigation({
           onClick={onSettingsClick}
           className="p-2 text-dark-300 hover:text-dark-100 bg-dark-800/50 hover:bg-dark-800 rounded-full transition-colors"
         >
-          <ReadingSettingsIcon className="w-5 h-5" />
+          <Settings className="w-5 h-5" />
         </button>
       </div>
 

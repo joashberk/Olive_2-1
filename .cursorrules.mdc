@@ -1,0 +1,10 @@
+"Styling with Tailwind": [
+  "Use Tailwind for all layout and styling work.",
+  "Avoid overriding Tailwind defaults unless necessary.",
+  "Ensure mobile-first responsiveness by default.",
+  "Use consistent spacing and font sizing tokens from Tailwind's scale.",
+  "Avoid using `@apply` or writing custom CSS unless Tailwind can't solve the need.",
+  "Default page padding: Use `px-4` for mobile and `px-8` for desktop views. Apply this to main content containers and navigation elements.",
+  "Maintain consistent vertical spacing with `py-4` for mobile and `py-8` for desktop views.",
+  "Use `max-w-2xl mx-auto` for content width constraints to ensure optimal readability."
+], 

@@ -119,8 +119,8 @@ function AppContent() {
           <Navigation />
         </div>
         <main className={`
-          container mx-auto px-4 pb-24 md:pb-8
-          ${isReaderRoute ? 'py-0' : 'pt-8'}
+          container mx-auto pb-24 md:pb-8
+          ${isReaderRoute ? 'py-0' : 'pt-8 px-4'}
         `}>
           <AnimatePresence mode="wait">
             <Routes>

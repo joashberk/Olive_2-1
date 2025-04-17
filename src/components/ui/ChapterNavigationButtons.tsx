@@ -84,22 +84,22 @@ export function ChapterNavigationButtons({
       </div>
 
       {/* Mobile Navigation */}
-      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 flex gap-20 lg:hidden z-[60]">
+      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 flex gap-12 lg:hidden z-[60]">
         <button
           onClick={handlePreviousChapter}
           disabled={!canGoPrevious}
-          className="p-4 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
+          className="p-2.5 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
           aria-label="Previous chapter"
         >
-          <ChevronLeft className="w-7 h-7" />
+          <ChevronLeft className="w-5.5 h-5.5" />
         </button>
         <button
           onClick={handleNextChapter}
           disabled={!canGoNext}
-          className="p-4 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
+          className="p-2.5 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
           aria-label="Next chapter"
         >
-          <ChevronRight className="w-7 h-7" />
+          <ChevronRight className="w-5.5 h-5.5" />
         </button>
       </div>
     </>

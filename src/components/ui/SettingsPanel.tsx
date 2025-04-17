@@ -33,7 +33,7 @@ export function SettingsPanel({
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
             className={`
-              fixed z-50 bg-dark-800/95 backdrop-blur-sm rounded-lg shadow-lg
+              fixed z-[70] bg-dark-800/95 backdrop-blur-sm rounded-lg shadow-lg
               border border-olive-900/50
               ${isMobile 
                 ? 'left-4 right-4 bottom-4'
