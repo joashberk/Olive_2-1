@@ -62,7 +62,7 @@ export function ChapterNavigationButtons({
   return (
     <>
       {/* Desktop Navigation */}
-      <div className="fixed top-1/2 -translate-y-1/2 left-0 hidden lg:block z-[60]" style={{ left: 'calc(50% - 32rem)' }}>
+      <div className="fixed top-1/2 -translate-y-1/2 left-0 hidden md:block z-[60]" style={{ left: 'calc(50% - 32rem)' }}>
         <button
           onClick={handlePreviousChapter}
           disabled={!canGoPrevious}
@@ -72,7 +72,7 @@ export function ChapterNavigationButtons({
           <ChevronLeft className="w-6 h-6" />
         </button>
       </div>
-      <div className="fixed top-1/2 -translate-y-1/2 right-0 hidden lg:block z-[60]" style={{ right: 'calc(50% - 32rem)' }}>
+      <div className="fixed top-1/2 -translate-y-1/2 right-0 hidden md:block z-[60]" style={{ right: 'calc(50% - 32rem)' }}>
         <button
           onClick={handleNextChapter}
           disabled={!canGoNext}
@@ -84,7 +84,7 @@ export function ChapterNavigationButtons({
       </div>
 
       {/* Mobile Navigation */}
-      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 flex gap-12 lg:hidden z-[60]">
+      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 flex gap-12 md:hidden z-[60]">
         <button
           onClick={handlePreviousChapter}
           disabled={!canGoPrevious}

@@ -3,8 +3,24 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('/fonts/sf-pro-text-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('/fonts/sf-pro-text-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
   :root {
-    font-family: "SF Pro Display", "SF Pro", system-ui, sans-serif;
+    font-family: 'SF Pro Text', system-ui, sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
@@ -23,43 +39,11 @@
     min-width: 320px;
     min-height: 100vh;
   }
-
-  @font-face {
-    font-family: 'Freight Text Pro';
-    src: url('https://use.typekit.net/af/1b5d0d/000000000000000000012192/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'Freight Text Pro';
-    src: url('https://use.typekit.net/af/1b5d0d/000000000000000000012193/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3') format('woff2');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'Freight Text Pro';
-    src: url('https://use.typekit.net/af/1b5d0d/000000000000000000012194/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'Freight Text Pro';
-    src: url('https://use.typekit.net/af/1b5d0d/000000000000000000012195/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3') format('woff2');
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-  }
 }
 
 @layer components {
   .prose {
-    @apply text-[#e3e3e6] leading-relaxed;
+    @apply text-[#e3e3e6] leading-relaxed font-serif;
   }
   
   .prose p {
@@ -76,7 +60,7 @@
   }
 
   .verse-text {
-    @apply inline text-[#777777] transition-colors duration-300 ease-in-out;
+    @apply inline text-[#777777] transition-colors duration-300 ease-in-out font-serif;
   }
 
   .verse-text:hover {

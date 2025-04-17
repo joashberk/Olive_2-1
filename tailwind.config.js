@@ -37,8 +37,8 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['"SF Pro Display"', '"SF Pro"', ...fontFamily.sans],
-        serif: ['Freight Text Pro', 'Georgia', 'Times New Roman', 'serif'],
+        sans: ['SF Pro Text', ...fontFamily.sans],
+        serif: ['Georgia', 'Times New Roman', 'serif'],
       },
     },
   },

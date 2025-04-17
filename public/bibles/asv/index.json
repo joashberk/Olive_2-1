@@ -1,0 +1,332 @@
+{
+  "1chronicles": {
+    "name": "1 Chronicles",
+    "chapterCount": 29,
+    "size": 130554
+  },
+  "1corinthians": {
+    "name": "1 Corinthians",
+    "chapterCount": 16,
+    "size": 58338
+  },
+  "1john": {
+    "name": "1 John",
+    "chapterCount": 5,
+    "size": 15042
+  },
+  "1kings": {
+    "name": "1 Kings",
+    "chapterCount": 22,
+    "size": 145517
+  },
+  "1peter": {
+    "name": "1 Peter",
+    "chapterCount": 5,
+    "size": 15013
+  },
+  "1samuel": {
+    "name": "1 Samuel",
+    "chapterCount": 31,
+    "size": 146757
+  },
+  "1thessalonians": {
+    "name": "1 Thessalonians",
+    "chapterCount": 5,
+    "size": 11739
+  },
+  "1timothy": {
+    "name": "1 Timothy",
+    "chapterCount": 6,
+    "size": 15255
+  },
+  "2chronicles": {
+    "name": "2 Chronicles",
+    "chapterCount": 36,
+    "size": 158145
+  },
+  "2corinthians": {
+    "name": "2 Corinthians",
+    "chapterCount": 13,
+    "size": 38045
+  },
+  "2john": {
+    "name": "2 John",
+    "chapterCount": 1,
+    "size": 1900
+  },
+  "2kings": {
+    "name": "2 Kings",
+    "chapterCount": 25,
+    "size": 137198
+  },
+  "2peter": {
+    "name": "2 Peter",
+    "chapterCount": 3,
+    "size": 10120
+  },
+  "2samuel": {
+    "name": "2 Samuel",
+    "chapterCount": 24,
+    "size": 118199
+  },
+  "2thessalonians": {
+    "name": "2 Thessalonians",
+    "chapterCount": 3,
+    "size": 6616
+  },
+  "2timothy": {
+    "name": "2 Timothy",
+    "chapterCount": 4,
+    "size": 10897
+  },
+  "3john": {
+    "name": "3 John",
+    "chapterCount": 1,
+    "size": 1974
+  },
+  "acts": {
+    "name": "Acts",
+    "chapterCount": 28,
+    "size": 149112
+  },
+  "amos": {
+    "name": "Amos",
+    "chapterCount": 9,
+    "size": 25424
+  },
+  "colossians": {
+    "name": "Colossians",
+    "chapterCount": 4,
+    "size": 13038
+  },
+  "daniel": {
+    "name": "Daniel",
+    "chapterCount": 12,
+    "size": 70705
+  },
+  "deuteronomy": {
+    "name": "Deuteronomy",
+    "chapterCount": 34,
+    "size": 161266
+  },
+  "ecclesiastes": {
+    "name": "Ecclesiastes",
+    "chapterCount": 12,
+    "size": 33618
+  },
+  "ephesians": {
+    "name": "Ephesians",
+    "chapterCount": 6,
+    "size": 19858
+  },
+  "esther": {
+    "name": "Esther",
+    "chapterCount": 10,
+    "size": 34576
+  },
+  "exodus": {
+    "name": "Exodus",
+    "chapterCount": 40,
+    "size": 195314
+  },
+  "ezekiel": {
+    "name": "Ezekiel",
+    "chapterCount": 48,
+    "size": 236068
+  },
+  "ezra": {
+    "name": "Ezra",
+    "chapterCount": 10,
+    "size": 46764
+  },
+  "galatians": {
+    "name": "Galatians",
+    "chapterCount": 6,
+    "size": 19693
+  },
+  "genesis": {
+    "name": "Genesis",
+    "chapterCount": 50,
+    "size": 228903
+  },
+  "habakkuk": {
+    "name": "Habakkuk",
+    "chapterCount": 3,
+    "size": 7314
+  },
+  "haggai": {
+    "name": "Haggai",
+    "chapterCount": 2,
+    "size": 6622
+  },
+  "hebrews": {
+    "name": "Hebrews",
+    "chapterCount": 13,
+    "size": 41765
+  },
+  "hosea": {
+    "name": "Hosea",
+    "chapterCount": 14,
+    "size": 32066
+  },
+  "isaiah": {
+    "name": "Isaiah",
+    "chapterCount": 66,
+    "size": 221368
+  },
+  "james": {
+    "name": "James",
+    "chapterCount": 5,
+    "size": 14625
+  },
+  "jeremiah": {
+    "name": "Jeremiah",
+    "chapterCount": 52,
+    "size": 255397
+  },
+  "job": {
+    "name": "Job",
+    "chapterCount": 42,
+    "size": 74137
+  },
+  "joel": {
+    "name": "Joel",
+    "chapterCount": 3,
+    "size": 12337
+  },
+  "john": {
+    "name": "John",
+    "chapterCount": 21,
+    "size": 117569
+  },
+  "jonah": {
+    "name": "Jonah",
+    "chapterCount": 4,
+    "size": 7299
+  },
+  "joshua": {
+    "name": "Joshua",
+    "chapterCount": 24,
+    "size": 115193
+  },
+  "jude": {
+    "name": "Jude",
+    "chapterCount": 1,
+    "size": 4197
+  },
+  "judges": {
+    "name": "Judges",
+    "chapterCount": 21,
+    "size": 110021
+  },
+  "lamentations": {
+    "name": "Lamentations",
+    "chapterCount": 5,
+    "size": 13402
+  },
+  "leviticus": {
+    "name": "Leviticus",
+    "chapterCount": 27,
+    "size": 145237
+  },
+  "luke": {
+    "name": "Luke",
+    "chapterCount": 24,
+    "size": 157512
+  },
+  "malachi": {
+    "name": "Malachi",
+    "chapterCount": 4,
+    "size": 10449
+  },
+  "mark": {
+    "name": "Mark",
+    "chapterCount": 16,
+    "size": 92988
+  },
+  "matthew": {
+    "name": "Matthew",
+    "chapterCount": 28,
+    "size": 145359
+  },
+  "micah": {
+    "name": "Micah",
+    "chapterCount": 7,
+    "size": 18828
+  },
+  "nahum": {
+    "name": "Nahum",
+    "chapterCount": 3,
+    "size": 7843
+  },
+  "nehemiah": {
+    "name": "Nehemiah",
+    "chapterCount": 13,
+    "size": 66393
+  },
+  "numbers": {
+    "name": "Numbers",
+    "chapterCount": 36,
+    "size": 200075
+  },
+  "obadiah": {
+    "name": "Obadiah",
+    "chapterCount": 1,
+    "size": 3752
+  },
+  "philemon": {
+    "name": "Philemon",
+    "chapterCount": 1,
+    "size": 2908
+  },
+  "philippians": {
+    "name": "Philippians",
+    "chapterCount": 4,
+    "size": 14097
+  },
+  "proverbs": {
+    "name": "Proverbs",
+    "chapterCount": 31,
+    "size": 60178
+  },
+  "psalms": {
+    "name": "Psalms",
+    "chapterCount": 150,
+    "size": 160427
+  },
+  "revelation": {
+    "name": "Revelation",
+    "chapterCount": 22,
+    "size": 69203
+  },
+  "romans": {
+    "name": "Romans",
+    "chapterCount": 16,
+    "size": 58461
+  },
+  "ruth": {
+    "name": "Ruth",
+    "chapterCount": 4,
+    "size": 15025
+  },
+  "songofsolomon": {
+    "name": "Song of Solomon",
+    "chapterCount": 8,
+    "size": 7372
+  },
+  "titus": {
+    "name": "Titus",
+    "chapterCount": 3,
+    "size": 6199
+  },
+  "zechariah": {
+    "name": "Zechariah",
+    "chapterCount": 14,
+    "size": 37714
+  },
+  "zephaniah": {
+    "name": "Zephaniah",
+    "chapterCount": 3,
+    "size": 9815
+  }
+}

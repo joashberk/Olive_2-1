@@ -277,3 +277,24 @@ export function parseVerseRanges(verseStr: string): number[] {
   
   return [...new Set(verses)].sort((a, b) => a - b);
 }
+
+export async function decompressGzip(compressedData: ArrayBuffer): Promise<string> {
+  const ds = new DecompressionStream('gzip');
+  const decompressedStream = new Response(compressedData).body?.pipeThrough(ds);
+  if (!decompressedStream) {
+    throw new Error('Failed to create decompression stream');
+  }
+  const decompressedData = await new Response(decompressedStream).text();
+  return decompressedData;
+}
+
+export function stripHtmlTags(html: string): string {
+  // Create a temporary div element
+  const temp = document.createElement('div');
+  // Replace <br> and </p> tags with spaces before setting innerHTML
+  const processedHtml = html.replace(/(<br>|<\/p>)/g, ' ');
+  // Set the HTML content
+  temp.innerHTML = processedHtml;
+  // Get the text content and normalize spaces
+  return (temp.textContent || temp.innerText || '').replace(/\s+/g, ' ').trim();
+}

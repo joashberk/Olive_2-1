@@ -13,6 +13,7 @@ import { AuthButton } from '@/components/ui/AuthButton';
 import { NotebookSelectDialog } from '@/components/ui/NotebookSelectDialog';
 import { EditorToolbar } from './ui/EditorToolbar';
 import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
+import { stripHtmlTags } from '@/lib/utils';
 
 interface Note {
   id: string;
@@ -336,24 +337,73 @@ function Notes() {
   };
 
   const handleNotebookSelect = async (notebookId: string | null) => {
-    if (!selectedNoteForNotebook) return;
+    console.log('handleNotebookSelect called:', {
+      notebookId,
+      selectedNoteForNotebook,
+      isWriting,
+      editingNote,
+      notebooks
+    });
+
+    if (!selectedNoteForNotebook) {
+      console.log('No selectedNoteForNotebook, returning');
+      return;
+    }
 
     try {
+      console.log('Attempting to update note with notebook:', {
+        noteId: selectedNoteForNotebook.id,
+        newNotebookId: notebookId
+      });
+
       const { error } = await supabase
         .from('notes')
         .update({ notebook_id: notebookId })
         .eq('id', selectedNoteForNotebook.id);
 
-      if (error) throw error;
+      if (error) {
+        console.error('Supabase update error:', error);
+        throw error;
+      }
+
+      console.log('Supabase update successful');
+
+      // Update the editingNote if we're in the editor
+      if (isWriting && editingNote && selectedNoteForNotebook.id === editingNote.id) {
+        console.log('Updating editingNote:', {
+          isWriting,
+          editingNoteId: editingNote.id,
+          selectedNoteId: selectedNoteForNotebook.id
+        });
+
+        const selectedNotebook = notebooks?.find(n => n.id === notebookId);
+        console.log('Found selected notebook:', selectedNotebook);
+
+        const updatedNote = {
+          ...editingNote,
+          notebook_id: notebookId,
+          notebooks: selectedNotebook ? { name: selectedNotebook.name } : null
+        };
+        console.log('Setting editingNote to:', updatedNote);
+        setEditingNote(updatedNote);
+      }
 
       queryClient.invalidateQueries({ queryKey: ['notes'] });
       setShowNotebookSelect(false);
       setSelectedNoteForNotebook(null);
+
+      console.log('Final state updates complete:', {
+        showNotebookSelect: false,
+        selectedNoteForNotebook: null,
+        editingNote: editingNote
+      });
+
       toast({
         title: 'Notebook updated',
         description: 'The note has been moved to the selected notebook.',
       });
     } catch (error) {
+      console.error('Error in handleNotebookSelect:', error);
       toast({
         title: 'Error updating notebook',
         description: error instanceof Error ? error.message : 'Failed to update notebook',
@@ -450,47 +500,122 @@ function Notes() {
     return (
       <div className="fixed inset-0 bg-dark-900 z-50">
         {/* Top Navigation */}
-        <div className="h-16 md:h-[4rem] border-b border-dark-800 flex items-center px-4 md:px-8">
-          <div className="flex items-center gap-4 w-full max-w-4xl mx-auto">
-            <button
-              onClick={() => {
-                setIsWriting(false);
-                setEditingNote(null);
-              }}
-              className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
-            >
-              <ArrowBack className="w-5 h-5" />
-            </button>
-            <div className="flex-1 flex items-center gap-3">
-              <span className="text-sm text-dark-400">
-                {lastSaved ? `Last edited ${formatDistanceToNow(lastSaved, { addSuffix: true })}` : 'Not saved yet'}
-              </span>
-              {isSaving && (
-                <span className="text-sm text-dark-400">Saving...</span>
-              )}
-            </div>
-            <div className="flex items-center gap-2">
-              {editingNote?.notebooks ? (
-                <button
-                  onClick={() => {
-                    setSelectedNoteForNotebook(editingNote);
-                    setShowNotebookSelect(true);
-                  }}
-                  className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors"
-                >
-                  {editingNote.notebooks.name}
-                </button>
-              ) : (
-                <button
-                  onClick={() => {
-                    setSelectedNoteForNotebook(editingNote);
-                    setShowNotebookSelect(true);
-                  }}
-                  className="px-3 py-1.5 text-sm bg-dark-800 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors"
-                >
-                  Add notebook
-                </button>
-              )}
+        <div className="border-b border-dark-800">
+          {/* Mobile: Stacked rows, Desktop: Single row */}
+          <div className="md:h-[4rem] flex md:items-center px-4 md:px-8">
+            <div className="w-full max-w-4xl mx-auto">
+              {/* Upper Row (mobile) / Left Section (desktop) */}
+              <div className="flex flex-col md:flex-row md:items-center w-full gap-4">
+                <div className="h-14 md:h-auto flex items-center gap-4 border-b md:border-b-0 border-dark-800">
+                  <button
+                    onClick={() => {
+                      setIsWriting(false);
+                      setEditingNote(null);
+                    }}
+                    className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
+                  >
+                    <ArrowBack className="w-5 h-5" />
+                  </button>
+                  <div className="flex items-center gap-3">
+                    <span className="text-sm text-dark-400">
+                      {lastSaved ? `Last edited ${formatDistanceToNow(lastSaved, { addSuffix: true })}` : 'Not saved yet'}
+                    </span>
+                    {isSaving && (
+                      <span className="text-sm text-dark-400">Saving...</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Lower Row (mobile) / Right Section (desktop) */}
+                <div className="h-14 md:h-auto md:ml-auto flex items-center gap-2">
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => {
+                        const editorElement = document.querySelector('.ProseMirror');
+                        if (editorElement instanceof HTMLElement) {
+                          const editor = (editorElement as any)._tiptapEditor;
+                          if (editor && editor.can().undo()) {
+                            editor.commands.undo();
+                          }
+                        }
+                      }}
+                      className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
+                      title="Undo"
+                    >
+                      <Undo2 className="w-5 h-5" />
+                    </button>
+                    <button
+                      onClick={() => {
+                        const editorElement = document.querySelector('.ProseMirror');
+                        if (editorElement instanceof HTMLElement) {
+                          const editor = (editorElement as any)._tiptapEditor;
+                          if (editor && editor.can().redo()) {
+                            editor.commands.redo();
+                          }
+                        }
+                      }}
+                      className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
+                      title="Redo"
+                    >
+                      <Undo2 className="w-5 h-5 scale-x-[-1]" />
+                    </button>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => setNoteToDelete(editingNote)}
+                      className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-red-900/30 hover:text-red-400 transition-colors flex items-center gap-1.5"
+                      title="Delete note"
+                    >
+                      <Delete className="w-3.5 h-3.5" />
+                      Delete
+                    </button>
+
+                    <div className="hidden md:block w-px h-5 bg-dark-700" />
+
+                    <div className="flex-1 flex items-center justify-end">
+                      {editingNote?.notebooks ? (
+                        <button
+                          onClick={() => {
+                            console.log('Notebook button clicked (has notebook):', {
+                              editingNote,
+                              currentNotebook: editingNote.notebooks
+                            });
+                            setSelectedNoteForNotebook(editingNote);
+                            setShowNotebookSelect(true);
+                            console.log('State after click:', {
+                              selectedNoteForNotebook: editingNote,
+                              showNotebookSelect: true,
+                              isWriting
+                            });
+                          }}
+                          className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors"
+                        >
+                          {editingNote.notebooks.name}
+                        </button>
+                      ) : (
+                        <button
+                          onClick={() => {
+                            console.log('Notebook button clicked (no notebook):', {
+                              editingNote
+                            });
+                            setSelectedNoteForNotebook(editingNote);
+                            setShowNotebookSelect(true);
+                            console.log('State after click:', {
+                              selectedNoteForNotebook: editingNote,
+                              showNotebookSelect: true,
+                              isWriting
+                            });
+                          }}
+                          className="px-3 py-1.5 text-sm bg-dark-800 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors"
+                        >
+                          Add notebook
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -517,16 +642,27 @@ function Notes() {
                     const editorElement = document.querySelector('.ProseMirror');
                     if (editorElement instanceof HTMLElement) {
                       editorElement.focus();
+                      const selection = window.getSelection();
+                      const range = document.createRange();
+                      const firstParagraph = editorElement.querySelector('p');
+                      if (firstParagraph) {
+                        range.setStart(firstParagraph, 0);
+                        range.collapse(true);
+                        selection?.removeAllRanges();
+                        selection?.addRange(range);
+                      }
                     }
                   }
                 }}
                 placeholder="Untitled"
                 rows={1}
-                className="w-full text-4xl font-serif text-dark-100 bg-transparent border-none outline-none placeholder:text-dark-400/50 mb-6 resize-none overflow-hidden"
+                className="w-full text-[2rem] md:text-[2.5rem] font-serif text-dark-100 bg-transparent border-none outline-none placeholder:text-dark-400/50 mb-6"
                 style={{
                   display: 'block',
-                  minHeight: '2.5em',
-                  height: 'auto'
+                  resize: 'none',
+                  overflow: 'hidden',
+                  lineHeight: '1.5',
+                  minHeight: '3rem'
                 }}
                 onInput={(e) => {
                   const target = e.target as HTMLTextAreaElement;
@@ -547,6 +683,48 @@ function Notes() {
               />
             </div>
           </div>
+
+          {/* Editor Delete Confirmation */}
+          <ConfirmDialog
+            open={!!noteToDelete && isWriting}
+            onOpenChange={(open) => !open && setNoteToDelete(null)}
+            title="Delete Note"
+            description={`Are you sure you want to delete this note${noteToDelete?.title ? `: "${noteToDelete.title}"` : ''}? This action cannot be undone.`}
+            confirmLabel="Delete"
+            variant="destructive"
+            onConfirm={() => {
+              if (noteToDelete) {
+                deleteNoteMutation.mutate(noteToDelete.id);
+                setNoteToDelete(null);
+                setIsWriting(false);
+                setEditingNote(null);
+              }
+            }}
+          />
+
+          {/* Editor Notebook Selection */}
+          <NotebookSelectDialog
+            open={showNotebookSelect && isWriting}
+            onOpenChange={(open) => {
+              console.log('NotebookSelectDialog onOpenChange:', {
+                open,
+                isWriting,
+                showNotebookSelect,
+                selectedNoteForNotebook
+              });
+              setShowNotebookSelect(open);
+            }}
+            notebooks={notebooks || []}
+            selectedNotebookId={selectedNoteForNotebook?.notebook_id || null}
+            onSelect={(notebookId) => {
+              console.log('NotebookSelectDialog onSelect:', {
+                notebookId,
+                selectedNoteForNotebook,
+                isWriting
+              });
+              handleNotebookSelect(notebookId);
+            }}
+          />
         </div>
       </div>
     );
@@ -756,21 +934,34 @@ function Notes() {
                         )}
                         <div className="flex-1">
                           <p className="text-dark-200 text-lg font-serif leading-relaxed line-clamp-2 mb-3">
-                            {note.content}
+                            {stripHtmlTags(note.content)}
                           </p>
                         </div>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setEditingNote(note);
-                            setIsWriting(true);
-                          }}
-                          className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors flex items-center gap-1.5"
-                          aria-label="Edit note"
-                        >
-                          <Edit className="w-3.5 h-3.5" />
-                          Edit
-                        </button>
+                        <div className="flex gap-2">
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setEditingNote(note);
+                              setIsWriting(true);
+                            }}
+                            className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors flex items-center gap-1.5"
+                            aria-label="Edit note"
+                          >
+                            <Edit className="w-3.5 h-3.5" />
+                            Edit
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setNoteToDelete(note);
+                            }}
+                            className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors flex items-center gap-1.5"
+                            aria-label="Delete note"
+                          >
+                            <Delete className="w-3.5 h-3.5" />
+                            Delete
+                          </button>
+                        </div>
                       </div>
                     </div>
                   ))
@@ -858,17 +1049,9 @@ function Notes() {
         />
       )}
 
-      <NotebookSelectDialog
-        open={showNotebookSelect}
-        onOpenChange={setShowNotebookSelect}
-        notebooks={notebooks || []}
-        selectedNotebookId={selectedNoteForNotebook?.notebook_id || null}
-        onSelect={handleNotebookSelect}
-        className="z-[60]"
-      />
-
+      {/* List View Delete Confirmation */}
       <ConfirmDialog
-        open={!!noteToDelete}
+        open={!!noteToDelete && !isWriting}
         onOpenChange={(open) => !open && setNoteToDelete(null)}
         title="Delete Note"
         description={`Are you sure you want to delete this note${noteToDelete?.title ? `: "${noteToDelete.title}"` : ''}? This action cannot be undone.`}
@@ -880,6 +1063,16 @@ function Notes() {
             setNoteToDelete(null);
           }
         }}
+        className="z-[60]"
+      />
+
+      {/* List View Notebook Selection */}
+      <NotebookSelectDialog
+        open={showNotebookSelect && !isWriting}
+        onOpenChange={setShowNotebookSelect}
+        notebooks={notebooks || []}
+        selectedNotebookId={selectedNoteForNotebook?.notebook_id || null}
+        onSelect={handleNotebookSelect}
         className="z-[60]"
       />
     </div>

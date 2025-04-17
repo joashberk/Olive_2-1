@@ -25,6 +25,13 @@ export function EditorToolbar({ content, onChange }: EditorToolbarProps) {
   const editor = useEditor({
     extensions: [
       StarterKit.configure({
+        bulletList: {
+          keepMarks: true,
+          keepAttributes: false,
+          HTMLAttributes: {
+            class: 'list-disc list-outside ml-4'
+          }
+        },
         heading: {
           levels: [2]
         }
@@ -45,7 +52,21 @@ export function EditorToolbar({ content, onChange }: EditorToolbarProps) {
     },
     editorProps: {
       attributes: {
-        class: 'prose prose-invert max-w-none prose-p:text-lg prose-p:leading-relaxed focus:outline-none'
+        class: 'prose prose-invert max-w-none prose-p:leading-relaxed focus:outline-none'
+      },
+      handleKeyDown: (view, event) => {
+        if (event.key === 'Backspace') {
+          const { state } = view;
+          const { selection } = state;
+          const { $from, empty } = selection;
+          
+          if (empty && $from.parent.type.name === 'listItem' && $from.parent.textContent === '') {
+            // If we're in an empty list item
+            view.dispatch(state.tr.deleteRange($from.pos - 2, $from.pos + 1));
+            return true;
+          }
+        }
+        return false;
       }
     }
   });
@@ -57,12 +78,36 @@ export function EditorToolbar({ content, onChange }: EditorToolbarProps) {
   return (
     <div className="relative">
       <style dangerouslySetInnerHTML={{ __html: `
+        .ProseMirror p {
+          font-size: 1.25rem !important;
+          line-height: 1.625 !important;
+          margin-bottom: 0.5em !important;
+          font-family: "SF Pro Text", system-ui, sans-serif !important;
+          color: #777777 !important;
+        }
+
         .ProseMirror h2 {
-          font-size: 1.15em !important;
+          font-size: 1.5rem !important;
           line-height: 1.4 !important;
-          font-family: var(--font-serif) !important;
+          font-family: "SF Pro Display", system-ui, sans-serif !important;
+          font-weight: 400 !important;
           margin-top: 1em !important;
           margin-bottom: 0.5em !important;
+          color: var(--dark-100) !important;
+        }
+
+        /* Add more space after h2 paragraphs */
+        .ProseMirror h2 + p {
+          margin-top: 1.25em !important;
+        }
+
+        /* Highlight styling */
+        .ProseMirror mark {
+          padding: 0.1em 0.2em !important;
+          margin: 0 -0.2em !important;
+          border-radius: 0.2em !important;
+          color: #ffffff !important;
+          background-color: rgba(132, 204, 22, 0.3) !important;
         }
       `}} />
 

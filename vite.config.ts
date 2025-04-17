@@ -20,6 +20,10 @@ export default defineConfig({
     port: 5173,
     hmr: {
       timeout: 5000
+    },
+    fs: {
+      strict: false,
+      allow: ['..']
     }
   },
   optimizeDeps: {
