@@ -21,6 +21,7 @@ CREATE TABLE user_saved_verses (
   verse_selections jsonb NOT NULL,
   verse_text text NOT NULL,
   display_reference text NOT NULL,
+  translation text NOT NULL DEFAULT 'asv',
   is_composite boolean DEFAULT false,
   themes text[] DEFAULT '{}',
   created_at timestamptz DEFAULT now(),
@@ -28,7 +29,9 @@ CREATE TABLE user_saved_verses (
   -- Ensure verse_selections is a non-empty array
   CONSTRAINT valid_verse_selections CHECK (jsonb_array_length(verse_selections) > 0),
   -- Limit number of themes
-  CONSTRAINT valid_themes CHECK (array_length(themes, 1) IS NULL OR array_length(themes, 1) <= 50)
+  CONSTRAINT valid_themes CHECK (array_length(themes, 1) IS NULL OR array_length(themes, 1) <= 50),
+  -- Ensure translation is valid
+  CONSTRAINT valid_translation CHECK (translation IN ('asv', 'web'))
 );
 
 -- Create indexes for efficient querying

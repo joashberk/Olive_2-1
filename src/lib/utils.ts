@@ -209,9 +209,10 @@ interface VerseSelection {
 export function formatVerseReference(bookId: string, chapter: number, verses: VerseSelection[]): string {
   if (!verses.length) return '';
   
-  // Get proper book name
+  // Get proper book name and convert to sentence case
   const book = bibleBooks.find(b => b.id === bookId);
   if (!book) return '';
+  const bookName = book.name.charAt(0).toUpperCase() + book.name.slice(1).toLowerCase();
   
   // Extract all verse numbers and handle ranges
   const allVerses = verses.reduce((acc: number[], selection) => {
@@ -253,7 +254,7 @@ export function formatVerseReference(bookId: string, chapter: number, verses: Ve
   });
 
   // Join with semicolons
-  return `${book.name} ${chapter}:${verseRefs.join('; ')}`;
+  return `${bookName} ${chapter}:${verseRefs.join('; ')}`;
 }
 
 export function parseVerseRanges(verseStr: string): number[] {

@@ -1,32 +1,46 @@
 import { MoreHorizontal, Copy, Share, Trash2, Tag, Plus } from 'lucide-react';
 import { useState } from 'react';
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+import * as Dialog from '@radix-ui/react-dialog';
 import { useToast } from './useToast';
-import type { Theme } from '@/lib/types';
 
-interface SavedVerse {
+interface Theme {
   id: string;
-  book: string;
-  chapter: number;
-  verse: number;
+  name: string;
+  user_id: string;
+}
+
+export interface SavedVerse {
+  id: string;
+  user_id: string;
+  book_name: string;
+  chapter_number: number;
+  verse_selections: {
+    start: number;
+    end: number;
+  }[];
   verse_text: string;
   display_reference: string;
-  themes?: string[];
-  created_at?: string;
+  themes: string[];
+  created_at: string;
+  translation: 'asv' | 'web';
 }
 
 interface SavedVerseCardProps {
   verse: SavedVerse;
+  themes: Theme[];
   onUnsave: () => void;
   onThemeClick: () => void;
+  onThemeSelect: (themeId: string) => void;
 }
 
-export function SavedVerseCard({ verse, onUnsave, onThemeClick }: SavedVerseCardProps) {
+export function SavedVerseCard({ verse, themes, onUnsave, onThemeClick, onThemeSelect }: SavedVerseCardProps) {
   const { toast } = useToast();
+  const [showUnsaveDialog, setShowUnsaveDialog] = useState(false);
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(`${verse.display_reference}: ${verse.verse_text}`);
+      await navigator.clipboard.writeText(`${verse.display_reference} ${verse.translation.toUpperCase()}: ${verse.verse_text}`);
       toast({
         title: "Copied to clipboard",
         description: "Verse has been copied to your clipboard.",
@@ -44,8 +58,8 @@ export function SavedVerseCard({ verse, onUnsave, onThemeClick }: SavedVerseCard
     try {
       if (navigator.share) {
         await navigator.share({
-          title: verse.display_reference,
-          text: `${verse.display_reference}: ${verse.verse_text}`,
+          title: `${verse.display_reference} ${verse.translation.toUpperCase()}`,
+          text: `${verse.display_reference} ${verse.translation.toUpperCase()}: ${verse.verse_text}`,
         });
       } else {
         await handleCopy();
@@ -65,24 +79,32 @@ export function SavedVerseCard({ verse, onUnsave, onThemeClick }: SavedVerseCard
     <div className="group relative bg-dark-800 rounded-xl p-6 hover:bg-dark-750 transition-colors">
       <div className="flex items-start justify-between gap-4">
         <div className="flex-1 min-w-0">
-          <h3 className="text-xl font-serif text-dark-100 mb-3">
+          <h3 className="text-xl font-serif text-dark-100 mb-3 flex items-center gap-2">
             {verse.display_reference}
+            <span className="text-sm font-sans text-dark-300 bg-dark-700 px-2 py-0.5 rounded">
+              {verse.translation.toUpperCase()}
+            </span>
           </h3>
           <p className="text-dark-200 text-lg font-serif mb-3 line-clamp-2">
             {verse.verse_text}
           </p>
           
           <div className="flex flex-wrap gap-2">
-            {verse.themes?.map((theme: string) => (
-              <button
-                key={theme}
-                onClick={onThemeClick}
-                className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors flex items-center gap-1.5"
-              >
-                <Tag className="w-3.5 h-3.5" />
-                {theme}
-              </button>
-            ))}
+            {verse.themes.map((themeId) => {
+              const theme = themes.find((t) => t.id === themeId);
+              if (!theme) return null;
+              
+              return (
+                <button
+                  key={theme.id}
+                  onClick={() => onThemeSelect(theme.id)}
+                  className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors flex items-center gap-1.5"
+                >
+                  <Tag className="w-3.5 h-3.5" />
+                  {theme.name}
+                </button>
+              );
+            })}
             
             <button
               onClick={onThemeClick}
@@ -127,7 +149,7 @@ export function SavedVerseCard({ verse, onUnsave, onThemeClick }: SavedVerseCard
 
               <DropdownMenu.Item
                 className="flex items-center gap-2 px-3 py-2 text-sm text-red-400 hover:bg-dark-600 hover:text-red-300 rounded-md cursor-pointer outline-none"
-                onSelect={onUnsave}
+                onSelect={() => setShowUnsaveDialog(true)}
               >
                 <Trash2 className="w-4 h-4" />
                 Unsave
@@ -136,6 +158,39 @@ export function SavedVerseCard({ verse, onUnsave, onThemeClick }: SavedVerseCard
           </DropdownMenu.Portal>
         </DropdownMenu.Root>
       </div>
+
+      <Dialog.Root open={showUnsaveDialog} onOpenChange={setShowUnsaveDialog}>
+        <Dialog.Portal>
+          <Dialog.Overlay className="fixed inset-0 bg-black/50" />
+          <Dialog.Content className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark-800 p-6 rounded-lg shadow-xl w-[90vw] max-w-md">
+            <Dialog.Title className="text-xl font-semibold mb-4 text-dark-100">
+              Unsave Verse
+            </Dialog.Title>
+            
+            <p className="text-dark-200 mb-6">
+              Are you sure you want to unsave {verse.display_reference}?
+            </p>
+
+            <div className="flex justify-end gap-2">
+              <button
+                onClick={() => setShowUnsaveDialog(false)}
+                className="px-4 py-2 text-dark-200 hover:text-dark-100"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => {
+                  onUnsave();
+                  setShowUnsaveDialog(false);
+                }}
+                className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors"
+              >
+                Unsave
+              </button>
+            </div>
+          </Dialog.Content>
+        </Dialog.Portal>
+      </Dialog.Root>
     </div>
   );
 }

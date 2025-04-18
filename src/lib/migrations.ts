@@ -40,76 +40,58 @@ export async function migrateSavedVerses(): Promise<void> {
       // Process each verse in the batch
       const updates = batch.map(verse => {
         try {
-          const oldReference = verse.reference;
-          
-          // Skip verses with null references
-          if (!oldReference) {
-            console.warn('Skipping verse with null reference:', verse.id);
+          // Skip verses that don't need migration
+          if (verse.verse_selections && verse.book_name && verse.chapter_number) {
             return null;
           }
 
-          // Try to repair the reference
-          const repairedReference = repairVerseReference(oldReference);
-          if (!repairedReference) {
-            console.warn('Could not repair reference:', oldReference);
+          // Extract book and chapter from display_reference if available
+          const displayRef = verse.display_reference;
+          if (!displayRef) {
+            console.warn('Skipping verse with no display reference:', verse.id);
             return null;
           }
 
-          // Validate the repaired reference
-          if (!isValidReference(repairedReference)) {
-            console.warn('Invalid repaired reference:', repairedReference);
-            return null;
-          }
-          
-          // Parse the reference to get components
-          const { bookId, chapter, verse: verseNumber } = parseVerseReference(repairedReference);
-          if (!bookId || !chapter || !verseNumber) {
-            console.warn('Could not parse reference components:', repairedReference);
+          // Parse the display reference
+          const parts = displayRef.split(' ');
+          if (parts.length < 2) {
+            console.warn('Invalid display reference format:', displayRef);
             return null;
           }
 
-          // Create a standardized reference
-          const standardReference = createVerseReference(bookId, chapter, verseNumber);
-          if (!standardReference) {
-            console.warn('Could not create standard reference from:', { bookId, chapter, verseNumber });
+          const bookName = parts[0];
+          const chapterVerse = parts[1].split(':');
+          if (chapterVerse.length !== 2) {
+            console.warn('Invalid chapter:verse format:', parts[1]);
             return null;
           }
 
-          // Skip if no change is needed
-          if (standardReference === oldReference && 
-              verse.book_name === bookId &&
-              verse.chapter_number === chapter) {
+          const chapterNum = parseInt(chapterVerse[0], 10);
+          const verseNum = parseInt(chapterVerse[1], 10);
+
+          if (isNaN(chapterNum) || isNaN(verseNum)) {
+            console.warn('Invalid chapter or verse number:', { chapterNum, verseNum });
             return null;
           }
 
-          // Update with all required fields including the new ones
-          const update: SavedVerse = {
+          // Create verse selections array
+          const verseSelections = [{
+            start: verseNum,
+            end: verseNum
+          }];
+
+          // Update with all required fields
+          const update: Partial<SavedVerse> = {
             id: verse.id,
             user_id: user.id,
-            verse_text: verse.text,
-            display_reference: standardReference,
-            book_name: bookId,
-            chapter_number: chapter,
-            verse_selections: verse.verse_selections || [],
-            updated_at: new Date().toISOString(),
-            created_at: verse.created_at,
+            verse_text: verse.verse_text,
+            display_reference: displayRef,
+            book_name: bookName,
+            chapter_number: chapterNum,
+            verse_selections: verseSelections,
             themes: verse.themes || [],
-            is_composite: verse.is_composite || false,
-            click_count: verse.click_count || 0,
-            last_accessed: verse.last_accessed || null
+            is_composite: false
           };
-
-          // Log the update for debugging
-          console.log('Processing verse update:', {
-            id: update.id,
-            user_id: update.user_id,
-            oldReference,
-            newReference: update.display_reference,
-            changes: {
-              book_name: update.book_name,
-              chapter_number: update.chapter_number
-            }
-          });
 
           return update;
         } catch (error) {
@@ -123,55 +105,24 @@ export async function migrateSavedVerses(): Promise<void> {
         continue;
       }
 
-      console.log('Sending batch update:', updates);
+      console.log('Processing updates:', updates);
 
-      // Update each verse individually to handle duplicates
+      // Update each verse individually
       for (const update of updates) {
         try {
-          if (!update) continue; // Skip if update is null
+          if (!update) continue;
 
-          // Check if a verse with the same reference already exists
-          const { data: existingData, error: existingError } = await supabase
+          const { error: updateError } = await supabase
             .from('user_saved_verses')
-            .select('id')
-            .eq('user_id', user.id)
-            .eq('display_reference', update.display_reference)
-            .limit(1);
+            .update(update)
+            .eq('id', update.id);
 
-          if (existingError) {
-            console.error('Error checking for duplicate verse:', existingError);
+          if (updateError) {
+            console.error('Error updating verse:', updateError);
             continue;
           }
 
-          const existingVerse = existingData?.[0] ?? null;
-
-          if (existingVerse) {
-            // If a duplicate exists, delete the current verse
-            const { error: deleteError } = await supabase
-              .from('user_saved_verses')
-              .delete()
-              .eq('id', update.id);
-
-            if (deleteError) {
-              console.error('Error deleting duplicate verse:', deleteError);
-              continue;
-            }
-
-            console.log(`Deleted duplicate verse: ${update.id}`);
-          } else {
-            // Update the verse if no duplicate exists
-            const { error: updateError } = await supabase
-              .from('user_saved_verses')
-              .update(update)
-              .eq('id', update.id);
-
-            if (updateError) {
-              console.error('Error updating verse:', updateError);
-              continue;
-            }
-
-            console.log(`Successfully updated verse: ${update.id}`);
-          }
+          console.log(`Successfully updated verse: ${update.id}`);
         } catch (error) {
           console.error('Error processing update:', error);
         }
@@ -182,4 +133,67 @@ export async function migrateSavedVerses(): Promise<void> {
   } catch (error) {
     console.error('Error during saved verses migration:', error);
   }
+}
+
+export async function migrateThemeData() {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return;
+
+  console.log('Starting theme data migration...');
+
+  // First, get all themes
+  const { data: themes, error: themesError } = await supabase
+    .from('themes')
+    .select('*');
+
+  if (themesError) {
+    console.error('Error fetching themes:', themesError);
+    return;
+  }
+
+  // Get all saved verses
+  const { data: verses, error: versesError } = await supabase
+    .from('user_saved_verses')
+    .select('*')
+    .eq('user_id', user.id);
+
+  if (versesError) {
+    console.error('Error fetching verses:', versesError);
+    return;
+  }
+
+  console.log('Found verses to migrate:', verses?.length);
+
+  // Process each verse
+  for (const verse of verses || []) {
+    if (!Array.isArray(verse.themes)) continue;
+
+    // Convert theme names to theme IDs
+    const themeIds = verse.themes
+      .map(theme => {
+        if (typeof theme === 'string') {
+          // If it's already a UUID, keep it
+          if (theme.match(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/)) {
+            return theme;
+          }
+          // Otherwise, look up the theme ID by name
+          const matchingTheme = themes?.find(t => t.name === theme);
+          return matchingTheme?.id;
+        }
+        return null;
+      })
+      .filter((id): id is string => id !== null);
+
+    // Update the verse with theme IDs
+    const { error: updateError } = await supabase
+      .from('user_saved_verses')
+      .update({ themes: themeIds })
+      .eq('id', verse.id);
+
+    if (updateError) {
+      console.error('Error updating verse themes:', updateError);
+    }
+  }
+
+  console.log('Theme data migration completed');
 }

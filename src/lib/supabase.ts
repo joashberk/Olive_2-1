@@ -20,7 +20,8 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   },
   global: {
     headers: {
-      'X-Client-Info': 'olive-bible-app'
+      'X-Client-Info': 'olive-bible-app',
+      'Prefer': 'resolution=ignore-duplicates'
     }
   },
   realtime: {
@@ -33,129 +34,148 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   }
 });
 
+// Add debug logging for all requests
+supabase.handleResponse = (response, error) => {
+  if (error) {
+    console.error('Supabase request error:', {
+      url: response?.url,
+      status: response?.status,
+      error
+    });
+  }
+  return { data: response?.data, error };
+};
+
 export async function checkExistingVerse({
   user_id,
   book_name,
   chapter_number,
-  selectedVerses
+  selectedVerses,
+  translation
 }: {
   user_id: string;
   book_name: string;
   chapter_number: number;
   selectedVerses: Set<number>;
+  translation: 'asv' | 'web';
 }): Promise<string | null> {
   try {
     const selectedArray = Array.from(selectedVerses).sort((a, b) => a - b);
-    if (!selectedArray.length) {
-      console.error('No verses selected');
-      return null;
-    }
+    if (!selectedArray.length) return null;
 
-    // Query using raw SQL comparison for JSONB
     const { data, error } = await supabase
       .from('user_saved_verses')
-      .select('id')
+      .select('id, verse_selections')
       .eq('user_id', user_id)
       .eq('book_name', book_name)
       .eq('chapter_number', chapter_number)
-      .filter('verse_selections', 'cs', `[{"start": ${selectedArray[0]}, "end": ${selectedArray[0]}}]`)
+      .eq('translation', translation)
       .single();
 
     if (error) {
-      if (error.code === 'PGRST116') { // No rows found
-        console.log('No existing verse found');
-        return null;
-      }
-      console.error('Error checking for existing verse:', error);
+      if (error.code === 'PGRST116') return null; // No rows found
       throw error;
     }
 
-    console.log('Found existing verse with ID:', data.id);
-    return data.id;
+    if (!data) return null;
+
+    // Check if the verse selections match
+    const existingSelections = data.verse_selections as VerseSelection[];
+    const newSelections = [{ start: selectedArray[0], end: selectedArray[selectedArray.length - 1] }];
+
+    if (JSON.stringify(existingSelections) === JSON.stringify(newSelections)) {
+      return data.id;
+    }
+
+    return null;
   } catch (error) {
-    console.error('Error checking for existing verse:', error);
-    throw error;
+    console.error('Error checking existing verse:', error);
+    return null;
   }
 }
 
-export async function insertSavedVerse({
-  user_id,
-  book_name,
-  chapter_number,
-  selectedVerses,
-  chapterData
-}: {
-  user_id: string;
-  book_name: string;
-  chapter_number: number;
-  selectedVerses: Set<number>;
-  chapterData: { verses: BibleVerse[] };
-}): Promise<{ data: UserSavedVerse; savedVerses: number[] }> {
+export async function insertSavedVerse(
+  user_id: string,
+  book_name: string,
+  chapter_number: number,
+  selectedVerses: number[],
+  chapterData: any,
+  translation: 'asv' | 'web'
+): Promise<boolean | null> {
   try {
-    const selectedArray = Array.from(selectedVerses).sort((a, b) => a - b);
-    if (!selectedArray.length) {
-      console.error('No verses selected');
-      throw new Error('No verses selected');
-    }
+    // Sort verses numerically
+    const sortedVerses = selectedVerses.sort((a, b) => a - b);
+    
+    // Create verse selections array with start and end properties
+    const verseSelections = identifyVerseRanges(sortedVerses);
 
-    // First check if the verse already exists
-    const existingVerseId = await checkExistingVerse({
+    // Get verse text by joining the selected verses
+    const verseText = selectedVerses
+      .map(verseNum => chapterData.verses[verseNum - 1]?.text || '')
+      .filter(text => text)
+      .join(' ');
+
+    // Create display reference using our formatting function
+    const displayReference = formatVerseReference(book_name, chapter_number, verseSelections);
+
+    console.log('Inserting verse with:', {
       user_id,
       book_name,
       chapter_number,
-      selectedVerses
+      verse_selections: verseSelections,
+      verse_text: verseText,
+      display_reference: displayReference,
+      translation
     });
 
-    if (existingVerseId) {
-      console.log('Verse already exists, deleting it:', existingVerseId);
-      const { error: deleteError } = await supabase
-        .from('user_saved_verses')
-        .delete()
-        .eq('id', existingVerseId);
-
-      if (deleteError) {
-        console.error('Error deleting existing verse:', deleteError);
-        throw deleteError;
-      }
-
-      console.log('Successfully deleted existing verse');
-      return { data: null, savedVerses: [] };
-    }
-
-    // Create verse selections array with proper spacing
-    const verse_selections = [{ start: selectedArray[0], end: selectedArray[0] }];
-    console.log('Inserting verse selections:', verse_selections);
-
-    const versesToSave = chapterData?.verses.filter(v => selectedVerses.has(v.verse)) || [];
-    const verse_text = versesToSave.map(v => v.text).join('\n');
-    const display_reference = formatVerseReference(book_name, chapter_number, verse_selections);
-
-    const { data, error } = await supabase
-      .from('user_saved_verses')
-      .insert({
-        user_id,
-        book_name,
-        chapter_number,
-        verse_selections,
-        verse_text,
-        display_reference,
-        is_composite: selectedArray.length > 1,
-        themes: []
-      })
-      .select()
-      .single();
+    const { error } = await supabase.from('user_saved_verses').insert({
+      user_id,
+      book_name,
+      chapter_number,
+      verse_selections: verseSelections,
+      verse_text: verseText,
+      display_reference: displayReference,
+      translation,
+      is_composite: false,
+      themes: []
+    });
 
     if (error) {
-      console.error('Supabase error:', error);
-      throw error;
+      console.error('Error inserting saved verse:', error);
+      return null;
     }
-    
-    console.log('Successfully saved new verse:', data);
-    return { data, savedVerses: selectedArray };
+
+    return true;
   } catch (error) {
-    console.error('Error in verse save process:', error);
-    throw error;
+    console.error('Error in insertSavedVerse:', error);
+    return null;
   }
+}
+
+// Helper function to identify verse ranges
+function identifyVerseRanges(verses: number[]): VerseSelection[] {
+  if (!verses.length) return [];
+  
+  const ranges: VerseSelection[] = [];
+  let start = verses[0];
+  let prev = verses[0];
+  
+  for (let i = 1; i <= verses.length; i++) {
+    if (i === verses.length || verses[i] !== prev + 1) {
+      ranges.push({
+        start,
+        end: prev
+      });
+      if (i < verses.length) {
+        start = verses[i];
+      }
+    }
+    if (i < verses.length) {
+      prev = verses[i];
+    }
+  }
+  
+  return ranges;
 }
 
 export async function unsaveVerse(verseId: string): Promise<void> {
@@ -203,5 +223,25 @@ export async function updateVerseThemes(verseId: string, themes: string[]): Prom
   } catch (error) {
     console.error('Error updating verse themes:', error);
     return null;
+  }
+}
+
+export async function testTranslationColumn(): Promise<boolean> {
+  try {
+    const { data, error } = await supabase
+      .from('user_saved_verses')
+      .select('translation')
+      .limit(1);
+
+    if (error) {
+      console.error('Error testing translation column:', error);
+      return false;
+    }
+
+    console.log('Translation column test result:', data);
+    return true;
+  } catch (error) {
+    console.error('Error in testTranslationColumn:', error);
+    return false;
   }
 }

@@ -31,7 +31,6 @@ export interface BibleBook {
 export interface VerseSelection {
   start: number;
   end: number;
-  text: string;
 }
 
 export interface UserSavedVerse {
@@ -42,6 +41,7 @@ export interface UserSavedVerse {
   verse_selections: VerseSelection[];
   verse_text: string;
   display_reference: string;
+  translation: 'asv' | 'web';
   is_composite: boolean;
   themes: string[];
   created_at: string;
@@ -55,8 +55,7 @@ export interface Theme {
   user_id: string;
   name: string;
   description?: string;
-  created_at: string;
-  updated_at: string;
+  created_at?: string;
 }
 
 export type FeedbackType = 'bug' | 'feature' | 'other';
@@ -93,6 +92,14 @@ export interface SavedVerse {
   book_name: string;
   chapter_number: number;
   verse_selections: VerseSelection[];
+  verse_numbers: number[];
+  verse_text: string;
+  display_reference: string;
+  themes: string[];
+  is_composite: boolean;
   created_at: string;
-  theme_id?: string;
+  updated_at?: string;
+  click_count?: number;
+  last_accessed?: string | null;
+  translation: 'asv' | 'web';
 }

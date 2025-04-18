@@ -11,6 +11,7 @@ import { insertSavedVerse } from '@/lib/supabase';
 import { ChapterNavigation } from './ui/ChapterNavigation';
 import { ChapterNavigationButtons } from './ui/ChapterNavigationButtons';
 import { SettingsPanel } from './ui/SettingsPanel';
+import { testTranslationColumn } from '@/lib/supabase';
 
 interface ReaderProps {
   selectedBook: string;
@@ -50,22 +51,38 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return new Set<number>();
 
-      const { data } = await supabase
+      const translation = localStorage.getItem('selectedTranslation') || 'asv';
+      console.log('Current translation:', translation);
+
+      console.log('Fetching saved verses for:', {
+        book: selectedBook,
+        chapter: selectedChapter,
+        translation,
+        userId: user.id
+      });
+
+      const { data, error } = await supabase
         .from('user_saved_verses')
-        .select('verse_selections')
+        .select('verse_selections, translation')
         .eq('book_name', selectedBook)
         .eq('chapter_number', selectedChapter)
+        .eq('translation', translation)
         .eq('user_id', user.id);
+
+      console.log('Supabase response:', { data, error });
 
       const savedVerseNumbers = new Set<number>();
       data?.forEach(verse => {
+        console.log('Processing verse:', verse);
         verse.verse_selections.forEach((selection: VerseSelection) => {
+          console.log('Processing selection:', selection);
           for (let i = selection.start; i <= selection.end; i++) {
             savedVerseNumbers.add(i);
           }
         });
       });
 
+      console.log('Final saved verse numbers:', Array.from(savedVerseNumbers));
       return savedVerseNumbers;
     }
   });
@@ -115,18 +132,30 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
         throw new Error('Please wait for chapter to load before saving');
       }
 
-      const result = await insertSavedVerse({
-        user_id: user.id,
-        book_name: selectedBook,
-        chapter_number: selectedChapter,
-        selectedVerses: new Set(versesToSave),
-        chapterData
-      });
+      // Get current translation
+      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'asv';
+      console.log('Saving verse with translation:', translation);
+
+      const result = await insertSavedVerse(
+        user.id,
+        selectedBook,
+        selectedChapter,
+        versesToSave,
+        chapterData,
+        translation
+      );
+
+      console.log('Save result:', result);
+
+      if (!result) {
+        throw new Error('Failed to save verse');
+      }
 
       return { savedVerses: versesToSave };
     },
     
     onSuccess: (data) => {
+      console.log('Save successful:', data);
       const savedVerseSet = new Set(data.savedVerses);
       setSelectedVerses(prev => {
         const newSelection = new Set(prev);
@@ -145,6 +174,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
     },
     
     onError: (error: Error) => {
+      console.error('Save error:', error);
       toast({
         title: 'Error',
         description: error.message,
@@ -237,6 +267,22 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
     }
   }, [selectedBook, selectedChapter, queryClient]);
 
+  // Add logging for when savedVerses changes
+  useEffect(() => {
+    console.log('savedVerses updated:', savedVerses ? Array.from(savedVerses) : null);
+  }, [savedVerses]);
+
+  // Test translation column
+  useEffect(() => {
+    testTranslationColumn().then(success => {
+      if (success) {
+        console.log('Translation column exists and is working correctly');
+      } else {
+        console.error('Translation column may not be set up correctly');
+      }
+    });
+  }, []);
+
   const getSelectedVerseText = () => {
     if (!chapterData?.verses || selectedVerses.size === 0) return '';
 
@@ -294,6 +340,16 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
           {chapterData.verses.map((verse, index) => {
             const isSelected = selectedVerses.has(verse.verse);
             const isSaved = savedVerses?.has(verse.verse);
+            
+            // Log when a verse is marked as saved
+            if (isSaved) {
+              console.log('Rendering saved verse:', {
+                verse: verse.verse,
+                reference: verse.reference,
+                isSaved
+              });
+            }
+            
             const selectedArray = Array.from(selectedVerses ?? []);
             const isLastSelected = isSelected && verse.verse === Math.max(...selectedArray, -Infinity);
             
@@ -303,9 +359,10 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
                 data-verse={verse.verse}
                 onClick={() => handleVerseClick(verse)}
                 className={`
-                  verse-container relative
-                  ${isSelected ? 'selected' : ''}
-                  ${isSaved ? 'saved' : ''}
+                  verse-container relative cursor-pointer
+                  ${isSelected ? 'bg-olive-900/20' : ''}
+                  ${isSaved ? 'border-b-2 border-olive-300/50' : ''}
+                  hover:bg-olive-900/10 transition-colors duration-200
                 `}
               >
                 <span className="verse-number">

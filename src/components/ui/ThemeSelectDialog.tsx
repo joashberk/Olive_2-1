@@ -28,6 +28,12 @@ export function ThemeSelectDialog({
   const [newSelection, setNewSelection] = useState<Set<string>>(new Set(selectedThemes));
   const [themeToDelete, setThemeToDelete] = useState<Theme | null>(null);
 
+  console.log('ThemeSelectDialog render:', {
+    selectedThemes,
+    newSelection: Array.from(newSelection),
+    themes: themes.map(t => ({ id: t.id, name: t.name }))
+  });
+
   return (
     <>
       <Dialog.Root open={open} onOpenChange={onOpenChange}>
@@ -59,17 +65,23 @@ export function ThemeSelectDialog({
                       >
                         <button
                           onClick={() => {
+                            console.log('Theme clicked:', {
+                              themeId: theme.id,
+                              themeName: theme.name,
+                              currentSelection: Array.from(newSelection)
+                            });
                             const updated = new Set(newSelection);
-                            if (updated.has(theme.name)) {
-                              updated.delete(theme.name);
+                            if (updated.has(theme.id)) {
+                              updated.delete(theme.id);
                             } else {
-                              updated.add(theme.name);
+                              updated.add(theme.id);
                             }
+                            console.log('Updated selection:', Array.from(updated));
                             setNewSelection(updated);
                           }}
                           className={`
                             group flex-1 flex items-center gap-3 px-4 py-3 rounded-lg transition-all
-                            ${newSelection.has(theme.name)
+                            ${newSelection.has(theme.id)
                               ? 'bg-olive-900/30 text-olive-300 ring-1 ring-olive-500'
                               : 'text-dark-200 hover:bg-dark-800/50 hover:text-dark-100'
                             }
@@ -77,12 +89,12 @@ export function ThemeSelectDialog({
                         >
                           <div className={`
                             flex-shrink-0 w-5 h-5 rounded border transition-all flex items-center justify-center
-                            ${newSelection.has(theme.name)
+                            ${newSelection.has(theme.id)
                               ? 'bg-olive-500 border-olive-500'
                               : 'border-dark-500 group-hover:border-dark-400'
                             }
                           `}>
-                            {newSelection.has(theme.name) && (
+                            {newSelection.has(theme.id) && (
                               <Check className="w-3.5 h-3.5 text-dark-900" />
                             )}
                           </div>
@@ -121,6 +133,7 @@ export function ThemeSelectDialog({
                 </button>
                 <button
                   onClick={() => {
+                    console.log('Saving theme selection:', Array.from(newSelection));
                     onSaveThemes(Array.from(newSelection));
                     onOpenChange(false);
                   }}
@@ -143,10 +156,10 @@ export function ThemeSelectDialog({
         onOpenChange={setShowThemeForm}
         title="New Theme"
         groupName=""
-        onSave={(name, description) => {
+        onSave={async (name, description) => {
           onCreateTheme(name, description);
-          // Auto-select the new theme
-          setNewSelection(new Set([...newSelection, name]));
+          // We'll let the parent component handle selecting the new theme
+          // since we don't have access to the new theme ID here
           setShowThemeForm(false);
         }}
       />
@@ -162,9 +175,9 @@ export function ThemeSelectDialog({
           if (themeToDelete && onDeleteTheme) {
             onDeleteTheme(themeToDelete.id);
             // Remove from selection if it was selected
-            if (newSelection.has(themeToDelete.name)) {
+            if (newSelection.has(themeToDelete.id)) {
               const updated = new Set(newSelection);
-              updated.delete(themeToDelete.name);
+              updated.delete(themeToDelete.id);
               setNewSelection(updated);
             }
           }

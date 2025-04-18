@@ -28,7 +28,7 @@ export default defineConfig({
   },
   optimizeDeps: {
     force: true,
-    include: ['react-router-dom'],
+    include: ['react', 'react-dom', 'react-router-dom'],
   },
   build: {
     commonjsOptions: {
