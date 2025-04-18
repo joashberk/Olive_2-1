@@ -5,7 +5,7 @@ alwaysApply: true
 ---
 {
     "project": "Olive Bible App",
-    "description": "A faith-centered Bible study app built using React, Vite, Supabase, TypeScript, and Tailwind CSS. Hosted on Vercel. The app emphasizes clean UI, multi-verse selection saving, Strong's integration, and future AI learning features.",
+    "description": "A faith-centered Bible study app built using React, Vite, Supabase, TypeScript, and Tailwind CSS. Hosted on Vercel with two environments: production (olivebible.app) and staging (staging.olivebible.app). The app emphasizes clean UI, multi-verse selection saving, Strong's integration, and future AI learning features. Deployment requires building with `npm run build` and using Vercel CLI with appropriate tokens.",
     "rules": {
       "You are an expert in": [
         "React",
@@ -38,7 +38,15 @@ alwaysApply: true
   
       "Supabase Usage": [
         "Use `src/lib/supabase.ts` for all Supabase client references.",
-        "Follow schema constraints as defined in `user_saved_verses` (e.g. prevent duplicates, support multi-verse ranges).",
+        "Follow schema constraints for `user_saved_verses` table:",
+        "- Primary fields: id (uuid), user_id (uuid), book_name (text), chapter_number (int), verse_selections (jsonb), verse_text (text), display_reference (text)",
+        "- Metadata fields: translation (text), is_composite (boolean), themes (text[]), created_at (timestamptz)",
+        "- Constraints:",
+        "  - chapter_number must be > 0",
+        "  - verse_selections must be non-empty array",
+        "  - themes array limited to 50 items maximum",
+        "  - translation must be either 'asv' or 'web'",
+        "  - verse selections must have valid start/end values (start > 0, end >= start if present)",
         "Queries should be readable and typed using Supabase JS client.",
         "Always handle Supabase errors and surface them to the UI gracefully."
       ],
@@ -52,7 +60,7 @@ alwaysApply: true
       ],
   
       "Icons and UI": [
-        "Use Lucide icons via `lucide-react`; only import what’s used.",
+        "Use Lucide icons via `lucide-react`; only import what's used.",
         "Icons should be semantically meaningful and accessible.",
         "Favor visual clarity and consistency over visual flair."
       ],
@@ -86,7 +94,99 @@ alwaysApply: true
         "Use hover and selection UI states with specific text colors and underlines per design spec.",
         "New features must preserve local-first behavior (minimize external API reliance).",
         "Favor explicit control and clarity over cleverness—this app should be easily maintainable by non-engineers."
+             ],
+
+      "Verse Selection and Saving": [
+        "Verse Selection:",
+        "- Use Set<number> for tracking selected verses to prevent duplicates",
+        "- Support both single verse and multi-verse selection",
+        "- Maintain selection order for proper reference formatting",
+        "- Clear selection when changing chapters or books",
+        "- Show visual feedback for selected verses using bg-olive-900/20",
+        
+        "Verse Reference Formatting:",
+        "- Use sentence case for book names (e.g., 'Genesis' not 'GENESIS')",
+        "- Format ranges with en-dash (e.g., 'Genesis 1:1–3')",
+        "- Use semicolons for non-consecutive verses (e.g., 'Genesis 1:1–3; 5; 7–9')",
+        "- Always include book name, chapter, and verse numbers",
+        "- Validate and repair malformed references using repairVerseReference()",
+        
+        "Verse Saving:",
+        "- Store verses in user_saved_verses table with proper schema validation",
+        "- Include complete verse text, reference, and metadata",
+        "- Support verse ranges through verse_selections JSONB array",
+        "- Maintain verse order in selections array",
+        "- Handle both ASV and WEB translations",
+        "- Support themes array (max 50 items)",
+        "- Show saved verses with border-b-2 border-olive-300/50 indicator",
+        
+        "Verse Toolbar:",
+        "- Show toolbar only for last selected verse",
+        "- Include verse count for multi-verse selections",
+        "- Support copy, share, save, and study actions",
+        "- Format copied/shared text with reference and content",
+        "- Handle clipboard and share API gracefully with fallbacks"
+              ],
+
+      "Deployment & Environment Management": [
+        "Deployment Process:",
+        "- Use Vercel CLI with appropriate tokens for deployments",
+        "- Build locally with `npm run build` before deployment",
+        "- Deploy to staging first, then production",
+        "- Ensure all environment variables are properly set",
+        
+        "Environment Configuration:",
+        "- staging.olivebible.app for pre-production testing",
+        "- olivebible.app for production",
+        "- Use environment-specific Supabase configurations",
+        "- Keep deployment tokens secure and rotated regularly",
+        
+        "Build Requirements:",
+        "- Ensure TypeScript compilation succeeds",
+        "- Verify all dependencies are properly installed",
+        "- Check for and address security vulnerabilities",
+        "- Maintain clean build output without warnings"
+      ],
+
+      "Translation Handling": [
+        "Default Configuration:",
+        "- World English Bible (WEB) as default translation",
+        "- WEB should appear first in translation dropdowns",
+        "- Support graceful fallback if translation unavailable",
+        
+        "Translation Switching:",
+        "- Maintain verse selection when switching translations",
+        "- Update UI immediately on translation change",
+        "- Cache translation data when possible",
+        "- Show loading states during translation fetch",
+        
+        "Translation Display:",
+        "- Clear indication of current translation",
+        "- Consistent translation abbreviations (WEB, ASV)",
+        "- Include translation info in copied/shared verses",
+        "- Support translation preference persistence"
+      ],
+
+      "Theme Management": [
+        "Theme Data Structure:",
+        "- Store themes as string array in user_saved_verses",
+        "- Maximum 50 themes per verse",
+        "- Themes should be case-sensitive",
+        "- No duplicate themes allowed",
+        
+        "Theme Filtering:",
+        "- Use contains() for PostgreSQL array filtering",
+        "- Support single theme filtering at a time",
+        "- Clear theme filter when changing books/chapters",
+        "- Show empty state when no verses match theme",
+        
+        "Theme UI:",
+        "- Display theme count on saved verses",
+        "- Show themes in alphabetical order",
+        "- Allow theme removal from saved verses",
+        "- Provide theme suggestions based on usage"
       ]
     }
   }
+  
   

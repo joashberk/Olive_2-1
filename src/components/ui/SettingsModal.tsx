@@ -10,7 +10,7 @@ interface SettingsModalProps {
 
 export function SettingsModal({ open, onOpenChange }: SettingsModalProps) {
   const [selectedTranslation, setSelectedTranslation] = useState(() => 
-    localStorage.getItem('selectedTranslation') || 'asv'
+    localStorage.getItem('selectedTranslation') || 'web'
   );
 
   useEffect(() => {

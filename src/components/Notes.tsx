@@ -1,4 +1,4 @@
-import { AArrowDown as Add, MoreVertical, Edit, Delete, X, Search, Undo2, Plus } from 'lucide-react';
+import { AArrowDown as Add, MoreVertical, Edit, Trash2, X, Search, Undo2, Plus, Notebook, FileText, LayoutGrid, LayoutList } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { format, formatDistanceToNow } from 'date-fns';
@@ -14,6 +14,7 @@ import { NotebookSelectDialog } from '@/components/ui/NotebookSelectDialog';
 import { EditorToolbar } from './ui/EditorToolbar';
 import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
 import { stripHtmlTags } from '@/lib/utils';
+import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 
 interface Note {
   id: string;
@@ -61,6 +62,10 @@ function Notes() {
   const [isSaving, setIsSaving] = useState(false);
   const [localNotes, setLocalNotes] = useState<(Note & { notebooks: Notebook | null })[]>([]);
   const [noteToDelete, setNoteToDelete] = useState<Note | null>(null);
+  const [isTwoColumnView, setIsTwoColumnView] = useState(() => {
+    const saved = localStorage.getItem('noteColumnView');
+    return saved ? JSON.parse(saved) : false;
+  });
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data: { user } }) => {
@@ -469,6 +474,12 @@ function Notes() {
     console.log('Created new note:', newNote);
   };
 
+  const handleColumnViewToggle = () => {
+    const newValue = !isTwoColumnView;
+    setIsTwoColumnView(newValue);
+    localStorage.setItem('noteColumnView', JSON.stringify(newValue));
+  };
+
   if (!user) {
     return (
       <div className="flex flex-col items-center justify-start mt-8 px-4">
@@ -567,7 +578,7 @@ function Notes() {
                       className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-red-900/30 hover:text-red-400 transition-colors flex items-center gap-1.5"
                       title="Delete note"
                     >
-                      <Delete className="w-3.5 h-3.5" />
+                      <Trash2 className="w-3.5 h-3.5" />
                       Delete
                     </button>
 
@@ -751,12 +762,13 @@ function Notes() {
               <div className="space-y-2">
                 <button
                   onClick={() => setSelectedNotebook(null)}
-                  className={`w-full text-left px-4 py-3 rounded-lg transition-colors text-sm ${
+                  className={`w-full text-left px-4 py-3 rounded-lg transition-colors text-sm flex items-center gap-2 ${
                     !selectedNotebook
                       ? 'bg-dark-800 text-olive-300'
                       : 'text-dark-200 hover:bg-dark-800/50'
                   }`}
                 >
+                  <Notebook className="w-4 h-4" />
                   All Notes
                 </button>
 
@@ -773,8 +785,9 @@ function Notes() {
                   >
                     <button
                       onClick={() => setSelectedNotebook(notebook.id)}
-                      className="flex-1 text-left text-sm min-w-0 truncate"
+                      className="flex-1 text-left text-sm min-w-0 truncate flex items-center gap-2"
                     >
+                      <Notebook className="w-4 h-4 flex-shrink-0" />
                       {notebook.name}
                     </button>
                     <button
@@ -860,6 +873,19 @@ function Notes() {
                     className="w-full pl-10 pr-4 py-2 bg-dark-800 border border-dark-700 rounded-lg text-dark-100 placeholder:text-dark-400 focus:outline-none focus:ring-2 focus:ring-olive-500"
                   />
                 </div>
+                <div className="hidden md:flex items-center gap-2">
+                  <button
+                    onClick={handleColumnViewToggle}
+                    className="p-[10px] text-dark-400 hover:text-dark-300 bg-dark-800 hover:bg-dark-700 rounded-lg transition-colors"
+                    title={isTwoColumnView ? "Switch to single column" : "Switch to two columns"}
+                  >
+                    {isTwoColumnView ? (
+                      <LayoutList className="w-6 h-6" />
+                    ) : (
+                      <LayoutGrid className="w-6 h-6" />
+                    )}
+                  </button>
+                </div>
                 <button
                   onClick={handleNewNote}
                   className="px-4 py-2 bg-olive-600 text-white rounded-lg hover:bg-olive-700 transition-colors"
@@ -870,7 +896,7 @@ function Notes() {
             </div>
 
             <div className="flex-1 overflow-y-auto p-4 md:p-8">
-              <div className="grid grid-cols-1 gap-4">
+              <div className={`grid grid-cols-1 ${isTwoColumnView ? 'md:grid-cols-2' : ''} gap-4`}>
                 {notesData?.length === 0 ? (
                   <div className="flex flex-col items-center justify-center py-12">
                     <img 
@@ -893,75 +919,104 @@ function Notes() {
                         setEditingNote(note);
                         setIsWriting(true);
                       }}
-                      className="group bg-dark-800 rounded-xl p-6 border border-dark-700 hover:border-dark-600 transition-colors cursor-pointer"
+                      className="group bg-dark-800 rounded-lg border border-dark-700 hover:border-dark-600 transition-colors cursor-pointer flex items-center w-full"
                     >
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 mb-3">
-                          <span className="text-sm text-dark-400">
-                            {format(new Date(note.created_at), 'MMM d, yyyy')}
-                          </span>
-                          {note.notebooks && (
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setSelectedNoteForNotebook(note);
-                                setShowNotebookSelect(true);
-                              }}
-                              className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors"
-                            >
-                              {note.notebooks.name}
-                            </button>
-                          )}
-                          {!note.notebooks && (
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setSelectedNoteForNotebook(note);
-                                setShowNotebookSelect(true);
-                              }}
-                              className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors"
-                            >
-                              Add notebook
-                            </button>
-                          )}
-                        </div>
-                        {note.title && (
-                          <div className="max-w-full">
-                            <h3 className="text-xl font-serif text-dark-100 mb-2 truncate">
-                              {note.title}
-                            </h3>
+                      <div className="flex-shrink-0 p-3 text-dark-400">
+                        <FileText className="w-6 h-6" />
+                      </div>
+                      
+                      <div className="flex-1 min-w-0 p-3 flex items-center justify-between gap-3 border-l border-dark-700">
+                        <div className="min-w-0 flex-1">
+                          <h3 className="text-[18px] font-sans text-dark-100 truncate mb-1.5">
+                            {note.title || 'Untitled'}
+                          </h3>
+                          <div className="flex items-center gap-2 text-sm">
+                            <span className="text-dark-400">
+                              {format(new Date(note.updated_at), 'MMM d, yyyy')}
+                            </span>
+                            {note.notebooks ? (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setSelectedNoteForNotebook(note);
+                                  setShowNotebookSelect(true);
+                                }}
+                                className="px-2 py-0.5 bg-olive-900/30 text-olive-300 rounded text-xs flex items-center gap-1 hover:bg-olive-900/50 transition-colors"
+                              >
+                                <Notebook className="w-3 h-3" />
+                                {note.notebooks.name}
+                              </button>
+                            ) : (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setSelectedNoteForNotebook(note);
+                                  setShowNotebookSelect(true);
+                                }}
+                                className="px-2 py-0.5 bg-dark-700/50 text-dark-300 rounded text-xs flex items-center gap-1 hover:bg-dark-700 transition-colors"
+                              >
+                                <Notebook className="w-3 h-3" />
+                                Add notebook
+                              </button>
+                            )}
                           </div>
-                        )}
-                        <div className="flex-1">
-                          <p className="text-dark-200 text-lg font-serif leading-relaxed line-clamp-2 mb-3">
-                            {stripHtmlTags(note.content)}
-                          </p>
                         </div>
-                        <div className="flex gap-2">
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setEditingNote(note);
-                              setIsWriting(true);
-                            }}
-                            className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors flex items-center gap-1.5"
-                            aria-label="Edit note"
-                          >
-                            <Edit className="w-3.5 h-3.5" />
-                            Edit
-                          </button>
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setNoteToDelete(note);
-                            }}
-                            className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors flex items-center gap-1.5"
-                            aria-label="Delete note"
-                          >
-                            <Delete className="w-3.5 h-3.5" />
-                            Delete
-                          </button>
-                        </div>
+
+                        <DropdownMenu.Root>
+                          <DropdownMenu.Trigger asChild>
+                            <button 
+                              onClick={(e) => e.stopPropagation()}
+                              className="flex-shrink-0 p-1.5 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-700 transition-colors"
+                            >
+                              <MoreVertical className="w-4 h-4" />
+                            </button>
+                          </DropdownMenu.Trigger>
+
+                          <DropdownMenu.Portal>
+                            <DropdownMenu.Content
+                              className="min-w-[180px] bg-dark-700 rounded-lg p-1 shadow-xl"
+                              sideOffset={5}
+                              align="end"
+                            >
+                              <DropdownMenu.Item
+                                className="flex items-center gap-2 px-3 py-2 text-sm text-dark-100 hover:bg-dark-600 hover:text-dark-50 rounded-md cursor-pointer outline-none"
+                                onSelect={(e) => {
+                                  e.preventDefault();
+                                  setEditingNote(note);
+                                  setIsWriting(true);
+                                }}
+                              >
+                                <Edit className="w-4 h-4" />
+                                Edit
+                              </DropdownMenu.Item>
+
+                              <DropdownMenu.Item
+                                className="flex items-center gap-2 px-3 py-2 text-sm text-dark-100 hover:bg-dark-600 hover:text-dark-50 rounded-md cursor-pointer outline-none"
+                                onSelect={(e) => {
+                                  e.preventDefault();
+                                  setSelectedNoteForNotebook(note);
+                                  setShowNotebookSelect(true);
+                                }}
+                              >
+                                <Notebook className="w-4 h-4" />
+                                {note.notebooks ? 'Change notebook' : 'Add to notebook'}
+                              </DropdownMenu.Item>
+
+                              <DropdownMenu.Separator className="h-px bg-dark-600 my-1" />
+
+                              <DropdownMenu.Item
+                                className="flex items-center gap-2 px-3 py-2 text-sm text-red-400 hover:bg-dark-600 hover:text-red-300 rounded-md cursor-pointer outline-none"
+                                onSelect={(e) => {
+                                  e.preventDefault();
+                                  setNoteToDelete(note);
+                                }}
+                              >
+                                <Trash2 className="w-4 h-4" />
+                                Delete
+                              </DropdownMenu.Item>
+                            </DropdownMenu.Content>
+                          </DropdownMenu.Portal>
+                        </DropdownMenu.Root>
                       </div>
                     </div>
                   ))

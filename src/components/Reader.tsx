@@ -51,7 +51,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return new Set<number>();
 
-      const translation = localStorage.getItem('selectedTranslation') || 'asv';
+      const translation = localStorage.getItem('selectedTranslation') || 'web';
       console.log('Current translation:', translation);
 
       console.log('Fetching saved verses for:', {
@@ -133,7 +133,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       }
 
       // Get current translation
-      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'asv';
+      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
       console.log('Saving verse with translation:', translation);
 
       const result = await insertSavedVerse(

@@ -36,7 +36,7 @@ let bibleIndex: BibleIndex | null = null;
 let bookCache: { [translation: string]: { [bookId: string]: BookData } } = {};
 
 async function loadBibleIndex(): Promise<BibleIndex> {
-  const translation = localStorage.getItem('selectedTranslation') || 'asv';
+  const translation = localStorage.getItem('selectedTranslation') || 'web';
   
   // Check if we need to clear cache
   if (localStorage.getItem('clearCache') === 'true') {
@@ -48,7 +48,7 @@ async function loadBibleIndex(): Promise<BibleIndex> {
   
   // Reset bibleIndex if translation has changed
   if (bibleIndex) {
-    const currentTranslation = localStorage.getItem('selectedTranslation') || 'asv';
+    const currentTranslation = localStorage.getItem('selectedTranslation') || 'web';
     if (currentTranslation !== translation) {
       bibleIndex = null;
       bookCache = {};
@@ -75,7 +75,7 @@ async function loadBibleIndex(): Promise<BibleIndex> {
 
 export async function loadBook(bookId: string): Promise<BibleBook | null> {
   try {
-    const translation = localStorage.getItem('selectedTranslation') || 'asv';
+    const translation = localStorage.getItem('selectedTranslation') || 'web';
     console.log('Loading book with translation:', translation);
     
     const index = await loadBibleIndex();

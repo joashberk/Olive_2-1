@@ -9,7 +9,7 @@
 
 -- First, backup existing translation values
 CREATE TEMP TABLE verse_translations AS
-SELECT id, COALESCE(translation, 'asv') as translation
+SELECT id, COALESCE(translation, 'web') as translation
 FROM user_saved_verses;
 
 -- Drop existing column and constraints if they exist
@@ -18,7 +18,7 @@ DROP COLUMN IF EXISTS translation CASCADE;
 
 -- Add translation column with correct constraints
 ALTER TABLE user_saved_verses 
-ADD COLUMN translation text NOT NULL DEFAULT 'asv';
+ADD COLUMN translation text NOT NULL DEFAULT 'web';
 
 -- Add constraint to ensure valid translations
 ALTER TABLE user_saved_verses 

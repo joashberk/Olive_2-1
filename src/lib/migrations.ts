@@ -139,17 +139,26 @@ export async function migrateThemeData() {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return;
 
-  console.log('Starting theme data migration...');
+  console.log('[migrateThemeData] Starting theme data migration...', {
+    userId: user.id,
+    timestamp: new Date().toISOString()
+  });
 
   // First, get all themes
   const { data: themes, error: themesError } = await supabase
     .from('themes')
-    .select('*');
+    .select('*')
+    .eq('user_id', user.id);
 
   if (themesError) {
-    console.error('Error fetching themes:', themesError);
+    console.error('[migrateThemeData] Error fetching themes:', themesError);
     return;
   }
+
+  console.log('[migrateThemeData] Found themes:', {
+    count: themes?.length,
+    themes: themes?.map(t => ({ id: t.id, name: t.name }))
+  });
 
   // Get all saved verses
   const { data: verses, error: versesError } = await supabase
@@ -158,15 +167,37 @@ export async function migrateThemeData() {
     .eq('user_id', user.id);
 
   if (versesError) {
-    console.error('Error fetching verses:', versesError);
+    console.error('[migrateThemeData] Error fetching verses:', versesError);
     return;
   }
 
-  console.log('Found verses to migrate:', verses?.length);
+  console.log('[migrateThemeData] Found verses to migrate:', {
+    count: verses?.length,
+    versesWithThemes: verses?.filter(v => v.themes && v.themes.length > 0).length
+  });
 
   // Process each verse
   for (const verse of verses || []) {
-    if (!Array.isArray(verse.themes)) continue;
+    console.log('[migrateThemeData] Processing verse:', {
+      id: verse.id,
+      reference: verse.display_reference,
+      currentThemes: verse.themes,
+      themeType: verse.themes ? typeof verse.themes : 'undefined',
+      isArray: Array.isArray(verse.themes)
+    });
+
+    if (!Array.isArray(verse.themes)) {
+      console.log('[migrateThemeData] Initializing empty themes array for verse:', verse.id);
+      const { error: updateError } = await supabase
+        .from('user_saved_verses')
+        .update({ themes: [] })
+        .eq('id', verse.id);
+
+      if (updateError) {
+        console.error('[migrateThemeData] Error initializing themes:', updateError);
+      }
+      continue;
+    }
 
     // Convert theme names to theme IDs
     const themeIds = verse.themes
@@ -184,6 +215,12 @@ export async function migrateThemeData() {
       })
       .filter((id): id is string => id !== null);
 
+    console.log('[migrateThemeData] Theme conversion result:', {
+      verseId: verse.id,
+      originalThemes: verse.themes,
+      convertedIds: themeIds
+    });
+
     // Update the verse with theme IDs
     const { error: updateError } = await supabase
       .from('user_saved_verses')
@@ -191,9 +228,19 @@ export async function migrateThemeData() {
       .eq('id', verse.id);
 
     if (updateError) {
-      console.error('Error updating verse themes:', updateError);
+      console.error('[migrateThemeData] Error updating verse themes:', {
+        verseId: verse.id,
+        error: updateError
+      });
+    } else {
+      console.log('[migrateThemeData] Successfully updated verse themes:', {
+        verseId: verse.id,
+        newThemes: themeIds
+      });
     }
   }
 
-  console.log('Theme data migration completed');
+  console.log('[migrateThemeData] Theme data migration completed', {
+    timestamp: new Date().toISOString()
+  });
 }

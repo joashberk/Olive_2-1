@@ -1,4 +1,4 @@
-import { AArrowDown as Add, MoreHorizontal, X, Search, Plus } from 'lucide-react';
+import { AArrowDown as Add, MoreHorizontal, X, Search, Plus, Tag } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { supabase } from '@/lib/supabase';
@@ -230,59 +230,116 @@ function SavedVerses() {
     mutationFn: async ({ verseId, themes }: { verseId: string; themes: string[] }) => {
       if (!user) throw new Error('Not authenticated');
 
-      console.log('Updating verse themes in mutation:', {
+      console.log('[updateVerseThemesMutation] Starting mutation:', {
         verseId,
-        themeIds: themes
+        themeIds: themes,
+        userId: user.id,
+        timestamp: new Date().toISOString()
       });
 
       // First get the current verse data
       const { data: currentVerse, error: fetchError } = await supabase
         .from('user_saved_verses')
-        .select(`
-          id,
-          themes
-        `)
+        .select('*')
         .eq('id', verseId)
+        .eq('user_id', user.id)  // Add explicit user check
         .single();
 
       if (fetchError) {
-        console.error('Error fetching current verse:', fetchError);
+        console.error('[updateVerseThemesMutation] Error fetching current verse:', {
+          error: fetchError,
+          verseId,
+          userId: user.id
+        });
         throw fetchError;
       }
 
-      console.log('Current verse data:', currentVerse);
+      if (!currentVerse) {
+        console.error('[updateVerseThemesMutation] Verse not found or access denied:', {
+          verseId,
+          userId: user.id
+        });
+        throw new Error('Verse not found or access denied');
+      }
+
+      console.log('[updateVerseThemesMutation] Current verse data:', {
+        verseId,
+        currentVerse,
+        existingThemes: currentVerse?.themes,
+        themeType: currentVerse?.themes ? typeof currentVerse.themes : 'undefined',
+        isArray: Array.isArray(currentVerse?.themes),
+        newThemes: themes,
+        created: currentVerse?.created_at,
+        updated: currentVerse?.updated_at
+      });
+
+      // Ensure themes is an array and contains valid UUIDs
+      const themeArray = Array.isArray(themes) ? themes : [];
+      const validThemes = themeArray.every(id => 
+        typeof id === 'string' && 
+        /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(id)
+      );
+      
+      if (!validThemes) {
+        console.error('[updateVerseThemesMutation] Invalid theme IDs:', {
+          themeArray,
+          userId: user.id
+        });
+        throw new Error('Invalid theme IDs');
+      }
+
+      console.log('[updateVerseThemesMutation] Preparing update:', {
+        verseId,
+        themeArray,
+        isValid: validThemes
+      });
 
       // Update with new theme IDs
       const { data, error } = await supabase
         .from('user_saved_verses')
         .update({ 
-          themes: themes, // These should be theme IDs
+          themes: themeArray,
           updated_at: new Date().toISOString()
         })
         .eq('id', verseId)
-        .select(`
-          id,
-          book_name,
-          chapter_number,
-          verse_selections,
-          verse_text,
-          display_reference,
-          themes,
-          translation,
-          created_at
-        `)
+        .eq('user_id', user.id)  // Add explicit user check
+        .select()
         .single();
 
       if (error) {
-        console.error('Error in updateVerseThemesMutation:', error);
+        console.error('[updateVerseThemesMutation] Error updating verse:', {
+          error,
+          verseId,
+          userId: user.id,
+          themeArray
+        });
         throw error;
       }
 
-      console.log('Updated verse data:', data);
+      if (!data) {
+        console.error('[updateVerseThemesMutation] Update succeeded but no data returned:', {
+          verseId,
+          userId: user.id,
+          themeArray
+        });
+        throw new Error('Update succeeded but no data returned');
+      }
+
+      console.log('[updateVerseThemesMutation] Update successful:', {
+        verseId,
+        oldThemes: currentVerse?.themes,
+        newThemes: data.themes,
+        response: data
+      });
+
       return data;
     },
     onSuccess: (data) => {
-      console.log('Theme update successful:', data);
+      console.log('[updateVerseThemesMutation] onSuccess callback:', {
+        verseId: data.id,
+        themes: data.themes,
+        timestamp: new Date().toISOString()
+      });
       queryClient.invalidateQueries({ queryKey: ['savedVerses'] });
       queryClient.invalidateQueries({ queryKey: ['themes'] });
       
@@ -291,11 +348,14 @@ function SavedVerses() {
         description: 'The verse themes have been updated successfully.',
       });
     },
-    onError: (error) => {
-      console.error('Theme update error:', error);
+    onError: (error: Error) => {
+      console.error('[updateVerseThemesMutation] onError callback:', {
+        error: error.message,
+        stack: error.stack
+      });
       toast({
         title: 'Error updating themes',
-        description: 'Failed to update verse themes. Please try again.',
+        description: error.message || 'Failed to update verse themes. Please try again.',
         variant: 'destructive'
       });
     }
@@ -303,7 +363,7 @@ function SavedVerses() {
 
   // Handle theme selection from verse cards
   const handleThemeSelect = (themeId: string) => {
-    console.log('Theme selected:', {
+    console.log('[handleThemeSelect] Theme selected:', {
       themeId,
       currentSelectedTheme: selectedTheme,
       availableThemes: themes?.map(t => ({ id: t.id, name: t.name }))
@@ -311,7 +371,7 @@ function SavedVerses() {
 
     setSelectedTheme(prevTheme => {
       const newTheme = prevTheme === themeId ? null : themeId;
-      console.log('Setting new selected theme filter:', newTheme);
+      console.log('[handleThemeSelect] Setting new selected theme filter:', newTheme);
       return newTheme;
     });
   };
@@ -321,15 +381,16 @@ function SavedVerses() {
     try {
       // Ensure we have the themes data
       if (!themes) {
-        console.error('No themes data available');
+        console.error('[handleUpdateVerseThemes] No themes data available');
         return;
       }
 
-      console.log('Theme update requested:', {
+      console.log('[handleUpdateVerseThemes] Theme update requested:', {
         verse: {
           id: verse.id,
           reference: verse.display_reference,
-          currentThemes: verse.themes
+          currentThemes: verse.themes,
+          allFields: verse
         },
         selectedThemes,
         allAvailableThemes: themes.map(t => ({
@@ -344,7 +405,7 @@ function SavedVerses() {
       );
 
       if (!validThemes) {
-        console.error('Invalid theme selection:', {
+        console.error('[handleUpdateVerseThemes] Invalid theme selection:', {
           selectedThemes,
           availableThemes: themes.map(t => t.id)
         });
@@ -356,40 +417,24 @@ function SavedVerses() {
         return;
       }
 
-      const { data, error } = await supabase
-        .from('user_saved_verses')
-        .update({ 
-          themes: selectedThemes,
-          updated_at: new Date().toISOString()
-        })
-        .eq('id', verse.id)
-        .select()
-        .single();
-
-      if (error) {
-        console.error('Error updating verse themes:', error);
-        throw error;
-      }
-
-      console.log('Theme update successful:', {
+      console.log('[handleUpdateVerseThemes] Calling mutation:', {
         verseId: verse.id,
-        oldThemes: verse.themes,
-        newThemes: data.themes,
-        response: data
+        themes: selectedThemes
       });
 
-      // Invalidate queries to refresh UI
-      queryClient.invalidateQueries({ queryKey: ['savedVerses'] });
-      
+      // Use the mutation instead of direct Supabase query
+      await updateVerseThemesMutation.mutateAsync({
+        verseId: verse.id,
+        themes: selectedThemes
+      });
+
+      console.log('[handleUpdateVerseThemes] Mutation completed successfully');
+
       // Close the theme selection dialog
       setVerseForThemes(null);
 
-      toast({
-        title: 'Themes updated',
-        description: 'Verse themes have been updated successfully.'
-      });
     } catch (error) {
-      console.error('Error updating verse themes:', error);
+      console.error('[handleUpdateVerseThemes] Error updating verse themes:', error);
       toast({
         title: 'Error',
         description: 'Failed to update verse themes. Please try again.',
@@ -400,11 +445,12 @@ function SavedVerses() {
 
   // Add debug logging for theme selection dialog
   const handleThemeDialogOpen = (verse: SavedVerse) => {
-    console.log('Opening theme selection dialog:', {
+    console.log('[handleThemeDialogOpen] Opening theme selection dialog:', {
       verse: {
         id: verse.id,
         reference: verse.display_reference,
-        currentThemes: verse.themes
+        currentThemes: verse.themes,
+        allFields: verse
       },
       availableThemes: themes?.map(t => ({
         id: t.id,
@@ -485,12 +531,13 @@ function SavedVerses() {
               <div className="space-y-2">
                 <button
                   onClick={() => setSelectedTheme(null)}
-                  className={`w-full text-left px-4 py-3 rounded-lg transition-colors text-sm ${
+                  className={`w-full text-left px-4 py-3 rounded-lg transition-colors text-sm flex items-center gap-2 ${
                     !selectedTheme
                       ? 'bg-dark-800 text-olive-300'
                       : 'text-dark-200 hover:bg-dark-800/50'
                   }`}
                 >
+                  <Tag className="w-4 h-4" />
                   All Verses
                 </button>
 
@@ -507,8 +554,9 @@ function SavedVerses() {
                   >
                     <button
                       onClick={() => setSelectedTheme(theme.id)}
-                      className="flex-1 text-left text-sm"
+                      className="flex-1 text-left text-sm flex items-center gap-2"
                     >
+                      <Tag className="w-4 h-4" />
                       {theme.name}
                     </button>
                     <button
@@ -539,12 +587,13 @@ function SavedVerses() {
                   <div className="flex gap-2 min-w-min pb-2">
                     <button
                       onClick={() => setSelectedTheme(null)}
-                      className={`shrink-0 px-4 py-2 rounded-lg transition-colors text-sm ${
+                      className={`shrink-0 px-4 py-2 rounded-lg transition-colors text-sm flex items-center gap-2 ${
                         !selectedTheme
                           ? 'bg-dark-800 text-olive-300'
                           : 'bg-dark-800/50 text-dark-200 hover:bg-dark-800'
                       }`}
                     >
+                      <Tag className="w-3.5 h-3.5" />
                       All Verses
                     </button>
                     {themes?.map((theme) => (
@@ -562,12 +611,13 @@ function SavedVerses() {
                         <div className="pl-2 pr-0 py-1.5">
                           <button
                             onClick={() => setSelectedTheme(theme.id)}
-                            className={`text-sm max-w-[12rem] overflow-hidden text-ellipsis whitespace-nowrap ${
+                            className={`text-sm max-w-[12rem] overflow-hidden text-ellipsis whitespace-nowrap flex items-center gap-2 ${
                               selectedTheme === theme.id
                                 ? 'text-olive-300'
                                 : 'text-dark-200 hover:text-dark-100'
                             }`}
                           >
+                            <Tag className="w-3.5 h-3.5" />
                             {theme.name}
                           </button>
                         </div>

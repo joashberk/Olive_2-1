@@ -14,6 +14,7 @@ export function FeedbackButton() {
   return (
     <>
       <button
+        data-feedback-button
         onClick={() => setOpen(true)}
         className="fixed bottom-24 md:bottom-8 right-8 z-40 p-3 bg-dark-800/80 hover:bg-dark-800 backdrop-blur-sm rounded-full shadow-lg transition-all duration-200 hover:scale-105 group"
         aria-label="Send feedback"

@@ -25,7 +25,7 @@ export function ChapterNavigation({
   const currentBook = bibleBooks.find(book => book.id === selectedBook)!;
   const queryClient = useQueryClient();
   const [translation, setTranslation] = useState<'asv' | 'web'>(() => {
-    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'asv';
+    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
   });
 
   const handleTranslationChange = async (newTranslation: 'asv' | 'web') => {

@@ -3,7 +3,7 @@
 
   1. Changes
     - Add translation column if it doesn't exist
-    - Set default value to 'asv'
+    - Set default value to 'web'
     - Add constraint to ensure valid translations
 */
 
@@ -14,7 +14,7 @@ BEGIN
     SELECT 1 FROM information_schema.columns 
     WHERE table_name = 'user_saved_verses' AND column_name = 'translation'
   ) THEN
-    ALTER TABLE user_saved_verses ADD COLUMN translation text NOT NULL DEFAULT 'asv';
+    ALTER TABLE user_saved_verses ADD COLUMN translation text NOT NULL DEFAULT 'web';
     
     -- Add constraint to ensure valid translations
     ALTER TABLE user_saved_verses 
