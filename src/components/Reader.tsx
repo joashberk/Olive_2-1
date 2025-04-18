@@ -360,9 +360,8 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
                 onClick={() => handleVerseClick(verse)}
                 className={`
                   verse-container relative cursor-pointer
-                  ${isSelected ? 'bg-olive-900/20' : ''}
-                  ${isSaved ? 'border-b-2 border-olive-300/50' : ''}
-                  hover:bg-olive-900/10 transition-colors duration-200
+                  ${isSelected ? 'selected' : ''}
+                  ${isSaved ? 'saved' : ''}
                 `}
               >
                 <span className="verse-number">

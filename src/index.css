@@ -63,16 +63,15 @@
     @apply inline text-[#777777] transition-colors duration-300 ease-in-out font-serif;
   }
 
-  .verse-text:hover {
-    @apply text-[#B3C276];
-  }
-
-  .verse-container.selected {
-    @apply bg-olive-900/20;
+  /* Only apply hover styles on non-touch devices */
+  @media (hover: hover) {
+    .verse-text:hover {
+      @apply text-[#B3C276];
+    }
   }
 
   .verse-container.selected .verse-text {
-    @apply text-[#B3C276] decoration-[#B3C276] decoration-[0.08em] underline underline-offset-4;
+    @apply text-[#B3C276];
   }
 
   .verse-container.selected .verse-number {
@@ -80,7 +79,7 @@
   }
 
   .verse-container.saved .verse-text {
-    @apply decoration-[#B3C276] decoration-[0.08em] underline underline-offset-4;
+    @apply border-b-2 border-[#B3C276]/50;
   }
 }
 
