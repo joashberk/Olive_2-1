@@ -511,7 +511,7 @@ function SavedVerses() {
   }
 
   return (
-    <div className="fixed top-0 md:top-[4rem] inset-x-0 bottom-0 flex flex-col bg-dark-900">
+    <div className="fixed top-0 md:top-[4rem] inset-x-0 bottom-0 flex flex-col bg-dark-900 overflow-hidden">
       <div className="flex-1 overflow-hidden">
         <div className="h-full flex flex-col md:flex-row max-w-[100rem] mx-auto">
           <div className="hidden md:flex flex-col w-64 border-r border-dark-800">

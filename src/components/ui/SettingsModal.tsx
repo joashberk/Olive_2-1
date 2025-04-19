@@ -9,8 +9,8 @@ interface SettingsModalProps {
 }
 
 export function SettingsModal({ open, onOpenChange }: SettingsModalProps) {
-  const [selectedTranslation, setSelectedTranslation] = useState(() => 
-    localStorage.getItem('selectedTranslation') || 'web'
+  const [selectedTranslation, setSelectedTranslation] = useState<'asv' | 'web' | 'kjv'>(() => 
+    localStorage.getItem('selectedTranslation') as 'asv' | 'web' | 'kjv' || 'web'
   );
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export function SettingsModal({ open, onOpenChange }: SettingsModalProps) {
                       name="translation"
                       value={translation.id}
                       checked={selectedTranslation === translation.id}
-                      onChange={e => setSelectedTranslation(e.target.value)}
+                      onChange={e => setSelectedTranslation(e.target.value as 'asv' | 'web' | 'kjv')}
                       className="mt-1"
                     />
                     <div>

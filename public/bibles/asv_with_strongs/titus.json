@@ -1,0 +1,4508 @@
+{
+  "name": "Titus",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God’s elect, and the knowledge of the truth which is according to godliness,",
+          "words": [
+            {
+              "word": "Paul",
+              "strong": "G3972"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "servant",
+              "strong": "G1401"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G1161"
+            },
+            {
+              "word": "an",
+              "strong": null
+            },
+            {
+              "word": "apostle",
+              "strong": "G652"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G2596"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "faith",
+              "strong": "G4102"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "elect",
+              "strong": "G1588"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G1161"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "knowledge",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "truth",
+              "strong": "G225"
+            },
+            {
+              "word": "which",
+              "strong": "G3588"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G2596"
+            },
+            {
+              "word": "godliness",
+              "strong": "G2150"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "in hope of eternal life, which God, who cannot lie, promised before times eternal;",
+          "words": [
+            {
+              "word": "in",
+              "strong": "G1909"
+            },
+            {
+              "word": "hope",
+              "strong": "G1680"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "eternal",
+              "strong": "G166"
+            },
+            {
+              "word": "life",
+              "strong": "G2222"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": "G3739"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "cannot",
+              "strong": null
+            },
+            {
+              "word": "lie",
+              "strong": "G893"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "promised",
+              "strong": "G1861"
+            },
+            {
+              "word": "before",
+              "strong": "G4253"
+            },
+            {
+              "word": "times",
+              "strong": null
+            },
+            {
+              "word": "eternal",
+              "strong": "G166"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "but in his own seasons manifested his word in the message, wherewith I was intrusted according to the commandment of God our Saviour;",
+          "words": [
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": null
+            },
+            {
+              "word": "seasons",
+              "strong": null
+            },
+            {
+              "word": "manifested",
+              "strong": "G5319"
+            },
+            {
+              "word": "his",
+              "strong": "G846"
+            },
+            {
+              "word": "word",
+              "strong": "G3056"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "message",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "wherewith",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "intrusted",
+              "strong": null
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "commandment",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": null
+            },
+            {
+              "word": "our",
+              "strong": null
+            },
+            {
+              "word": "Saviour",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "to Titus, my true child after a common faith: Grace and peace from God the Father and Christ Jesus our Saviour.",
+          "words": [
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Titus",
+              "strong": "G5103"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "true",
+              "strong": null
+            },
+            {
+              "word": "child",
+              "strong": null
+            },
+            {
+              "word": "after",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "common",
+              "strong": null
+            },
+            {
+              "word": "faith",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "Grace",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "peace",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "Father",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "Christ",
+              "strong": null
+            },
+            {
+              "word": "Jesus",
+              "strong": null
+            },
+            {
+              "word": "our",
+              "strong": null
+            },
+            {
+              "word": "Saviour",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "For this cause left I thee in Crete, that thou shouldest set in order the things that were wanting, and appoint elders in every city, as I gave thee charge;",
+          "words": [
+            {
+              "word": "For",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": "G5127"
+            },
+            {
+              "word": "cause",
+              "strong": "G5484"
+            },
+            {
+              "word": "left",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": "G2641"
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "Crete",
+              "strong": "G2914"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "shouldest",
+              "strong": null
+            },
+            {
+              "word": "set",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "order",
+              "strong": "G1930"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "were",
+              "strong": null
+            },
+            {
+              "word": "wanting",
+              "strong": "G3007"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "appoint",
+              "strong": null
+            },
+            {
+              "word": "elders",
+              "strong": "G4245"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "every",
+              "strong": "G2596"
+            },
+            {
+              "word": "city",
+              "strong": "G4172"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": "G5613"
+            },
+            {
+              "word": "I",
+              "strong": "G2641"
+            },
+            {
+              "word": "gave",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": "charge",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "if any man is blameless, the husband of one wife, having children that believe, who are not accused of riot or unruly.",
+          "words": [
+            {
+              "word": "if",
+              "strong": null
+            },
+            {
+              "word": "any",
+              "strong": "G1536"
+            },
+            {
+              "word": "man",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "blameless",
+              "strong": "G410"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "husband",
+              "strong": "G435"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": "G3391"
+            },
+            {
+              "word": "wife",
+              "strong": "G1135"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "having",
+              "strong": "G2192"
+            },
+            {
+              "word": "children",
+              "strong": "G5043"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "believe",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "accused",
+              "strong": "G1722"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "riot",
+              "strong": "G810"
+            },
+            {
+              "word": "or",
+              "strong": "G2228"
+            },
+            {
+              "word": "unruly",
+              "strong": "G506"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "For the bishop must be blameless, as God’s steward; not self-willed, not soon angry, no brawler, no striker, not greedy of filthy lucre;",
+          "words": [
+            {
+              "word": "For",
+              "strong": "G1063"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "bishop",
+              "strong": "G1985"
+            },
+            {
+              "word": "must",
+              "strong": "G1163"
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "blameless",
+              "strong": "G410"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": "G5613"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "steward",
+              "strong": "G3623"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "self",
+              "strong": null
+            },
+            {
+              "word": "willed",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "soon",
+              "strong": null
+            },
+            {
+              "word": "angry",
+              "strong": "G3711"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "no",
+              "strong": "G3361"
+            },
+            {
+              "word": "brawler",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "no",
+              "strong": "G3361"
+            },
+            {
+              "word": "striker",
+              "strong": "G4131"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "greedy",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "filthy",
+              "strong": null
+            },
+            {
+              "word": "lucre",
+              "strong": "G146"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "but given to hospitality, a lover of good, sober-minded, just, holy, self-controlled;",
+          "words": [
+            {
+              "word": "but",
+              "strong": "G235"
+            },
+            {
+              "word": "given",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "hospitality",
+              "strong": "G5382"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "lover",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "good",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "sober",
+              "strong": "G4998"
+            },
+            {
+              "word": "minded",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "just",
+              "strong": "G1342"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "holy",
+              "strong": "G3741"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "self",
+              "strong": null
+            },
+            {
+              "word": "controlled",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "holding to the faithful word which is according to the teaching, that he may be able both to exhort in the sound doctrine, and to convict the gainsayers.",
+          "words": [
+            {
+              "word": "holding",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "faithful",
+              "strong": "G4103"
+            },
+            {
+              "word": "word",
+              "strong": "G3056"
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "teaching",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": "G5600"
+            },
+            {
+              "word": "able",
+              "strong": "G1415"
+            },
+            {
+              "word": "both",
+              "strong": "G2532"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "exhort",
+              "strong": "G3870"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sound",
+              "strong": "G5198"
+            },
+            {
+              "word": "doctrine",
+              "strong": "G1319"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "convict",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gainsayers",
+              "strong": "G483"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "For there are many unruly men, vain talkers and deceivers, specially they of the circumcision,",
+          "words": [
+            {
+              "word": "For",
+              "strong": "G1063"
+            },
+            {
+              "word": "there",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": "G1526"
+            },
+            {
+              "word": "many",
+              "strong": "G4183"
+            },
+            {
+              "word": "unruly",
+              "strong": "G506"
+            },
+            {
+              "word": "men",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "vain",
+              "strong": null
+            },
+            {
+              "word": "talkers",
+              "strong": "G3151"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "deceivers",
+              "strong": "G5423"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "specially",
+              "strong": "G3122"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": "G1537"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "circumcision",
+              "strong": "G4061"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "whose mouths must be stopped; men who overthrow whole houses, teaching things which they ought not, for filthy lucre’s sake.",
+          "words": [
+            {
+              "word": "whose",
+              "strong": "G3739"
+            },
+            {
+              "word": "mouths",
+              "strong": "G1993"
+            },
+            {
+              "word": "must",
+              "strong": "G1163"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "stopped",
+              "strong": "G1993"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": "G3748"
+            },
+            {
+              "word": "overthrow",
+              "strong": null
+            },
+            {
+              "word": "whole",
+              "strong": "G3650"
+            },
+            {
+              "word": "houses",
+              "strong": "G3624"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "teaching",
+              "strong": "G1321"
+            },
+            {
+              "word": "things",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": "G3739"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "ought",
+              "strong": "G1163"
+            },
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": "G5484"
+            },
+            {
+              "word": "filthy",
+              "strong": "G150"
+            },
+            {
+              "word": "lucre",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "sake",
+              "strong": "G5484"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "One of themselves, a prophet of their own, said,",
+          "words": [
+            {
+              "word": "One",
+              "strong": "G5100"
+            },
+            {
+              "word": "of",
+              "strong": "G1537"
+            },
+            {
+              "word": "themselves",
+              "strong": "G846"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "prophet",
+              "strong": "G4396"
+            },
+            {
+              "word": "of",
+              "strong": "G1537"
+            },
+            {
+              "word": "their",
+              "strong": "G846"
+            },
+            {
+              "word": "own",
+              "strong": "G2398"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "G2036"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "This testimony is true. For which cause reprove them sharply, that they may be sound in the faith,",
+          "words": [
+            {
+              "word": "This",
+              "strong": "G3778"
+            },
+            {
+              "word": "testimony",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": "G2076"
+            },
+            {
+              "word": "true",
+              "strong": "G227"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "For",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "cause",
+              "strong": null
+            },
+            {
+              "word": "reprove",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": "G846"
+            },
+            {
+              "word": "sharply",
+              "strong": "G664"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "sound",
+              "strong": "G5198"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "faith",
+              "strong": "G4102"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "not giving heed to Jewish fables, and commandments of men who turn away from the truth.",
+          "words": [
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "giving",
+              "strong": null
+            },
+            {
+              "word": "heed",
+              "strong": "G4337"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Jewish",
+              "strong": "G2451"
+            },
+            {
+              "word": "fables",
+              "strong": "G3454"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "commandments",
+              "strong": "G1785"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "G444"
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "turn",
+              "strong": null
+            },
+            {
+              "word": "away",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": "G654"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "truth",
+              "strong": "G225"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "To the pure all things are pure: but to them that are defiled and unbelieving nothing is pure; but both their mind and their conscience are defiled.",
+          "words": [
+            {
+              "word": "To",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "pure",
+              "strong": "G2513"
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": "G3956"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "pure",
+              "strong": "G2513"
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "defiled",
+              "strong": "G3392"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "unbelieving",
+              "strong": "G571"
+            },
+            {
+              "word": "nothing",
+              "strong": "G3762"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "pure",
+              "strong": "G2513"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "both",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": "G846"
+            },
+            {
+              "word": "mind",
+              "strong": "G3563"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "their",
+              "strong": "G846"
+            },
+            {
+              "word": "conscience",
+              "strong": "G4893"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "defiled",
+              "strong": "G3392"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "They profess that they know God; but by their works they deny him, being abominable, and disobedient, and unto every good work reprobate.",
+          "words": [
+            {
+              "word": "They",
+              "strong": null
+            },
+            {
+              "word": "profess",
+              "strong": "G3670"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "know",
+              "strong": "G1492"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "by",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "works",
+              "strong": "G2041"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "deny",
+              "strong": "G720"
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "being",
+              "strong": "G5607"
+            },
+            {
+              "word": "abominable",
+              "strong": "G947"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "disobedient",
+              "strong": "G545"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "unto",
+              "strong": "G4314"
+            },
+            {
+              "word": "every",
+              "strong": "G3956"
+            },
+            {
+              "word": "good",
+              "strong": "G18"
+            },
+            {
+              "word": "work",
+              "strong": "G2041"
+            },
+            {
+              "word": "reprobate",
+              "strong": "G96"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "But speak thou the things which befit the sound doctrine:",
+          "words": [
+            {
+              "word": "But",
+              "strong": "G1161"
+            },
+            {
+              "word": "speak",
+              "strong": "G2980"
+            },
+            {
+              "word": "thou",
+              "strong": "G4771"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": "G3739"
+            },
+            {
+              "word": "befit",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sound",
+              "strong": "G5198"
+            },
+            {
+              "word": "doctrine",
+              "strong": "G1319"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "that aged men be temperate, grave, sober-minded, sound in faith, in love, in patience:",
+          "words": [
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "aged",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "G4246"
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "temperate",
+              "strong": "G4998"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "grave",
+              "strong": "G4586"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "sober",
+              "strong": "G3524"
+            },
+            {
+              "word": "minded",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "sound",
+              "strong": "G5198"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "faith",
+              "strong": "G4102"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "patience",
+              "strong": "G5281"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "that aged women likewise be reverent in demeanor, not slanderers nor enslaved to much wine, teachers of that which is good;",
+          "words": [
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "aged",
+              "strong": null
+            },
+            {
+              "word": "women",
+              "strong": "G4247"
+            },
+            {
+              "word": "likewise",
+              "strong": "G5615"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "reverent",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "demeanor",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "slanderers",
+              "strong": null
+            },
+            {
+              "word": "nor",
+              "strong": null
+            },
+            {
+              "word": "enslaved",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "much",
+              "strong": null
+            },
+            {
+              "word": "wine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "teachers",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "good",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "that they may train the young women to love their husbands, to love their children,",
+          "words": [
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "train",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "young",
+              "strong": null
+            },
+            {
+              "word": "women",
+              "strong": "G3501"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "husbands",
+              "strong": "G5362"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "children",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "to be sober-minded, chaste, workers at home, kind, being in subjection to their own husbands, that the word of God be not blasphemed:",
+          "words": [
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": "G987"
+            },
+            {
+              "word": "sober",
+              "strong": null
+            },
+            {
+              "word": "minded",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "chaste",
+              "strong": "G53"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "workers",
+              "strong": null
+            },
+            {
+              "word": "at",
+              "strong": null
+            },
+            {
+              "word": "home",
+              "strong": "G3626"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "kind",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "being",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "subjection",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": "G2398"
+            },
+            {
+              "word": "husbands",
+              "strong": "G435"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G3363"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": "G3056"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "be",
+              "strong": "G987"
+            },
+            {
+              "word": "not",
+              "strong": "G3363"
+            },
+            {
+              "word": "blasphemed",
+              "strong": "G987"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "the younger men likewise exhort to be sober-minded:",
+          "words": [
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "younger",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "G3501"
+            },
+            {
+              "word": "likewise",
+              "strong": "G5615"
+            },
+            {
+              "word": "exhort",
+              "strong": "G3870"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "sober",
+              "strong": null
+            },
+            {
+              "word": "minded",
+              "strong": "G4993"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "in all things showing thyself an ensample of good works; in thy doctrine showing uncorruptness, gravity,",
+          "words": [
+            {
+              "word": "in",
+              "strong": "G4012"
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": "G3956"
+            },
+            {
+              "word": "showing",
+              "strong": null
+            },
+            {
+              "word": "thyself",
+              "strong": "G4572"
+            },
+            {
+              "word": "an",
+              "strong": null
+            },
+            {
+              "word": "ensample",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "good",
+              "strong": "G2570"
+            },
+            {
+              "word": "works",
+              "strong": "G2041"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G4012"
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "doctrine",
+              "strong": "G1319"
+            },
+            {
+              "word": "showing",
+              "strong": null
+            },
+            {
+              "word": "uncorruptness",
+              "strong": "G90"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "gravity",
+              "strong": "G4587"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "sound speech, that cannot be condemned; that he that is of the contrary part may be ashamed, having no evil thing to say of us.",
+          "words": [
+            {
+              "word": "sound",
+              "strong": "G5199"
+            },
+            {
+              "word": "speech",
+              "strong": "G3056"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "cannot",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "condemned",
+              "strong": "G176"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": "G1537"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "contrary",
+              "strong": null
+            },
+            {
+              "word": "part",
+              "strong": "G1727"
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "ashamed",
+              "strong": "G1788"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "having",
+              "strong": "G2192"
+            },
+            {
+              "word": "no",
+              "strong": "G3367"
+            },
+            {
+              "word": "evil",
+              "strong": "G5337"
+            },
+            {
+              "word": "thing",
+              "strong": "G3367"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "say",
+              "strong": "G3004"
+            },
+            {
+              "word": "of",
+              "strong": "G1537"
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Exhort servants to be in subjection to their own masters, and to be well-pleasing to them in all things; not gainsaying;",
+          "words": [
+            {
+              "word": "Exhort",
+              "strong": null
+            },
+            {
+              "word": "servants",
+              "strong": "G1401"
+            },
+            {
+              "word": "to",
+              "strong": "G1511"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "subjection",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G1511"
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": "G2398"
+            },
+            {
+              "word": "masters",
+              "strong": "G1203"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G1511"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "well",
+              "strong": "G2101"
+            },
+            {
+              "word": "pleasing",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G1511"
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "things",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "gainsaying",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "not purloining, but showing all good fidelity; that they may adorn the doctrine of God our Saviour in all things.",
+          "words": [
+            {
+              "word": "not",
+              "strong": "G3361"
+            },
+            {
+              "word": "purloining",
+              "strong": "G3557"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G235"
+            },
+            {
+              "word": "showing",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "good",
+              "strong": "G18"
+            },
+            {
+              "word": "fidelity",
+              "strong": "G4102"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "adorn",
+              "strong": "G2885"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "doctrine",
+              "strong": "G1319"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "Saviour",
+              "strong": "G4990"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "things",
+              "strong": "G3956"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "For the grace of God hath appeared, bringing salvation to all men,",
+          "words": [
+            {
+              "word": "For",
+              "strong": "G1063"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "grace",
+              "strong": "G5485"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "hath",
+              "strong": null
+            },
+            {
+              "word": "appeared",
+              "strong": "G2014"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "bringing",
+              "strong": null
+            },
+            {
+              "word": "salvation",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "instructing us, to the intent that, denying ungodliness and worldly lusts, we should live soberly and righteously and godly in this present world;",
+          "words": [
+            {
+              "word": "instructing",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": "G2248"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "intent",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "denying",
+              "strong": "G720"
+            },
+            {
+              "word": "ungodliness",
+              "strong": "G763"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "worldly",
+              "strong": "G2886"
+            },
+            {
+              "word": "lusts",
+              "strong": "G1939"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "should",
+              "strong": null
+            },
+            {
+              "word": "live",
+              "strong": "G2198"
+            },
+            {
+              "word": "soberly",
+              "strong": "G4996"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "righteously",
+              "strong": "G1346"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "godly",
+              "strong": "G2153"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "present",
+              "strong": "G3568"
+            },
+            {
+              "word": "world",
+              "strong": "G165"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "looking for the blessed hope and appearing of the glory of the great God and our Saviour Jesus Christ;",
+          "words": [
+            {
+              "word": "looking",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": "G4327"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "blessed",
+              "strong": "G3107"
+            },
+            {
+              "word": "hope",
+              "strong": "G1680"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "appearing",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "glory",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "G3173"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "Saviour",
+              "strong": "G4990"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a people for his own possession, zealous of good works.",
+          "words": [
+            {
+              "word": "who",
+              "strong": "G3739"
+            },
+            {
+              "word": "gave",
+              "strong": "G1325"
+            },
+            {
+              "word": "himself",
+              "strong": "G1438"
+            },
+            {
+              "word": "for",
+              "strong": "G5228"
+            },
+            {
+              "word": "us",
+              "strong": "G2257"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "might",
+              "strong": null
+            },
+            {
+              "word": "redeem",
+              "strong": "G3084"
+            },
+            {
+              "word": "us",
+              "strong": "G2257"
+            },
+            {
+              "word": "from",
+              "strong": "G575"
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "iniquity",
+              "strong": "G458"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "purify",
+              "strong": "G2511"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "himself",
+              "strong": "G1438"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "G2992"
+            },
+            {
+              "word": "for",
+              "strong": "G5228"
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": null
+            },
+            {
+              "word": "possession",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "zealous",
+              "strong": "G2207"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "good",
+              "strong": "G2570"
+            },
+            {
+              "word": "works",
+              "strong": "G2041"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "These things speak and exhort and reprove with all authority. Let no man despise thee.",
+          "words": [
+            {
+              "word": "These",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": "G5023"
+            },
+            {
+              "word": "speak",
+              "strong": "G2980"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "exhort",
+              "strong": "G3870"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "reprove",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": "G3326"
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "authority",
+              "strong": "G2003"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Let",
+              "strong": null
+            },
+            {
+              "word": "no",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": null
+            },
+            {
+              "word": "despise",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Put them in mind to be in subjection to rulers, to authorities, to be obedient, to be ready unto every good work,",
+          "words": [
+            {
+              "word": "Put",
+              "strong": "G5279"
+            },
+            {
+              "word": "them",
+              "strong": "G846"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "mind",
+              "strong": "G5279"
+            },
+            {
+              "word": "to",
+              "strong": "G4314"
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "subjection",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G4314"
+            },
+            {
+              "word": "rulers",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G4314"
+            },
+            {
+              "word": "authorities",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G4314"
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "obedient",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G4314"
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "ready",
+              "strong": "G2092"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "every",
+              "strong": "G3956"
+            },
+            {
+              "word": "good",
+              "strong": "G18"
+            },
+            {
+              "word": "work",
+              "strong": "G2041"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "to speak evil of no man, not to be contentious, to be gentle, showing all meekness toward all men.",
+          "words": [
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "speak",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": "G987"
+            },
+            {
+              "word": "no",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": "G3367"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "contentious",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": "G1511"
+            },
+            {
+              "word": "gentle",
+              "strong": "G1933"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "showing",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "meekness",
+              "strong": "G4236"
+            },
+            {
+              "word": "toward",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "men",
+              "strong": "G444"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "For we also once were foolish, disobedient, deceived, serving divers lusts and pleasures, living in malice and envy, hateful, hating one another.",
+          "words": [
+            {
+              "word": "For",
+              "strong": "G1063"
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "also",
+              "strong": "G2532"
+            },
+            {
+              "word": "once",
+              "strong": null
+            },
+            {
+              "word": "were",
+              "strong": "G2258"
+            },
+            {
+              "word": "foolish",
+              "strong": "G453"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "disobedient",
+              "strong": "G545"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "deceived",
+              "strong": "G4105"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "serving",
+              "strong": "G1398"
+            },
+            {
+              "word": "divers",
+              "strong": "G4164"
+            },
+            {
+              "word": "lusts",
+              "strong": "G1939"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "pleasures",
+              "strong": "G2237"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "living",
+              "strong": "G1236"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "malice",
+              "strong": "G2549"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "envy",
+              "strong": "G5355"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "hateful",
+              "strong": "G4767"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "hating",
+              "strong": "G3404"
+            },
+            {
+              "word": "one",
+              "strong": null
+            },
+            {
+              "word": "another",
+              "strong": "G240"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "But when the kindness of God our Saviour, and his love toward man, appeared,",
+          "words": [
+            {
+              "word": "But",
+              "strong": "G1161"
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "kindness",
+              "strong": "G5544"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "Saviour",
+              "strong": "G4990"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "G5363"
+            },
+            {
+              "word": "toward",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": "G5363"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "appeared",
+              "strong": "G2014"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "not by works done in righteousness, which we did ourselves, but according to his mercy he saved us, through the washing of regeneration and renewing of the Holy Spirit,",
+          "words": [
+            {
+              "word": "not",
+              "strong": "G3756"
+            },
+            {
+              "word": "by",
+              "strong": "G1537"
+            },
+            {
+              "word": "works",
+              "strong": "G2041"
+            },
+            {
+              "word": "done",
+              "strong": "G4160"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "righteousness",
+              "strong": "G1343"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": "G3739"
+            },
+            {
+              "word": "we",
+              "strong": "G2249"
+            },
+            {
+              "word": "did",
+              "strong": null
+            },
+            {
+              "word": "ourselves",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G235"
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G2596"
+            },
+            {
+              "word": "his",
+              "strong": "G846"
+            },
+            {
+              "word": "mercy",
+              "strong": "G1656"
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "saved",
+              "strong": "G4982"
+            },
+            {
+              "word": "us",
+              "strong": "G2248"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "through",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "washing",
+              "strong": "G3067"
+            },
+            {
+              "word": "of",
+              "strong": "G1722"
+            },
+            {
+              "word": "regeneration",
+              "strong": "G3824"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "renewing",
+              "strong": "G342"
+            },
+            {
+              "word": "of",
+              "strong": "G1722"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "Holy",
+              "strong": "G40"
+            },
+            {
+              "word": "Spirit",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "which he poured out upon us richly, through Jesus Christ our Saviour;",
+          "words": [
+            {
+              "word": "which",
+              "strong": "G3739"
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "poured",
+              "strong": null
+            },
+            {
+              "word": "out",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": "G2248"
+            },
+            {
+              "word": "richly",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "through",
+              "strong": "G1223"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "Saviour",
+              "strong": "G4990"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "that, being justified by his grace, we might be made heirs according to the hope of eternal life.",
+          "words": [
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "being",
+              "strong": null
+            },
+            {
+              "word": "justified",
+              "strong": null
+            },
+            {
+              "word": "by",
+              "strong": "G1344"
+            },
+            {
+              "word": "his",
+              "strong": "G1565"
+            },
+            {
+              "word": "grace",
+              "strong": "G5485"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "might",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": "G1096"
+            },
+            {
+              "word": "heirs",
+              "strong": "G2818"
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G2596"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "hope",
+              "strong": "G1680"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "eternal",
+              "strong": "G166"
+            },
+            {
+              "word": "life",
+              "strong": "G2222"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Faithful is the saying, and concerning these things I desire that thou affirm confidently, to the end that they who have believed God may be careful to maintain good works. These things are good and profitable unto men:",
+          "words": [
+            {
+              "word": "Faithful",
+              "strong": "G4103"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "G3056"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "concerning",
+              "strong": null
+            },
+            {
+              "word": "these",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": "G4012"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "desire",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "thou",
+              "strong": "G4571"
+            },
+            {
+              "word": "affirm",
+              "strong": null
+            },
+            {
+              "word": "confidently",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "end",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "believed",
+              "strong": "G4100"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "careful",
+              "strong": "G5431"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "maintain",
+              "strong": "G4291"
+            },
+            {
+              "word": "good",
+              "strong": "G2570"
+            },
+            {
+              "word": "works",
+              "strong": "G2041"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "These",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": "G4012"
+            },
+            {
+              "word": "are",
+              "strong": "G2076"
+            },
+            {
+              "word": "good",
+              "strong": "G2570"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "profitable",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "G444"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "but shun foolish questionings, and genealogies, and strifes, and fightings about the law; for they are unprofitable and vain.",
+          "words": [
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "shun",
+              "strong": null
+            },
+            {
+              "word": "foolish",
+              "strong": "G3474"
+            },
+            {
+              "word": "questionings",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "genealogies",
+              "strong": "G1076"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "strifes",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "fightings",
+              "strong": null
+            },
+            {
+              "word": "about",
+              "strong": "G3163"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "law",
+              "strong": "G3544"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": "G1063"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": "G1526"
+            },
+            {
+              "word": "unprofitable",
+              "strong": "G512"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "vain",
+              "strong": "G3152"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "A factious man after a first and second admonition refuse;",
+          "words": [
+            {
+              "word": "A",
+              "strong": null
+            },
+            {
+              "word": "factious",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": "G444"
+            },
+            {
+              "word": "after",
+              "strong": "G3326"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "first",
+              "strong": "G3391"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "second",
+              "strong": "G1208"
+            },
+            {
+              "word": "admonition",
+              "strong": "G3559"
+            },
+            {
+              "word": "refuse",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "knowing that such a one is perverted, and sinneth, being self-condemned.",
+          "words": [
+            {
+              "word": "knowing",
+              "strong": "G1492"
+            },
+            {
+              "word": "that",
+              "strong": "G3754"
+            },
+            {
+              "word": "such",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "perverted",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "sinneth",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "being",
+              "strong": null
+            },
+            {
+              "word": "self",
+              "strong": null
+            },
+            {
+              "word": "condemned",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "When I shall send Artemas unto thee, or Tychicus, give diligence to come unto me to Nicopolis: for there I have determined to winter.",
+          "words": [
+            {
+              "word": "When",
+              "strong": "G3752"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "shall",
+              "strong": null
+            },
+            {
+              "word": "send",
+              "strong": "G3992"
+            },
+            {
+              "word": "Artemas",
+              "strong": "G734"
+            },
+            {
+              "word": "unto",
+              "strong": "G4314"
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "or",
+              "strong": "G2228"
+            },
+            {
+              "word": "Tychicus",
+              "strong": "G5190"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "give",
+              "strong": null
+            },
+            {
+              "word": "diligence",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": "G1519"
+            },
+            {
+              "word": "come",
+              "strong": "G2064"
+            },
+            {
+              "word": "unto",
+              "strong": "G4314"
+            },
+            {
+              "word": "me",
+              "strong": "G3165"
+            },
+            {
+              "word": "to",
+              "strong": "G1519"
+            },
+            {
+              "word": "Nicopolis",
+              "strong": "G3533"
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": "G1063"
+            },
+            {
+              "word": "there",
+              "strong": "G1563"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "determined",
+              "strong": "G2919"
+            },
+            {
+              "word": "to",
+              "strong": "G1519"
+            },
+            {
+              "word": "winter",
+              "strong": "G3914"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Set forward Zenas the lawyer and Apollos on their journey diligently, that nothing be wanting unto them.",
+          "words": [
+            {
+              "word": "Set",
+              "strong": null
+            },
+            {
+              "word": "forward",
+              "strong": null
+            },
+            {
+              "word": "Zenas",
+              "strong": "G2211"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "lawyer",
+              "strong": "G3544"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "Apollos",
+              "strong": "G625"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "journey",
+              "strong": "G4311"
+            },
+            {
+              "word": "diligently",
+              "strong": "G4709"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "nothing",
+              "strong": "G3367"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "wanting",
+              "strong": "G3007"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": "G846"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "And let our people also learn to maintain good works for necessary uses, that they be not unfruitful.",
+          "words": [
+            {
+              "word": "And",
+              "strong": "G1161"
+            },
+            {
+              "word": "let",
+              "strong": "G3129"
+            },
+            {
+              "word": "our",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": null
+            },
+            {
+              "word": "also",
+              "strong": "G2532"
+            },
+            {
+              "word": "learn",
+              "strong": "G3129"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "maintain",
+              "strong": "G4291"
+            },
+            {
+              "word": "good",
+              "strong": "G2570"
+            },
+            {
+              "word": "works",
+              "strong": "G2041"
+            },
+            {
+              "word": "for",
+              "strong": "G1519"
+            },
+            {
+              "word": "necessary",
+              "strong": "G316"
+            },
+            {
+              "word": "uses",
+              "strong": "G5532"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G3363"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": "G5600"
+            },
+            {
+              "word": "not",
+              "strong": "G3363"
+            },
+            {
+              "word": "unfruitful",
+              "strong": "G175"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "All that are with me salute thee. Salute them that love us in faith.",
+          "words": [
+            {
+              "word": "All",
+              "strong": "G3956"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": "G3326"
+            },
+            {
+              "word": "me",
+              "strong": "G1700"
+            },
+            {
+              "word": "salute",
+              "strong": "G782"
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Salute",
+              "strong": "G782"
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "G5368"
+            },
+            {
+              "word": "us",
+              "strong": "G2248"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "faith",
+              "strong": "G4102"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

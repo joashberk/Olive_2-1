@@ -1,6 +1,7 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { bibleBooks } from '@/data/bibleBooks';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
 interface ChapterNavigationButtonsProps {
   selectedBook: string;
@@ -15,8 +16,32 @@ export function ChapterNavigationButtons({
   onBookChange,
   onChapterChange,
 }: ChapterNavigationButtonsProps) {
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const currentBook = bibleBooks.find(book => book.id === selectedBook)!;
   const currentBookIndex = bibleBooks.findIndex(book => book.id === selectedBook);
+
+  // Add scroll event handler
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollY;
+      
+      // Show navigation when scrolling up or at the top
+      if (currentScrollY < 10 || scrollDelta < 0) {
+        setIsVisible(true);
+      } 
+      // Hide navigation when scrolling down
+      else if (scrollDelta > 5) {
+        setIsVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const handlePreviousChapter = () => {
     if (selectedChapter > 1) {
@@ -84,23 +109,35 @@ export function ChapterNavigationButtons({
       </div>
 
       {/* Mobile Navigation */}
-      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 flex gap-12 md:hidden z-[60]">
-        <button
-          onClick={handlePreviousChapter}
-          disabled={!canGoPrevious}
-          className="p-2.5 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
-          aria-label="Previous chapter"
+      <div className="fixed left-1/2 -translate-x-1/2 flex gap-12 md:hidden z-[60] bottom-24">
+        <motion.div
+          className="flex items-center gap-12"
+          animate={{ y: isVisible ? 0 : 64 }}
+          transition={{ 
+            type: 'spring',
+            damping: 30,
+            stiffness: 300,
+            mass: 0.8
+          }}
         >
-          <ChevronLeft className="w-5.5 h-5.5" />
-        </button>
-        <button
-          onClick={handleNextChapter}
-          disabled={!canGoNext}
-          className="p-2.5 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
-          aria-label="Next chapter"
-        >
-          <ChevronRight className="w-5.5 h-5.5" />
-        </button>
+          <button
+            onClick={handlePreviousChapter}
+            disabled={!canGoPrevious}
+            className="p-2.5 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
+            aria-label="Previous chapter"
+          >
+            <ChevronLeft className="w-5.5 h-5.5" />
+          </button>
+
+          <button
+            onClick={handleNextChapter}
+            disabled={!canGoNext}
+            className="p-2.5 text-dark-300 hover:text-dark-100 bg-dark-800 hover:bg-dark-700 rounded-full transition-colors disabled:opacity-50 disabled:pointer-events-none shadow-lg"
+            aria-label="Next chapter"
+          >
+            <ChevronRight className="w-5.5 h-5.5" />
+          </button>
+        </motion.div>
       </div>
     </>
   );

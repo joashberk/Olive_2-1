@@ -66,6 +66,8 @@ function Notes() {
     const saved = localStorage.getItem('noteColumnView');
     return saved ? JSON.parse(saved) : false;
   });
+  const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
+  const [showUnsavedChangesDialog, setShowUnsavedChangesDialog] = useState(false);
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data: { user } }) => {
@@ -417,47 +419,103 @@ function Notes() {
     }
   };
 
-  const debouncedNote = useDebounce(editingNote, 1000);
-
-  useEffect(() => {
-    if (debouncedNote && isWriting) {
-      console.log('Attempting autosave:', debouncedNote);
-      setIsSaving(true);
-      updateNoteMutation.mutate({
-        id: debouncedNote.id,
-        title: debouncedNote.title,
-        content: debouncedNote.content,
-        notebook_id: debouncedNote.notebook_id
+  const handleSaveNote = () => {
+    if (!editingNote) return;
+    
+    console.log('Saving note:', {
+      noteId: editingNote.id,
+      hasUnsavedChanges,
+      isSaving: true
+    });
+    
+    setIsSaving(true);
+    
+    // Check if this is a new note or an existing note
+    const isNewNote = !notesData?.some(note => note.id === editingNote.id);
+    
+    if (isNewNote) {
+      createNoteMutation.mutate({
+        id: editingNote.id,
+        title: editingNote.title || '',
+        content: editingNote.content,
+        notebook_id: editingNote.notebook_id
       }, {
-        onSettled: () => {
+        onSuccess: () => {
+          console.log('Note created successfully:', {
+            noteId: editingNote.id,
+            hasUnsavedChanges: false
+          });
           setIsSaving(false);
+          setLastSaved(new Date());
+          setHasUnsavedChanges(false);
+          toast({
+            title: 'Note saved',
+            description: 'Your note has been saved successfully.',
+          });
+        },
+        onError: (error) => {
+          console.error('Error creating note:', {
+            error,
+            noteId: editingNote.id,
+            hasUnsavedChanges: true
+          });
+          setIsSaving(false);
+          toast({
+            title: 'Error saving note',
+            description: error instanceof Error ? error.message : 'Failed to save note',
+            variant: 'destructive',
+          });
         }
       });
-    }
-  }, [debouncedNote, isWriting]);
-
-  const handleNoteChange = (content: string) => {
-    if (editingNote) {
-      const updatedNote = { ...editingNote, content };
-      setEditingNote(updatedNote);
-      console.log('Note content updated:', updatedNote);
-    }
-  };
-
-  const handleSaveNote = () => {
-    if (editingNote) {
+    } else {
       updateNoteMutation.mutate({
         id: editingNote.id,
         title: editingNote.title,
         content: editingNote.content,
         notebook_id: editingNote.notebook_id
+      }, {
+        onSuccess: () => {
+          console.log('Note updated successfully:', {
+            noteId: editingNote.id,
+            hasUnsavedChanges: false
+          });
+          setIsSaving(false);
+          setLastSaved(new Date());
+          setHasUnsavedChanges(false);
+          toast({
+            title: 'Note saved',
+            description: 'Your note has been saved successfully.',
+          });
+        },
+        onError: (error) => {
+          console.error('Error updating note:', {
+            error,
+            noteId: editingNote.id,
+            hasUnsavedChanges: true
+          });
+          setIsSaving(false);
+          toast({
+            title: 'Error saving note',
+            description: error instanceof Error ? error.message : 'Failed to save note',
+            variant: 'destructive',
+          });
+        }
       });
     }
   };
 
-  useEffect(() => {
-    console.log('Current editingNote state:', editingNote);
-  }, [editingNote]);
+  const handleNoteChange = (content: string) => {
+    if (editingNote) {
+      console.log('Note content changed:', {
+        oldContent: editingNote.content,
+        newContent: content,
+        hasUnsavedChanges: true
+      });
+      const updatedNote = { ...editingNote, content };
+      setEditingNote(updatedNote);
+      setHasUnsavedChanges(true);
+    }
+  };
 
   const handleNewNote = () => {
     const newNote: Note = {
@@ -509,130 +567,63 @@ function Notes() {
 
   if (isWriting || editingNote) {
     return (
-      <div className="fixed inset-0 bg-dark-900 z-50">
+      <div className="fixed inset-0 bg-dark-900 z-[90]">
         {/* Top Navigation */}
         <div className="border-b border-dark-800">
-          {/* Mobile: Stacked rows, Desktop: Single row */}
-          <div className="md:h-[4rem] flex md:items-center px-4 md:px-8">
-            <div className="w-full max-w-4xl mx-auto">
-              {/* Upper Row (mobile) / Left Section (desktop) */}
-              <div className="flex flex-col md:flex-row md:items-center w-full gap-4">
-                <div className="h-14 md:h-auto flex items-center gap-4 border-b md:border-b-0 border-dark-800">
-                  <button
-                    onClick={() => {
-                      setIsWriting(false);
-                      setEditingNote(null);
-                    }}
-                    className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
-                  >
-                    <ArrowBack className="w-5 h-5" />
-                  </button>
-                  <div className="flex items-center gap-3">
-                    <span className="text-sm text-dark-400">
-                      {lastSaved ? `Last edited ${formatDistanceToNow(lastSaved, { addSuffix: true })}` : 'Not saved yet'}
-                    </span>
-                    {isSaving && (
-                      <span className="text-sm text-dark-400">Saving...</span>
-                    )}
-                  </div>
-                </div>
+          <div className="h-[4rem] flex items-center justify-between px-4 md:px-8 max-w-4xl mx-auto">
+            <div className="flex items-center gap-4">
+              <button
+                onClick={() => {
+                  setIsWriting(false);
+                  setEditingNote(null);
+                  setHasUnsavedChanges(false);
+                }}
+                className="px-3 py-1.5 text-sm text-dark-200 hover:text-dark-100 transition-colors"
+              >
+                Cancel
+              </button>
+            </div>
 
-                {/* Lower Row (mobile) / Right Section (desktop) */}
-                <div className="h-14 md:h-auto md:ml-auto flex items-center gap-2">
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => {
-                        const editorElement = document.querySelector('.ProseMirror');
-                        if (editorElement instanceof HTMLElement) {
-                          const editor = (editorElement as any)._tiptapEditor;
-                          if (editor && editor.can().undo()) {
-                            editor.commands.undo();
-                          }
-                        }
-                      }}
-                      className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
-                      title="Undo"
-                    >
-                      <Undo2 className="w-5 h-5" />
-                    </button>
-                    <button
-                      onClick={() => {
-                        const editorElement = document.querySelector('.ProseMirror');
-                        if (editorElement instanceof HTMLElement) {
-                          const editor = (editorElement as any)._tiptapEditor;
-                          if (editor && editor.can().redo()) {
-                            editor.commands.redo();
-                          }
-                        }
-                      }}
-                      className="p-2 text-dark-400 hover:text-dark-300 rounded-lg hover:bg-dark-800/50"
-                      title="Redo"
-                    >
-                      <Undo2 className="w-5 h-5 scale-x-[-1]" />
-                    </button>
-                  </div>
+            <div className="flex items-center gap-2">
+              {editingNote?.notebooks ? (
+                <button
+                  onClick={() => {
+                    setSelectedNoteForNotebook(editingNote);
+                    setShowNotebookSelect(true);
+                  }}
+                  className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors flex items-center gap-2"
+                >
+                  <Notebook className="w-4 h-4" />
+                  {editingNote.notebooks.name}
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    setSelectedNoteForNotebook(editingNote);
+                    setShowNotebookSelect(true);
+                  }}
+                  className="px-3 py-1.5 text-sm bg-dark-800 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors flex items-center gap-2"
+                >
+                  <Notebook className="w-4 h-4" />
+                  Add notebook
+                </button>
+              )}
+            </div>
 
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => setNoteToDelete(editingNote)}
-                      className="px-3 py-1.5 text-sm bg-dark-700/50 text-dark-300 rounded-lg hover:bg-red-900/30 hover:text-red-400 transition-colors flex items-center gap-1.5"
-                      title="Delete note"
-                    >
-                      <Trash2 className="w-3.5 h-3.5" />
-                      Delete
-                    </button>
-
-                    <div className="hidden md:block w-px h-5 bg-dark-700" />
-
-                    <div className="flex-1 flex items-center justify-end">
-                      {editingNote?.notebooks ? (
-                        <button
-                          onClick={() => {
-                            console.log('Notebook button clicked (has notebook):', {
-                              editingNote,
-                              currentNotebook: editingNote.notebooks
-                            });
-                            setSelectedNoteForNotebook(editingNote);
-                            setShowNotebookSelect(true);
-                            console.log('State after click:', {
-                              selectedNoteForNotebook: editingNote,
-                              showNotebookSelect: true,
-                              isWriting
-                            });
-                          }}
-                          className="px-3 py-1.5 text-sm bg-olive-900/30 text-olive-300 rounded-lg hover:bg-olive-900/50 transition-colors"
-                        >
-                          {editingNote.notebooks.name}
-                        </button>
-                      ) : (
-                        <button
-                          onClick={() => {
-                            console.log('Notebook button clicked (no notebook):', {
-                              editingNote
-                            });
-                            setSelectedNoteForNotebook(editingNote);
-                            setShowNotebookSelect(true);
-                            console.log('State after click:', {
-                              selectedNoteForNotebook: editingNote,
-                              showNotebookSelect: true,
-                              isWriting
-                            });
-                          }}
-                          className="px-3 py-1.5 text-sm bg-dark-800 text-dark-300 rounded-lg hover:bg-dark-700 transition-colors"
-                        >
-                          Add notebook
-                        </button>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handleSaveNote}
+                disabled={isSaving}
+                className="px-3 py-1.5 text-sm bg-dark-800 text-dark-200 rounded-lg hover:bg-dark-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isSaving ? 'Saving...' : 'Save'}
+              </button>
             </div>
           </div>
         </div>
 
         {/* Editor Content */}
-        <div className="h-[calc(100vh-4rem)] overflow-y-auto">
+        <div className="h-[calc(100vh-4rem)] overflow-y-auto pb-[80px] md:pb-0">
           <div className="max-w-4xl mx-auto px-4 md:px-8 py-12">
             <div className="prose prose-invert max-w-none">
               <textarea
@@ -727,14 +718,7 @@ function Notes() {
             }}
             notebooks={notebooks || []}
             selectedNotebookId={selectedNoteForNotebook?.notebook_id || null}
-            onSelect={(notebookId) => {
-              console.log('NotebookSelectDialog onSelect:', {
-                notebookId,
-                selectedNoteForNotebook,
-                isWriting
-              });
-              handleNotebookSelect(notebookId);
-            }}
+            onSelect={handleNotebookSelect}
           />
         </div>
       </div>
@@ -742,7 +726,7 @@ function Notes() {
   }
 
   return (
-    <div className="fixed top-0 md:top-[4rem] inset-x-0 bottom-0 flex flex-col bg-dark-900">
+    <div className="fixed top-0 md:top-[4rem] inset-x-0 bottom-0 flex flex-col bg-dark-900 overflow-hidden z-[0]">
       <div className="flex-1 overflow-hidden">
         <div className="h-full flex flex-col md:flex-row max-w-[100rem] mx-auto">
           <div className="hidden md:flex flex-col min-w-[16rem] max-w-fit border-r border-dark-800">

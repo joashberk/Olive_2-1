@@ -1,6 +1,6 @@
 import { bibleBooks } from '@/data/bibleBooks';
 import { loadBook } from '@/lib/loadBook';
-import type { BibleVerse, BibleChapter } from '@/lib/types';
+import type { BibleVerse, BibleChapter, Word } from '@/lib/types';
 import BibleStorage from './BibleStorage';
 
 // Helper function to format verse references
@@ -18,10 +18,40 @@ function formatVerseReference(bookId: string, chapter: number, verse: number): s
   }
 }
 
+// Helper function to extract Strong's numbers from KJV text
+function extractStrongsFromKJV(text: string): { text: string, words: Word[] } {
+  // Regular expression to match Strong's numbers in the text
+  const regex = /\{([HG][0-9]+)\}|\{(\([HG]8[0-9]+\))\}/g;
+  
+  // Clean the text by removing Strong's numbers
+  const cleanText = text.replace(regex, '');
+  
+  // Extract word-Strong's pairs
+  const words: Word[] = [];
+  let match;
+  let lastIndex = 0;
+  const wordRegex = /(\w+)\{([HG][0-9]+)\}/g;
+  
+  // Simplified matching just for demonstration
+  // In a real implementation, you would need more sophisticated logic
+  // to match words with their Strong's numbers
+  while ((match = wordRegex.exec(text)) !== null) {
+    words.push({
+      word: match[1],
+      strong: match[2]
+    });
+  }
+  
+  return {
+    text: cleanText,
+    words
+  };
+}
+
 const memoryCache = new Map<string, BibleChapter>();
 
-export async function fetchChapter(bookId: string, chapter: number): Promise<BibleChapter> {
-  const cacheKey = `${bookId}-${chapter}`;
+export async function fetchChapter(bookId: string, chapter: number, includeStrongs: boolean = false): Promise<BibleChapter> {
+  const cacheKey = `${bookId}-${chapter}-${includeStrongs}`;
   
   // Check memory cache first
   if (memoryCache.has(cacheKey)) {
@@ -36,16 +66,33 @@ export async function fetchChapter(bookId: string, chapter: number): Promise<Bib
     }
 
     const chapterData = bookData.chapters[chapter - 1];
+    const translation = localStorage.getItem('selectedTranslation') || 'web';
+    
     const formattedChapter: BibleChapter = {
       bookId,
       chapter,
       reference: `${bookData.name} ${chapter}`,
-      verses: chapterData.verses.map(verse => ({
-        verse: verse.verse,
-        text: verse.text,
-        reference: formatVerseReference(bookId, chapter, verse.verse),
-        words: verse.words || []
-      }))
+      verses: chapterData.verses.map(verse => {
+        let text = verse.text;
+        let words = verse.words || [];
+        
+        // For KJV, extract Strong's numbers if they exist
+        if (translation === 'kjv' && text.includes('{')) {
+          const processed = extractStrongsFromKJV(text);
+          text = processed.text;
+          // Only add words if we have Strong's data and includeStrongs is true
+          if (includeStrongs && processed.words.length > 0) {
+            words = processed.words;
+          }
+        }
+        
+        return {
+          verse: verse.verse,
+          text: text,
+          reference: formatVerseReference(bookId, chapter, verse.verse),
+          words: includeStrongs ? words : []
+        };
+      })
     };
 
     // Save to memory cache

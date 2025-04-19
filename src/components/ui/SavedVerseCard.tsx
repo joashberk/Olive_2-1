@@ -23,7 +23,7 @@ export interface SavedVerse {
   display_reference: string;
   themes: string[];
   created_at: string;
-  translation: 'asv' | 'web';
+  translation: 'asv' | 'web' | 'kjv';
 }
 
 interface SavedVerseCardProps {

@@ -41,7 +41,7 @@ export interface UserSavedVerse {
   verse_selections: VerseSelection[];
   verse_text: string;
   display_reference: string;
-  translation: 'asv' | 'web';
+  translation: 'asv' | 'web' | 'kjv';
   is_composite: boolean;
   themes: string[];
   created_at: string;
@@ -101,5 +101,5 @@ export interface SavedVerse {
   updated_at?: string;
   click_count?: number;
   last_accessed?: string | null;
-  translation: 'asv' | 'web';
+  translation: 'asv' | 'web' | 'kjv';
 }

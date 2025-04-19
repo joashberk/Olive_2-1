@@ -24,11 +24,12 @@ export function ChapterNavigation({
   const [showNavigation, setShowNavigation] = useState(false);
   const currentBook = bibleBooks.find(book => book.id === selectedBook)!;
   const queryClient = useQueryClient();
-  const [translation, setTranslation] = useState<'asv' | 'web'>(() => {
-    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
+  const [translation, setTranslation] = useState<'asv' | 'web' | 'kjv'>(() => {
+    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' | 'kjv' || 'web';
   });
 
-  const handleTranslationChange = async (newTranslation: 'asv' | 'web') => {
+  const handleTranslationChange = async (newTranslation: 'asv' | 'web' | 'kjv') => {
+    console.log('Translation change requested:', newTranslation);
     // Update localStorage
     localStorage.setItem('selectedTranslation', newTranslation);
     
@@ -67,7 +68,7 @@ export function ChapterNavigation({
                 className="px-3 py-1.5 text-sm bg-dark-800/50 text-dark-300 rounded-lg hover:bg-dark-800 transition-colors"
               >
                 {translation.toUpperCase()}
-                <span className="sr-only">Current translation: {translation === 'asv' ? 'American Standard Version' : 'World English Bible'}</span>
+                <span className="sr-only">Current translation: {translation === 'asv' ? 'American Standard Version' : translation === 'kjv' ? 'King James Version' : 'World English Bible'}</span>
               </button>
             </DropdownMenu.Trigger>
             
@@ -86,7 +87,7 @@ export function ChapterNavigation({
                       flex flex-col px-3 py-2 outline-none cursor-pointer rounded-md
                       ${translation === t.id ? 'bg-olive-900/20 text-olive-300' : 'text-dark-200 hover:bg-dark-700'}
                     `}
-                    onClick={() => handleTranslationChange(t.id as 'asv' | 'web')}
+                    onClick={() => handleTranslationChange(t.id as 'asv' | 'web' | 'kjv')}
                   >
                     <span className="font-medium">{t.name}</span>
                     <span className="text-xs opacity-75">{t.description}</span>

@@ -19,6 +19,6 @@ BEGIN
     -- Add constraint to ensure valid translations
     ALTER TABLE user_saved_verses 
     ADD CONSTRAINT valid_translation 
-    CHECK (translation IN ('asv', 'web'));
+    CHECK (translation IN ('asv', 'web', 'kjv'));
   END IF;
 END $$; 

@@ -48,7 +48,7 @@ function Navigation() {
   }
 
   return (
-    <nav className={`bg-dark-900 sticky top-0 z-50 ${
+    <nav className={`bg-dark-900 overflow-visible relative ${
       location.pathname === '/' || location.pathname.startsWith('/read') || /^\/[a-z]+\/\d+$/.test(location.pathname)
         ? 'border-b border-dark-800'
         : ''

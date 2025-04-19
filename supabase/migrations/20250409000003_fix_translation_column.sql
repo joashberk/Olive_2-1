@@ -20,10 +20,14 @@ DROP COLUMN IF EXISTS translation CASCADE;
 ALTER TABLE user_saved_verses 
 ADD COLUMN translation text NOT NULL DEFAULT 'web';
 
--- Add constraint to ensure valid translations
+-- Drop existing constraint
+ALTER TABLE user_saved_verses 
+DROP CONSTRAINT IF EXISTS valid_translation;
+
+-- Add updated constraint with 'kjv' included
 ALTER TABLE user_saved_verses 
 ADD CONSTRAINT valid_translation 
-CHECK (translation IN ('asv', 'web'));
+CHECK (translation IN ('asv', 'web', 'kjv'));
 
 -- Restore translation values
 UPDATE user_saved_verses

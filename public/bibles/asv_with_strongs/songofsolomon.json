@@ -1,0 +1,5159 @@
+{
+  "name": "Song of Solomon",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "The Song of songs, which is Solomon’s.",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "Song",
+              "strong": "H7892"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "songs",
+              "strong": "H7892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "Solomon",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Let him kiss me with the kisses of his mouth;",
+          "words": [
+            {
+              "word": "Let",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": "kiss",
+              "strong": "H5401"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "kisses",
+              "strong": "H5390"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "mouth",
+              "strong": "H6310"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Thine oils have a goodly fragrance;",
+          "words": [
+            {
+              "word": "Thine",
+              "strong": null
+            },
+            {
+              "word": "oils",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "goodly",
+              "strong": null
+            },
+            {
+              "word": "fragrance",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Draw me; we will run after thee:",
+          "words": [
+            {
+              "word": "Draw",
+              "strong": "H4900"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "run",
+              "strong": "H7323"
+            },
+            {
+              "word": "after",
+              "strong": "H310"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I am black, but comely,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "black",
+              "strong": "H7838"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "comely",
+              "strong": "H5000"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Look not upon me, because I am swarthy,",
+          "words": [
+            {
+              "word": "Look",
+              "strong": "H7200"
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "because",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "swarthy",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Tell me, O thou whom my soul loveth,",
+          "words": [
+            {
+              "word": "Tell",
+              "strong": "H5046"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "whom",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "soul",
+              "strong": "H5315"
+            },
+            {
+              "word": "loveth",
+              "strong": "H157"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "If thou know not, O thou fairest among women,",
+          "words": [
+            {
+              "word": "If",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "know",
+              "strong": "H3045"
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "fairest",
+              "strong": "H3303"
+            },
+            {
+              "word": "among",
+              "strong": null
+            },
+            {
+              "word": "women",
+              "strong": "H802"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "I have compared thee, O my love,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "compared",
+              "strong": "H1819"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "H7474"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "Thy cheeks are comely with plaits of hair,",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "cheeks",
+              "strong": "H3895"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "comely",
+              "strong": "H4998"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "plaits",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "hair",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "We will make thee plaits of gold",
+          "words": [
+            {
+              "word": "We",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "make",
+              "strong": "H6213"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "plaits",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "gold",
+              "strong": "H2091"
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "While the king sat at his table,",
+          "words": [
+            {
+              "word": "While",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "king",
+              "strong": "H4428"
+            },
+            {
+              "word": "sat",
+              "strong": null
+            },
+            {
+              "word": "at",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "table",
+              "strong": "H4524"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "My beloved is unto me as a bundle of myrrh,",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "bundle",
+              "strong": "H6872"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "myrrh",
+              "strong": "H4753"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "My beloved is unto me as a cluster of henna-flowers",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "cluster",
+              "strong": "H811"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "henna",
+              "strong": null
+            },
+            {
+              "word": "flowers",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Behold, thou art fair, my love;",
+          "words": [
+            {
+              "word": "Behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": "H3303"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "H7474"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "Behold, thou art fair, my beloved, yea, pleasant:",
+          "words": [
+            {
+              "word": "Behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "yea",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "pleasant",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "The beams of our house are cedars,",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "beams",
+              "strong": "H6982"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "our",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "cedars",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I am a rose of Sharon,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "rose",
+              "strong": "H2261"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Sharon",
+              "strong": "H8289"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "As a lily among thorns,",
+          "words": [
+            {
+              "word": "As",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "lily",
+              "strong": "H7799"
+            },
+            {
+              "word": "among",
+              "strong": null
+            },
+            {
+              "word": "thorns",
+              "strong": "H2336"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "As the apple-tree among the trees of the wood,",
+          "words": [
+            {
+              "word": "As",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "apple",
+              "strong": null
+            },
+            {
+              "word": "tree",
+              "strong": "H8598"
+            },
+            {
+              "word": "among",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "trees",
+              "strong": "H6086"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "wood",
+              "strong": "H3293"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He brought me to the banqueting-house,",
+          "words": [
+            {
+              "word": "He",
+              "strong": null
+            },
+            {
+              "word": "brought",
+              "strong": "H935"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "banqueting",
+              "strong": "H3196"
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Stay ye me with raisins, refresh me with apples;",
+          "words": [
+            {
+              "word": "Stay",
+              "strong": "H5564"
+            },
+            {
+              "word": "ye",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "raisins",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "refresh",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "apples",
+              "strong": "H8598"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "His left hand is under my head,",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "left",
+              "strong": null
+            },
+            {
+              "word": "hand",
+              "strong": "H8040"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "under",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "head",
+              "strong": "H7218"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "I adjure you, O daughters of Jerusalem,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "adjure",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "daughters",
+              "strong": "H1323"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jerusalem",
+              "strong": "H3389"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The voice of my beloved! behold, he cometh,",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "voice",
+              "strong": "H6963"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "!",
+              "strong": null
+            },
+            {
+              "word": "behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "cometh",
+              "strong": "H935"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "My beloved is like a roe or a young hart:",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": "H1819"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "roe",
+              "strong": "H6643"
+            },
+            {
+              "word": "or",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "young",
+              "strong": "H6082"
+            },
+            {
+              "word": "hart",
+              "strong": "H354"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "My beloved spake, and said unto me,",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "spake",
+              "strong": "H6030"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "For, lo, the winter is past;",
+          "words": [
+            {
+              "word": "For",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "lo",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "winter",
+              "strong": "H5638"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "past",
+              "strong": "H5674"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "The flowers appear on the earth;",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "flowers",
+              "strong": "H5339"
+            },
+            {
+              "word": "appear",
+              "strong": "H7200"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "earth",
+              "strong": "H776"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "The fig-tree ripeneth her green figs,",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "fig",
+              "strong": null
+            },
+            {
+              "word": "tree",
+              "strong": "H8384"
+            },
+            {
+              "word": "ripeneth",
+              "strong": null
+            },
+            {
+              "word": "her",
+              "strong": null
+            },
+            {
+              "word": "green",
+              "strong": null
+            },
+            {
+              "word": "figs",
+              "strong": "H6291"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "O my dove, that art in the clefts of the rock,",
+          "words": [
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "dove",
+              "strong": "H3123"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "clefts",
+              "strong": "H2288"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "rock",
+              "strong": "H5553"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Take us the foxes, the little foxes,",
+          "words": [
+            {
+              "word": "Take",
+              "strong": "H270"
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "foxes",
+              "strong": "H7776"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "little",
+              "strong": "H6996"
+            },
+            {
+              "word": "foxes",
+              "strong": "H7776"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "My beloved is mine, and I am his:",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "Until the day be cool, and the shadows flee away,",
+          "words": [
+            {
+              "word": "Until",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "cool",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "shadows",
+              "strong": "H6752"
+            },
+            {
+              "word": "flee",
+              "strong": null
+            },
+            {
+              "word": "away",
+              "strong": "H5127"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "By night on my bed",
+          "words": [
+            {
+              "word": "By",
+              "strong": null
+            },
+            {
+              "word": "night",
+              "strong": "H3915"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bed",
+              "strong": "H4904"
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I said, I will rise now, and go about the city;",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "rise",
+              "strong": "H6965"
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": null
+            },
+            {
+              "word": "about",
+              "strong": "H5437"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "The watchmen that go about the city found me;",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "watchmen",
+              "strong": "H8104"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": null
+            },
+            {
+              "word": "about",
+              "strong": "H5437"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": "found",
+              "strong": "H4672"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "It was but a little that I passed from them,",
+          "words": [
+            {
+              "word": "It",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "little",
+              "strong": "H4592"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "passed",
+              "strong": "H5674"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I adjure you, O daughters of Jerusalem,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "adjure",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "daughters",
+              "strong": "H1323"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jerusalem",
+              "strong": "H3389"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Who is this that cometh up from the wilderness",
+          "words": [
+            {
+              "word": "Who",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "cometh",
+              "strong": "H5927"
+            },
+            {
+              "word": "up",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "wilderness",
+              "strong": "H4057"
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Behold, it is the litter of Solomon;",
+          "words": [
+            {
+              "word": "Behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "litter",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Solomon",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "They all handle the sword, and are expert in war:",
+          "words": [
+            {
+              "word": "They",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "handle",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sword",
+              "strong": "H2719"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "expert",
+              "strong": "H3925"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "war",
+              "strong": "H4421"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "King Solomon made himself a palanquin",
+          "words": [
+            {
+              "word": "King",
+              "strong": "H4428"
+            },
+            {
+              "word": "Solomon",
+              "strong": "H8010"
+            },
+            {
+              "word": "made",
+              "strong": "H6213"
+            },
+            {
+              "word": "himself",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "palanquin",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "He made the pillars thereof of silver,",
+          "words": [
+            {
+              "word": "He",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": "H6213"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "pillars",
+              "strong": "H5982"
+            },
+            {
+              "word": "thereof",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "silver",
+              "strong": "H3701"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Go forth, O ye daughters of Zion, and behold king Solomon,",
+          "words": [
+            {
+              "word": "Go",
+              "strong": null
+            },
+            {
+              "word": "forth",
+              "strong": "H3318"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "ye",
+              "strong": null
+            },
+            {
+              "word": "daughters",
+              "strong": "H1323"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Zion",
+              "strong": "H6726"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "behold",
+              "strong": "H7200"
+            },
+            {
+              "word": "king",
+              "strong": "H4428"
+            },
+            {
+              "word": "Solomon",
+              "strong": "H8010"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Behold, thou art fair, my love; behold, thou art fair;",
+          "words": [
+            {
+              "word": "Behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": "H3303"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "H7474"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": "H3303"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Thy teeth are like a flock of ewes that are newly shorn,",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "teeth",
+              "strong": "H8127"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "flock",
+              "strong": "H5739"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "ewes",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "newly",
+              "strong": null
+            },
+            {
+              "word": "shorn",
+              "strong": "H7094"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Thy lips are like a thread of scarlet,",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "lips",
+              "strong": "H8193"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "thread",
+              "strong": "H2339"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "scarlet",
+              "strong": "H8144"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Thy neck is like the tower of David",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "neck",
+              "strong": "H6677"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "tower",
+              "strong": "H4026"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "David",
+              "strong": "H1732"
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Thy two breasts are like two fawns",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "two",
+              "strong": "H8147"
+            },
+            {
+              "word": "breasts",
+              "strong": "H7699"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "two",
+              "strong": "H8147"
+            },
+            {
+              "word": "fawns",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Until the day be cool, and the shadows flee away,",
+          "words": [
+            {
+              "word": "Until",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "cool",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "shadows",
+              "strong": "H6752"
+            },
+            {
+              "word": "flee",
+              "strong": null
+            },
+            {
+              "word": "away",
+              "strong": "H5127"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Thou art all fair, my love;",
+          "words": [
+            {
+              "word": "Thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": "H3303"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "H7474"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Come with me from Lebanon, my bride,",
+          "words": [
+            {
+              "word": "Come",
+              "strong": "H935"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "Lebanon",
+              "strong": "H3844"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bride",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Thou hast ravished my heart, my sister, my bride;",
+          "words": [
+            {
+              "word": "Thou",
+              "strong": null
+            },
+            {
+              "word": "hast",
+              "strong": null
+            },
+            {
+              "word": "ravished",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "heart",
+              "strong": "H3823"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "sister",
+              "strong": "H269"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bride",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "How fair is thy love, my sister, my bride!",
+          "words": [
+            {
+              "word": "How",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": "H3302"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "H1730"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "sister",
+              "strong": "H269"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bride",
+              "strong": null
+            },
+            {
+              "word": "!",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Thy lips, O my bride, drop as the honeycomb:",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "lips",
+              "strong": "H8193"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bride",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "drop",
+              "strong": "H5197"
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "honeycomb",
+              "strong": "H5317"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "A garden shut up is my sister, my bride;",
+          "words": [
+            {
+              "word": "A",
+              "strong": null
+            },
+            {
+              "word": "garden",
+              "strong": "H1588"
+            },
+            {
+              "word": "shut",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5274"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "sister",
+              "strong": "H269"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bride",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Thy shoots are an orchard of pomegranates, with precious fruits;",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "shoots",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "an",
+              "strong": null
+            },
+            {
+              "word": "orchard",
+              "strong": "H6508"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "pomegranates",
+              "strong": "H7416"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "precious",
+              "strong": null
+            },
+            {
+              "word": "fruits",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Spikenard and saffron,",
+          "words": [
+            {
+              "word": "Spikenard",
+              "strong": "H5373"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "saffron",
+              "strong": "H3750"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Thou art a fountain of gardens,",
+          "words": [
+            {
+              "word": "Thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "fountain",
+              "strong": "H4599"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "gardens",
+              "strong": "H1588"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "Awake, O north wind; and come, thou south;",
+          "words": [
+            {
+              "word": "Awake",
+              "strong": "H5782"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "north",
+              "strong": null
+            },
+            {
+              "word": "wind",
+              "strong": "H6828"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": "H935"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "south",
+              "strong": "H8486"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "I am come into my garden, my sister, my bride:",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": "H935"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "garden",
+              "strong": "H1588"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "sister",
+              "strong": "H269"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "bride",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I was asleep, but my heart waked:",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "asleep",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "heart",
+              "strong": "H3820"
+            },
+            {
+              "word": "waked",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I have put off my garment; how shall I put it on?",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "put",
+              "strong": null
+            },
+            {
+              "word": "off",
+              "strong": "H6584"
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "garment",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "how",
+              "strong": "H349"
+            },
+            {
+              "word": "shall",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "put",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": "H3847"
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "My beloved put in his hand by the hole of the door,",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "put",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "H7971"
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "hand",
+              "strong": "H3027"
+            },
+            {
+              "word": "by",
+              "strong": "H4480"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "hole",
+              "strong": "H2356"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "door",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "I rose up to open to my beloved;",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "rose",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H6965"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "open",
+              "strong": "H6605"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "I opened to my beloved;",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "opened",
+              "strong": "H6605"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "The watchmen that go about the city found me,",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "watchmen",
+              "strong": "H8104"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": null
+            },
+            {
+              "word": "about",
+              "strong": "H5437"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": "found",
+              "strong": "H4672"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "I adjure you, O daughters of Jerusalem,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "adjure",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "daughters",
+              "strong": "H1323"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jerusalem",
+              "strong": "H3389"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "What is thy beloved more than another beloved,",
+          "words": [
+            {
+              "word": "What",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "more",
+              "strong": null
+            },
+            {
+              "word": "than",
+              "strong": null
+            },
+            {
+              "word": "another",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "My beloved is white and ruddy,",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "white",
+              "strong": "H6703"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "ruddy",
+              "strong": "H122"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "His head is as the most fine gold;",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "head",
+              "strong": "H7218"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "most",
+              "strong": "H3800"
+            },
+            {
+              "word": "fine",
+              "strong": null
+            },
+            {
+              "word": "gold",
+              "strong": "H6337"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "His eyes are like doves beside the water-brooks,",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "eyes",
+              "strong": "H5869"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "doves",
+              "strong": "H3123"
+            },
+            {
+              "word": "beside",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "water",
+              "strong": null
+            },
+            {
+              "word": "brooks",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "His cheeks are as a bed of spices,",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "cheeks",
+              "strong": "H3895"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "bed",
+              "strong": "H6170"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "spices",
+              "strong": "H1314"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "His hands are as rings of gold set with beryl:",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "hands",
+              "strong": "H3027"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "rings",
+              "strong": "H1550"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "gold",
+              "strong": "H2091"
+            },
+            {
+              "word": "set",
+              "strong": "H4390"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "beryl",
+              "strong": "H8658"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "His legs are as pillars of marble, set upon sockets of fine gold:",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "legs",
+              "strong": "H7785"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "pillars",
+              "strong": "H5982"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "marble",
+              "strong": "H8336"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "set",
+              "strong": "H3245"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "sockets",
+              "strong": "H134"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "fine",
+              "strong": null
+            },
+            {
+              "word": "gold",
+              "strong": "H6337"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "His mouth is most sweet;",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "mouth",
+              "strong": "H2441"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "most",
+              "strong": null
+            },
+            {
+              "word": "sweet",
+              "strong": "H4477"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Whither is thy beloved gone,",
+          "words": [
+            {
+              "word": "Whither",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "gone",
+              "strong": "H1980"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "My beloved is gone down to his garden,",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "gone",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": "H3381"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "garden",
+              "strong": "H1588"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I am my beloved’s, and my beloved is mine:",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Thou art fair, O my love, as Tirzah,",
+          "words": [
+            {
+              "word": "Thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "love",
+              "strong": "H7474"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "Tirzah",
+              "strong": "H8656"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Turn away thine eyes from me,",
+          "words": [
+            {
+              "word": "Turn",
+              "strong": null
+            },
+            {
+              "word": "away",
+              "strong": "H5437"
+            },
+            {
+              "word": "thine",
+              "strong": null
+            },
+            {
+              "word": "eyes",
+              "strong": "H5869"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Thy teeth are like a flock of ewes,",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "teeth",
+              "strong": "H8127"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "flock",
+              "strong": "H5739"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "ewes",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Thy temples are like a piece of a pomegranate",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "temples",
+              "strong": "H7541"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "piece",
+              "strong": "H6400"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "pomegranate",
+              "strong": "H7416"
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "There are threescore queens, and fourscore concubines,",
+          "words": [
+            {
+              "word": "There",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "threescore",
+              "strong": "H8346"
+            },
+            {
+              "word": "queens",
+              "strong": "H4436"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "fourscore",
+              "strong": null
+            },
+            {
+              "word": "concubines",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "My dove, my undefiled, is but one;",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "dove",
+              "strong": "H3123"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "undefiled",
+              "strong": "H8535"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": "H259"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "Who is she that looketh forth as the morning,",
+          "words": [
+            {
+              "word": "Who",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "she",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "looketh",
+              "strong": null
+            },
+            {
+              "word": "forth",
+              "strong": "H8259"
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "morning",
+              "strong": "H7837"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "I went down into the garden of nuts,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "went",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": "H3381"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "garden",
+              "strong": "H1594"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "nuts",
+              "strong": "H93"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Before I was aware, my soul set me",
+          "words": [
+            {
+              "word": "Before",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "aware",
+              "strong": "H3045"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "soul",
+              "strong": "H5315"
+            },
+            {
+              "word": "set",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Return, return, O Shulammite;",
+          "words": [
+            {
+              "word": "Return",
+              "strong": "H7725"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "return",
+              "strong": "H7725"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "Shulammite",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "How beautiful are thy feet in sandals, O prince’s daughter!",
+          "words": [
+            {
+              "word": "How",
+              "strong": null
+            },
+            {
+              "word": "beautiful",
+              "strong": "H3302"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "feet",
+              "strong": "H6471"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "sandals",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "prince",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "daughter",
+              "strong": "H1323"
+            },
+            {
+              "word": "!",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Thy body is like a round goblet,",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "body",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "round",
+              "strong": "H5469"
+            },
+            {
+              "word": "goblet",
+              "strong": "H101"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Thy two breasts are like two fawns",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "two",
+              "strong": "H8147"
+            },
+            {
+              "word": "breasts",
+              "strong": "H7699"
+            },
+            {
+              "word": "are",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "two",
+              "strong": "H8147"
+            },
+            {
+              "word": "fawns",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Thy neck is like the tower of ivory;",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "neck",
+              "strong": "H6677"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "tower",
+              "strong": "H4026"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "ivory",
+              "strong": "H8127"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Thy head upon thee is like Carmel,",
+          "words": [
+            {
+              "word": "Thy",
+              "strong": null
+            },
+            {
+              "word": "head",
+              "strong": "H7218"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "Carmel",
+              "strong": "H3760"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "How fair and how pleasant art thou,",
+          "words": [
+            {
+              "word": "How",
+              "strong": null
+            },
+            {
+              "word": "fair",
+              "strong": "H3302"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "how",
+              "strong": null
+            },
+            {
+              "word": "pleasant",
+              "strong": "H5276"
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "This thy stature is like to a palm-tree,",
+          "words": [
+            {
+              "word": "This",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "stature",
+              "strong": "H6967"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": "H1819"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "palm",
+              "strong": null
+            },
+            {
+              "word": "tree",
+              "strong": "H8558"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "I said, I will climb up into the palm-tree,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "climb",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5927"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "palm",
+              "strong": null
+            },
+            {
+              "word": "tree",
+              "strong": "H8558"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "And thy mouth like the best wine,",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "mouth",
+              "strong": "H2441"
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "best",
+              "strong": "H2896"
+            },
+            {
+              "word": "wine",
+              "strong": "H3196"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "I am my beloved’s;",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Come, my beloved, let us go forth into the field;",
+          "words": [
+            {
+              "word": "Come",
+              "strong": "H3212"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": null
+            },
+            {
+              "word": "forth",
+              "strong": "H3318"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "field",
+              "strong": "H7704"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Let us get up early to the vineyards;",
+          "words": [
+            {
+              "word": "Let",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "get",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": null
+            },
+            {
+              "word": "early",
+              "strong": "H7925"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "vineyards",
+              "strong": "H3754"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "The mandrakes give forth fragrance;",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "mandrakes",
+              "strong": "H1736"
+            },
+            {
+              "word": "give",
+              "strong": "H5414"
+            },
+            {
+              "word": "forth",
+              "strong": null
+            },
+            {
+              "word": "fragrance",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Oh that thou wert as my brother,",
+          "words": [
+            {
+              "word": "Oh",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "H5414"
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "wert",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "brother",
+              "strong": "H251"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "I would lead thee, and bring thee into my mother’s house,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "would",
+              "strong": null
+            },
+            {
+              "word": "lead",
+              "strong": "H5090"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "bring",
+              "strong": "H935"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "mother",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "His left hand should be under my head,",
+          "words": [
+            {
+              "word": "His",
+              "strong": null
+            },
+            {
+              "word": "left",
+              "strong": null
+            },
+            {
+              "word": "hand",
+              "strong": "H8040"
+            },
+            {
+              "word": "should",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "under",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "head",
+              "strong": "H7218"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I adjure you, O daughters of Jerusalem,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "adjure",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "daughters",
+              "strong": "H1323"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jerusalem",
+              "strong": "H3389"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Who is this that cometh up from the wilderness,",
+          "words": [
+            {
+              "word": "Who",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "cometh",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5927"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "wilderness",
+              "strong": "H4057"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Set me as a seal upon thy heart,",
+          "words": [
+            {
+              "word": "Set",
+              "strong": "H7760"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "seal",
+              "strong": "H2368"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "heart",
+              "strong": "H3820"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Many waters cannot quench love,",
+          "words": [
+            {
+              "word": "Many",
+              "strong": "H7227"
+            },
+            {
+              "word": "waters",
+              "strong": "H4325"
+            },
+            {
+              "word": "cannot",
+              "strong": "H3201"
+            },
+            {
+              "word": "quench",
+              "strong": "H3518"
+            },
+            {
+              "word": "love",
+              "strong": "H160"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "We have a little sister,",
+          "words": [
+            {
+              "word": "We",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "little",
+              "strong": "H6996"
+            },
+            {
+              "word": "sister",
+              "strong": "H269"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "If she be a wall,",
+          "words": [
+            {
+              "word": "If",
+              "strong": null
+            },
+            {
+              "word": "she",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "wall",
+              "strong": "H2346"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "I am a wall, and my breasts like the towers thereof",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "wall",
+              "strong": "H2346"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "breasts",
+              "strong": "H7699"
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "towers",
+              "strong": "H4026"
+            },
+            {
+              "word": "thereof",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Solomon had a vineyard at Baal-hamon;",
+          "words": [
+            {
+              "word": "Solomon",
+              "strong": "H8010"
+            },
+            {
+              "word": "had",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "vineyard",
+              "strong": "H3754"
+            },
+            {
+              "word": "at",
+              "strong": null
+            },
+            {
+              "word": "Baal",
+              "strong": null
+            },
+            {
+              "word": "hamon",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "My vineyard, which is mine, is before me:",
+          "words": [
+            {
+              "word": "My",
+              "strong": null
+            },
+            {
+              "word": "vineyard",
+              "strong": "H3754"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "before",
+              "strong": "H6440"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Thou that dwellest in the gardens,",
+          "words": [
+            {
+              "word": "Thou",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "dwellest",
+              "strong": "H3427"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gardens",
+              "strong": "H1588"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Make haste, my beloved,",
+          "words": [
+            {
+              "word": "Make",
+              "strong": null
+            },
+            {
+              "word": "haste",
+              "strong": "H1272"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "beloved",
+              "strong": "H1730"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

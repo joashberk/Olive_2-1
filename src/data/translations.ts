@@ -13,6 +13,12 @@ export const translations: BibleTranslation[] = [
     hasStrongs: false
   },
   {
+    id: 'kjv',
+    name: 'King James Version',
+    description: 'The classic 1611 English translation with Strong\'s numbers.',
+    hasStrongs: true
+  },
+  {
     id: 'asv',
     name: 'American Standard Version',
     description: 'A literal translation of the Bible published in 1901.',

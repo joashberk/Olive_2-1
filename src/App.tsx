@@ -115,7 +115,7 @@ function AppContent() {
     <>
       <Welcome />
       <div className="min-h-screen bg-dark-900">
-        <div className="sticky top-0 z-50 bg-dark-900 border-b border-dark-800">
+        <div className="bg-dark-900 border-b border-dark-800 z-50">
           <Navigation />
         </div>
         <main className={`

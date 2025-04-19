@@ -1,0 +1,2216 @@
+{
+  "name": "Philemon",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Paul, a prisoner of Christ Jesus, and Timothy our brother, to Philemon our beloved and fellow-worker,",
+          "words": [
+            {
+              "word": "Paul",
+              "strong": "G3972"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "prisoner",
+              "strong": "G1198"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "Timothy",
+              "strong": "G5095"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "brother",
+              "strong": "G80"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Philemon",
+              "strong": "G5371"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "beloved",
+              "strong": "G27"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "fellow",
+              "strong": null
+            },
+            {
+              "word": "worker",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "and to Apphia our sister, and to Archippus our fellow-soldier, and to the church in thy house:",
+          "words": [
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Apphia",
+              "strong": "G682"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "sister",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Archippus",
+              "strong": "G751"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "fellow",
+              "strong": null
+            },
+            {
+              "word": "soldier",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "church",
+              "strong": "G1577"
+            },
+            {
+              "word": "in",
+              "strong": "G2596"
+            },
+            {
+              "word": "thy",
+              "strong": "G4675"
+            },
+            {
+              "word": "house",
+              "strong": "G3624"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "words": [
+            {
+              "word": "Grace",
+              "strong": "G5485"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": "G5213"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "peace",
+              "strong": "G1515"
+            },
+            {
+              "word": "from",
+              "strong": "G575"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "Father",
+              "strong": "G3962"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "Lord",
+              "strong": "G2962"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I thank my God always, making mention of thee in my prayers,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "thank",
+              "strong": "G2168"
+            },
+            {
+              "word": "my",
+              "strong": "G3450"
+            },
+            {
+              "word": "God",
+              "strong": "G2316"
+            },
+            {
+              "word": "always",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "making",
+              "strong": null
+            },
+            {
+              "word": "mention",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "prayers",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "hearing of thy love, and of the faith which thou hast toward the Lord Jesus, and toward all the saints;",
+          "words": [
+            {
+              "word": "hearing",
+              "strong": "G191"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": "G4675"
+            },
+            {
+              "word": "love",
+              "strong": "G26"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "faith",
+              "strong": "G4102"
+            },
+            {
+              "word": "which",
+              "strong": "G3739"
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "hast",
+              "strong": "G2192"
+            },
+            {
+              "word": "toward",
+              "strong": "G4314"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "Lord",
+              "strong": "G2962"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "toward",
+              "strong": "G4314"
+            },
+            {
+              "word": "all",
+              "strong": "G3956"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "saints",
+              "strong": "G40"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "that the fellowship of thy faith may become effectual, in the knowledge of every good thing which is in you, unto Christ.",
+          "words": [
+            {
+              "word": "that",
+              "strong": "G3704"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fellowship",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": "G4675"
+            },
+            {
+              "word": "faith",
+              "strong": "G4102"
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "become",
+              "strong": "G1096"
+            },
+            {
+              "word": "effectual",
+              "strong": "G1756"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "knowledge",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "every",
+              "strong": null
+            },
+            {
+              "word": "good",
+              "strong": null
+            },
+            {
+              "word": "thing",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Christ",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "For I had much joy and comfort in thy love, because the hearts of the saints have been refreshed through thee, brother.",
+          "words": [
+            {
+              "word": "For",
+              "strong": "G1063"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "had",
+              "strong": null
+            },
+            {
+              "word": "much",
+              "strong": null
+            },
+            {
+              "word": "joy",
+              "strong": "G5485"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "comfort",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1909"
+            },
+            {
+              "word": "thy",
+              "strong": "G4675"
+            },
+            {
+              "word": "love",
+              "strong": "G26"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "because",
+              "strong": "G3754"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "hearts",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "saints",
+              "strong": "G40"
+            },
+            {
+              "word": "have",
+              "strong": "G2192"
+            },
+            {
+              "word": "been",
+              "strong": null
+            },
+            {
+              "word": "refreshed",
+              "strong": "G373"
+            },
+            {
+              "word": "through",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4675"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "brother",
+              "strong": "G80"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Wherefore, though I have all boldness in Christ to enjoin thee that which is befitting,",
+          "words": [
+            {
+              "word": "Wherefore",
+              "strong": "G1352"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "though",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "boldness",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "Christ",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "enjoin",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "befitting",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "yet for love’s sake I rather beseech, being such a one as Paul the aged, and now a prisoner also of Christ Jesus:",
+          "words": [
+            {
+              "word": "yet",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": "G1223"
+            },
+            {
+              "word": "love",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "sake",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": "G3870"
+            },
+            {
+              "word": "rather",
+              "strong": "G3123"
+            },
+            {
+              "word": "beseech",
+              "strong": "G3870"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "being",
+              "strong": "G5607"
+            },
+            {
+              "word": "such",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": "G5108"
+            },
+            {
+              "word": "as",
+              "strong": "G5613"
+            },
+            {
+              "word": "Paul",
+              "strong": "G3972"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "aged",
+              "strong": "G4246"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": "G1161"
+            },
+            {
+              "word": "now",
+              "strong": "G3570"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "prisoner",
+              "strong": "G1198"
+            },
+            {
+              "word": "also",
+              "strong": "G2532"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "I beseech thee for my child, whom I have begotten in my bonds, Onesimus,",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "beseech",
+              "strong": "G3870"
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": "for",
+              "strong": "G4012"
+            },
+            {
+              "word": "my",
+              "strong": "G1699"
+            },
+            {
+              "word": "child",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "whom",
+              "strong": "G3739"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "begotten",
+              "strong": "G1080"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "my",
+              "strong": "G1699"
+            },
+            {
+              "word": "bonds",
+              "strong": "G1199"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Onesimus",
+              "strong": "G3682"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "who once was unprofitable to thee, but now is profitable to thee and to me:",
+          "words": [
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "once",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": "G890"
+            },
+            {
+              "word": "unprofitable",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4671"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "profitable",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "whom I have sent back to thee in his own person, that is, my very heart:",
+          "words": [
+            {
+              "word": "whom",
+              "strong": "G3739"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "sent",
+              "strong": null
+            },
+            {
+              "word": "back",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": "G1699"
+            },
+            {
+              "word": "person",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": "G5123"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "very",
+              "strong": null
+            },
+            {
+              "word": "heart",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "whom I would fain have kept with me, that in thy behalf he might minister unto me in the bonds of the gospel:",
+          "words": [
+            {
+              "word": "whom",
+              "strong": "G3739"
+            },
+            {
+              "word": "I",
+              "strong": "G1473"
+            },
+            {
+              "word": "would",
+              "strong": "G1014"
+            },
+            {
+              "word": "fain",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "kept",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": "G4314"
+            },
+            {
+              "word": "me",
+              "strong": "G1683"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "behalf",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "might",
+              "strong": null
+            },
+            {
+              "word": "minister",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "bonds",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gospel",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "but without thy mind I would do nothing; that thy goodness should not be as of necessity, but of free will.",
+          "words": [
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "without",
+              "strong": "G5565"
+            },
+            {
+              "word": "thy",
+              "strong": "G4674"
+            },
+            {
+              "word": "mind",
+              "strong": "G1106"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "would",
+              "strong": "G2309"
+            },
+            {
+              "word": "do",
+              "strong": "G4160"
+            },
+            {
+              "word": "nothing",
+              "strong": "G3762"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G3363"
+            },
+            {
+              "word": "thy",
+              "strong": "G4674"
+            },
+            {
+              "word": "goodness",
+              "strong": null
+            },
+            {
+              "word": "should",
+              "strong": "G5600"
+            },
+            {
+              "word": "not",
+              "strong": "G3363"
+            },
+            {
+              "word": "be",
+              "strong": "G5600"
+            },
+            {
+              "word": "as",
+              "strong": "G5613"
+            },
+            {
+              "word": "of",
+              "strong": "G2596"
+            },
+            {
+              "word": "necessity",
+              "strong": "G318"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G1161"
+            },
+            {
+              "word": "of",
+              "strong": "G2596"
+            },
+            {
+              "word": "free",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "For perhaps he was therefore parted from thee for a season, that thou shouldest have him for ever;",
+          "words": [
+            {
+              "word": "For",
+              "strong": "G1063"
+            },
+            {
+              "word": "perhaps",
+              "strong": "G5029"
+            },
+            {
+              "word": "he",
+              "strong": "G5563"
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "therefore",
+              "strong": "G5124"
+            },
+            {
+              "word": "parted",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": "G1063"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "season",
+              "strong": "G5610"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": "G2443"
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "shouldest",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": "G846"
+            },
+            {
+              "word": "for",
+              "strong": "G1063"
+            },
+            {
+              "word": "ever",
+              "strong": "G166"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "no longer as a servant, but more than a servant, a brother beloved, specially to me, but how much rather to thee, both in the flesh and in the Lord.",
+          "words": [
+            {
+              "word": "no",
+              "strong": null
+            },
+            {
+              "word": "longer",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": "G5613"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "servant",
+              "strong": "G1401"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G235"
+            },
+            {
+              "word": "more",
+              "strong": "G3123"
+            },
+            {
+              "word": "than",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "servant",
+              "strong": "G1401"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "brother",
+              "strong": "G80"
+            },
+            {
+              "word": "beloved",
+              "strong": "G27"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "specially",
+              "strong": "G3122"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": "G1698"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": "G235"
+            },
+            {
+              "word": "how",
+              "strong": null
+            },
+            {
+              "word": "much",
+              "strong": "G4214"
+            },
+            {
+              "word": "rather",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4671"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "both",
+              "strong": "G2532"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "flesh",
+              "strong": "G4561"
+            },
+            {
+              "word": "and",
+              "strong": "G2532"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "Lord",
+              "strong": "G2962"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "If then thou countest me a partner, receive him as myself.",
+          "words": [
+            {
+              "word": "If",
+              "strong": "G1487"
+            },
+            {
+              "word": "then",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "countest",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": "G1691"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "partner",
+              "strong": "G2844"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "receive",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "myself",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "But if he hath wronged thee at all, or oweth thee aught, put that to mine account;",
+          "words": [
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "if",
+              "strong": "G1161"
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "hath",
+              "strong": null
+            },
+            {
+              "word": "wronged",
+              "strong": "G91"
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": "at",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "or",
+              "strong": "G2228"
+            },
+            {
+              "word": "oweth",
+              "strong": "G3784"
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": "aught",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "put",
+              "strong": "G1677"
+            },
+            {
+              "word": "that",
+              "strong": "G5124"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": "account",
+              "strong": "G1698"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "I Paul write it with mine own hand, I will repay it: that I say not unto thee that thou owest to me even thine own self besides.",
+          "words": [
+            {
+              "word": "I",
+              "strong": "G1473"
+            },
+            {
+              "word": "Paul",
+              "strong": "G3972"
+            },
+            {
+              "word": "write",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": "G1699"
+            },
+            {
+              "word": "hand",
+              "strong": "G5495"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "repay",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "say",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "owest",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "even",
+              "strong": null
+            },
+            {
+              "word": "thine",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": null
+            },
+            {
+              "word": "self",
+              "strong": null
+            },
+            {
+              "word": "besides",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "Yea, brother, let me have joy of thee in the Lord: refresh my heart in Christ.",
+          "words": [
+            {
+              "word": "Yea",
+              "strong": "G3483"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "brother",
+              "strong": "G80"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": "G3685"
+            },
+            {
+              "word": "me",
+              "strong": "G1473"
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "joy",
+              "strong": "G3685"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4675"
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "Lord",
+              "strong": "G2962"
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "refresh",
+              "strong": "G373"
+            },
+            {
+              "word": "my",
+              "strong": "G3450"
+            },
+            {
+              "word": "heart",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "Christ",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "Having confidence in thine obedience I write unto thee, knowing that thou wilt do even beyond what I say.",
+          "words": [
+            {
+              "word": "Having",
+              "strong": null
+            },
+            {
+              "word": "confidence",
+              "strong": "G3982"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "thine",
+              "strong": null
+            },
+            {
+              "word": "obedience",
+              "strong": "G5218"
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "write",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4671"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "knowing",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "wilt",
+              "strong": null
+            },
+            {
+              "word": "do",
+              "strong": null
+            },
+            {
+              "word": "even",
+              "strong": null
+            },
+            {
+              "word": "beyond",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "say",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "But withal prepare me also a lodging: for I hope that through your prayers I shall be granted unto you.",
+          "words": [
+            {
+              "word": "But",
+              "strong": "G1161"
+            },
+            {
+              "word": "withal",
+              "strong": "G260"
+            },
+            {
+              "word": "prepare",
+              "strong": "G2090"
+            },
+            {
+              "word": "me",
+              "strong": "G3427"
+            },
+            {
+              "word": "also",
+              "strong": "G2532"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "lodging",
+              "strong": "G3578"
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "hope",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "through",
+              "strong": null
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "prayers",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "shall",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "granted",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "Epaphras, my fellow-prisoner in Christ Jesus, saluteth thee;",
+          "words": [
+            {
+              "word": "Epaphras",
+              "strong": "G1889"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": "G3450"
+            },
+            {
+              "word": "fellow",
+              "strong": null
+            },
+            {
+              "word": "prisoner",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": "G1722"
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saluteth",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "G4571"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "and so do Mark, Aristarchus, Demas, Luke, my fellow-workers.",
+          "words": [
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "do",
+              "strong": null
+            },
+            {
+              "word": "Mark",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Aristarchus",
+              "strong": "G708"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Demas",
+              "strong": "G1214"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Luke",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": "G3450"
+            },
+            {
+              "word": "fellow",
+              "strong": null
+            },
+            {
+              "word": "workers",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "grace",
+              "strong": "G5485"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "our",
+              "strong": "G2257"
+            },
+            {
+              "word": "Lord",
+              "strong": "G2962"
+            },
+            {
+              "word": "Jesus",
+              "strong": "G2424"
+            },
+            {
+              "word": "Christ",
+              "strong": "G5547"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": "G3326"
+            },
+            {
+              "word": "your",
+              "strong": "G5216"
+            },
+            {
+              "word": "spirit",
+              "strong": "G4151"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Amen",
+              "strong": "G281"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

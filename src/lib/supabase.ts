@@ -57,7 +57,7 @@ export async function checkExistingVerse({
   book_name: string;
   chapter_number: number;
   selectedVerses: Set<number>;
-  translation: 'asv' | 'web';
+  translation: 'asv' | 'web' | 'kjv';
 }): Promise<string | null> {
   try {
     const selectedArray = Array.from(selectedVerses).sort((a, b) => a - b);
@@ -100,7 +100,7 @@ export async function insertSavedVerse(
   chapter_number: number,
   selectedVerses: number[],
   chapterData: any,
-  translation: 'asv' | 'web'
+  translation: 'asv' | 'web' | 'kjv'
 ): Promise<boolean | null> {
   try {
     // Sort verses numerically

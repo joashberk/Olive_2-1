@@ -1,9 +1,12 @@
 import { Link, useLocation } from 'react-router-dom';
 import { BookOpen, Pencil, Pin, User } from 'lucide-react';
 import { useMediaQuery } from '@/hooks/useMediaQuery';
+import { useEffect, useState } from 'react';
 
 function BottomNav() {
   const location = useLocation();
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   
   // Debug logging for navigation state
   console.log('Mobile Nav - Current location:', {
@@ -11,6 +14,28 @@ function BottomNav() {
     search: location.search,
     hash: location.hash
   });
+
+  // Add scroll event handler
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollY;
+      
+      // Show navigation when scrolling up or at the top
+      if (currentScrollY < 10 || scrollDelta < 0) {
+        setIsVisible(true);
+      } 
+      // Hide navigation when scrolling down
+      else if (scrollDelta > 5) {
+        setIsVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const isActive = (path: string) => {
     // For the Read button, consider it active on root path, /read, and book/chapter paths
@@ -49,7 +74,9 @@ function BottomNav() {
   }
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-dark-900/95 backdrop-blur-sm border-t border-dark-800 z-50 shadow-lg">
+    <nav className={`fixed bottom-0 left-0 right-0 bg-dark-900/95 backdrop-blur-sm border-t border-dark-800 z-10 shadow-lg transition-transform duration-300 ${
+      isVisible ? 'translate-y-0' : 'translate-y-full'
+    }`}>
       <div className="flex items-center justify-around h-14">
         {navItems.map(item => (
           <Link

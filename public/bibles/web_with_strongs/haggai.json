@@ -1,0 +1,5259 @@
+{
+  "name": "Haggai",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the second year of Darius the king, in the sixth month, in the first day of the month, Yahweh’s word came by Haggai, the prophet, to Zerubbabel, the son of Shealtiel, governor of Judah, and to Joshua, the son of Jehozadak, the high priest, saying,",
+          "words": [
+            {
+              "word": "In",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "second",
+              "strong": "H8147"
+            },
+            {
+              "word": "year",
+              "strong": "H8141"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Darius",
+              "strong": "H1867"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "king",
+              "strong": "H4428"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sixth",
+              "strong": "H8345"
+            },
+            {
+              "word": "month",
+              "strong": "H2320"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "first",
+              "strong": "H259"
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "month",
+              "strong": "H2320"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": "H1697"
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "by",
+              "strong": "H3027"
+            },
+            {
+              "word": "Haggai",
+              "strong": "H2292"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "prophet",
+              "strong": "H5030"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Shealtiel",
+              "strong": "H7597"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "governor",
+              "strong": "H6346"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Judah",
+              "strong": "H3063"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Joshua",
+              "strong": "H3091"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehozadak",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "high",
+              "strong": "H1419"
+            },
+            {
+              "word": "priest",
+              "strong": "H3548"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "“This is what Yahweh of Armies says: These people say, ‘The time hasn’t yet come, the time for Yahweh’s house to be built.’ ”",
+          "words": [
+            {
+              "word": "This",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "These",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": "say",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "time",
+              "strong": "H6256"
+            },
+            {
+              "word": "hasn",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "yet",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": "H935"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "time",
+              "strong": "H6256"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "built",
+              "strong": "H1129"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Then Yahweh’s word came by Haggai, the prophet, saying,",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "by",
+              "strong": "H3027"
+            },
+            {
+              "word": "Haggai",
+              "strong": "H2292"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "prophet",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "“Is it a time for you yourselves to dwell in your paneled houses, while this house lies waste?",
+          "words": [
+            {
+              "word": "Is",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "time",
+              "strong": "H6256"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "yourselves",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "dwell",
+              "strong": "H3427"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "paneled",
+              "strong": null
+            },
+            {
+              "word": "houses",
+              "strong": "H1004"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "while",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": null
+            },
+            {
+              "word": "lies",
+              "strong": null
+            },
+            {
+              "word": "waste",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Now therefore this is what Yahweh of Armies says: Consider your ways.",
+          "words": [
+            {
+              "word": "Now",
+              "strong": null
+            },
+            {
+              "word": "therefore",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "Consider",
+              "strong": "H7760"
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "ways",
+              "strong": "H1870"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "You have sown much, and bring in little. You eat, but you don’t have enough. You drink, but you aren’t filled with drink. You clothe yourselves, but no one is warm, and he who earns wages earns wages to put them into a bag with holes in it.”",
+          "words": [
+            {
+              "word": "You",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "sown",
+              "strong": "H2232"
+            },
+            {
+              "word": "much",
+              "strong": "H7235"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "bring",
+              "strong": "H935"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "little",
+              "strong": "H4592"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "You",
+              "strong": null
+            },
+            {
+              "word": "eat",
+              "strong": "H398"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "don",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "enough",
+              "strong": "H7654"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "You",
+              "strong": null
+            },
+            {
+              "word": "drink",
+              "strong": "H8354"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "aren",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "filled",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "drink",
+              "strong": "H8354"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "You",
+              "strong": null
+            },
+            {
+              "word": "clothe",
+              "strong": "H3847"
+            },
+            {
+              "word": "yourselves",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "no",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "warm",
+              "strong": "H2527"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "earns",
+              "strong": null
+            },
+            {
+              "word": "wages",
+              "strong": "H7936"
+            },
+            {
+              "word": "earns",
+              "strong": null
+            },
+            {
+              "word": "wages",
+              "strong": "H7936"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "put",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "bag",
+              "strong": "H6872"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "holes",
+              "strong": "H5344"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "This is what Yahweh of Armies says: “Consider your ways.",
+          "words": [
+            {
+              "word": "This",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "Consider",
+              "strong": "H7760"
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "ways",
+              "strong": "H1870"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Go up to the mountain, bring wood, and build the house. I will take pleasure in it, and I will be glorified,” says Yahweh.",
+          "words": [
+            {
+              "word": "Go",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5927"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "mountain",
+              "strong": "H2022"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "bring",
+              "strong": "H935"
+            },
+            {
+              "word": "wood",
+              "strong": "H6086"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "build",
+              "strong": "H1129"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "take",
+              "strong": null
+            },
+            {
+              "word": "pleasure",
+              "strong": "H7521"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "glorified",
+              "strong": "H3513"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "“You looked for much, and, behold, it came to little; and when you brought it home, I blew it away. Why?” says Yahweh of Armies, “Because of my house that lies waste, while each of you is busy with his own house.",
+          "words": [
+            {
+              "word": "You",
+              "strong": null
+            },
+            {
+              "word": "looked",
+              "strong": "H6437"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "much",
+              "strong": "H7235"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "behold",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "little",
+              "strong": "H4592"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "brought",
+              "strong": "H935"
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "home",
+              "strong": "H1004"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "blew",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "away",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Why",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Because",
+              "strong": "H3282"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "lies",
+              "strong": null
+            },
+            {
+              "word": "waste",
+              "strong": "H2720"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "while",
+              "strong": null
+            },
+            {
+              "word": "each",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "busy",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "own",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "Therefore for your sake the heavens withhold the dew, and the earth withholds its fruit.",
+          "words": [
+            {
+              "word": "Therefore",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "sake",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "heavens",
+              "strong": null
+            },
+            {
+              "word": "withhold",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "dew",
+              "strong": "H2919"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "earth",
+              "strong": null
+            },
+            {
+              "word": "withholds",
+              "strong": null
+            },
+            {
+              "word": "its",
+              "strong": null
+            },
+            {
+              "word": "fruit",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "I called for a drought on the land, on the mountains, on the grain, on the new wine, on the oil, on that which the ground produces, on men, on livestock, and on all the labor of the hands.”",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "called",
+              "strong": "H7121"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "drought",
+              "strong": "H2721"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "land",
+              "strong": "H776"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "mountains",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "grain",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "new",
+              "strong": null
+            },
+            {
+              "word": "wine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "oil",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "ground",
+              "strong": null
+            },
+            {
+              "word": "produces",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "livestock",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "labor",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "hands",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "Then Zerubbabel, the son of Shealtiel, and Joshua, the son of Jehozadak, the high priest, with all the remnant of the people, obeyed Yahweh, their God’s voice, and the words of Haggai, the prophet, as Yahweh, their God, had sent him; and the people feared Yahweh.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Shealtiel",
+              "strong": "H7597"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "Joshua",
+              "strong": "H3091"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehozadak",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "high",
+              "strong": "H1419"
+            },
+            {
+              "word": "priest",
+              "strong": "H3548"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "remnant",
+              "strong": "H7611"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "obeyed",
+              "strong": "H8085"
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "voice",
+              "strong": "H6963"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "words",
+              "strong": "H1697"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": "H2292"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "prophet",
+              "strong": "H5030"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "had",
+              "strong": null
+            },
+            {
+              "word": "sent",
+              "strong": "H7971"
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": "feared",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Then Haggai, Yahweh’s messenger, spoke Yahweh’s message to the people, saying, “I am with you,” says Yahweh.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": "H2292"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "messenger",
+              "strong": "H4397"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "spoke",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "message",
+              "strong": "H4400"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Yahweh stirred up the spirit of Zerubbabel, the son of Shealtiel, governor of Judah, and the spirit of Joshua, the son of Jehozadak, the high priest, and the spirit of all the remnant of the people; and they came and worked on the house of Yahweh of Armies, their God,",
+          "words": [
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "stirred",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5782"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "spirit",
+              "strong": "H7307"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Shealtiel",
+              "strong": "H7597"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "governor",
+              "strong": "H6346"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Judah",
+              "strong": "H3063"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "spirit",
+              "strong": "H7307"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Joshua",
+              "strong": "H3091"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehozadak",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "high",
+              "strong": "H1419"
+            },
+            {
+              "word": "priest",
+              "strong": "H3548"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "spirit",
+              "strong": "H7307"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "remnant",
+              "strong": "H7611"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": "H935"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "worked",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "in the twenty-fourth day of the month, in the sixth month, in the second year of Darius the king.",
+          "words": [
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": "fourth",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "month",
+              "strong": "H2320"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sixth",
+              "strong": "H8345"
+            },
+            {
+              "word": "month",
+              "strong": "H2320"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "second",
+              "strong": "H8147"
+            },
+            {
+              "word": "year",
+              "strong": "H8141"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Darius",
+              "strong": "H1867"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "king",
+              "strong": "H4428"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "In the seventh month, in the twenty-first day of the month, Yahweh’s word came by Haggai the prophet, saying,",
+          "words": [
+            {
+              "word": "In",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "seventh",
+              "strong": "H7637"
+            },
+            {
+              "word": "month",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": "first",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "month",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "by",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "prophet",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "“Speak now to Zerubbabel, the son of Shealtiel, governor of Judah, and to Joshua, the son of Jehozadak, the high priest, and to the remnant of the people, saying,",
+          "words": [
+            {
+              "word": "Speak",
+              "strong": "H559"
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Shealtiel",
+              "strong": "H7597"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "governor",
+              "strong": "H6346"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Judah",
+              "strong": "H3063"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Joshua",
+              "strong": "H3091"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehozadak",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "high",
+              "strong": "H1419"
+            },
+            {
+              "word": "priest",
+              "strong": "H3548"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "remnant",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "‘Who is left among you who saw this house in its former glory? How do you see it now? Isn’t it in your eyes as nothing?",
+          "words": [
+            {
+              "word": "Who",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "left",
+              "strong": "H7604"
+            },
+            {
+              "word": "among",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "saw",
+              "strong": "H7200"
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "its",
+              "strong": null
+            },
+            {
+              "word": "former",
+              "strong": null
+            },
+            {
+              "word": "glory",
+              "strong": "H3519"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "How",
+              "strong": null
+            },
+            {
+              "word": "do",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "see",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "Isn",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "eyes",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "nothing",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Yet now be strong, Zerubbabel,’ says Yahweh. ‘Be strong, Joshua, son of Jehozadak, the high priest. Be strong, all you people of the land,’ says Yahweh, ‘and work, for I am with you,’ says Yahweh of Armies.",
+          "words": [
+            {
+              "word": "Yet",
+              "strong": null
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "strong",
+              "strong": "H2388"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Be",
+              "strong": null
+            },
+            {
+              "word": "strong",
+              "strong": "H2388"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Joshua",
+              "strong": "H3091"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehozadak",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "high",
+              "strong": "H1419"
+            },
+            {
+              "word": "priest",
+              "strong": "H3548"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Be",
+              "strong": null
+            },
+            {
+              "word": "strong",
+              "strong": "H2388"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "land",
+              "strong": "H776"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "work",
+              "strong": "H6213"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "This is the word that I covenanted with you when you came out of Egypt, and my Spirit lived among you. ‘Don’t be afraid.’",
+          "words": [
+            {
+              "word": "This",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": "H1697"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "covenanted",
+              "strong": "H3772"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": "H3318"
+            },
+            {
+              "word": "out",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Egypt",
+              "strong": "H4714"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "Spirit",
+              "strong": "H7307"
+            },
+            {
+              "word": "lived",
+              "strong": null
+            },
+            {
+              "word": "among",
+              "strong": "H8432"
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Don",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "afraid",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "For this is what Yahweh of Armies says: ‘Yet once, it is a little while, and I will shake the heavens, the earth, the sea, and the dry land;",
+          "words": [
+            {
+              "word": "For",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "Yet",
+              "strong": null
+            },
+            {
+              "word": "once",
+              "strong": "H259"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "little",
+              "strong": null
+            },
+            {
+              "word": "while",
+              "strong": "H4592"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "shake",
+              "strong": "H7493"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "heavens",
+              "strong": "H8064"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "earth",
+              "strong": "H776"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "dry",
+              "strong": "H2724"
+            },
+            {
+              "word": "land",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "and I will shake all nations. The precious things of all nations will come, and I will fill this house with glory, says Yahweh of Armies.",
+          "words": [
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "shake",
+              "strong": "H7493"
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "nations",
+              "strong": "H1471"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "precious",
+              "strong": null
+            },
+            {
+              "word": "things",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "nations",
+              "strong": "H1471"
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": "H935"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "fill",
+              "strong": "H4390"
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "glory",
+              "strong": "H3519"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "The silver is mine, and the gold is mine,’ says Yahweh of Armies.",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "silver",
+              "strong": "H3701"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gold",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "mine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "‘The latter glory of this house will be greater than the former,’ says Yahweh of Armies; ‘and in this place I will give peace,’ says Yahweh of Armies.”",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "latter",
+              "strong": null
+            },
+            {
+              "word": "glory",
+              "strong": "H3519"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "house",
+              "strong": "H1004"
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "greater",
+              "strong": null
+            },
+            {
+              "word": "than",
+              "strong": "H1419"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "former",
+              "strong": "H7223"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "place",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "give",
+              "strong": null
+            },
+            {
+              "word": "peace",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "In the twenty-fourth day of the ninth month, in the second year of Darius, Yahweh’s word came by Haggai the prophet, saying,",
+          "words": [
+            {
+              "word": "In",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": "fourth",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "ninth",
+              "strong": "H8671"
+            },
+            {
+              "word": "month",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "second",
+              "strong": null
+            },
+            {
+              "word": "year",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Darius",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "by",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "prophet",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "“Yahweh of Armies says: Ask now the priests concerning the law, saying,",
+          "words": [
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "Ask",
+              "strong": null
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "priests",
+              "strong": null
+            },
+            {
+              "word": "concerning",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "law",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "‘If someone carries holy meat in the fold of his garment, and with his fold touches bread, stew, wine, oil, or any food, will it become holy?’ ” The priests answered, “No.”",
+          "words": [
+            {
+              "word": "If",
+              "strong": null
+            },
+            {
+              "word": "someone",
+              "strong": null
+            },
+            {
+              "word": "carries",
+              "strong": null
+            },
+            {
+              "word": "holy",
+              "strong": "H6944"
+            },
+            {
+              "word": "meat",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fold",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "garment",
+              "strong": "H899"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "fold",
+              "strong": null
+            },
+            {
+              "word": "touches",
+              "strong": null
+            },
+            {
+              "word": "bread",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "stew",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "wine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "oil",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "or",
+              "strong": null
+            },
+            {
+              "word": "any",
+              "strong": null
+            },
+            {
+              "word": "food",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "become",
+              "strong": null
+            },
+            {
+              "word": "holy",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "priests",
+              "strong": null
+            },
+            {
+              "word": "answered",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "No",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Then Haggai said, “If one who is unclean by reason of a dead body touch any of these, will it be unclean?” The priests answered, “It will be unclean.”",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": "H2292"
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "If",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "unclean",
+              "strong": "H2931"
+            },
+            {
+              "word": "by",
+              "strong": null
+            },
+            {
+              "word": "reason",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "dead",
+              "strong": null
+            },
+            {
+              "word": "body",
+              "strong": "H5315"
+            },
+            {
+              "word": "touch",
+              "strong": "H5060"
+            },
+            {
+              "word": "any",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "these",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "unclean",
+              "strong": "H2931"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "priests",
+              "strong": "H3548"
+            },
+            {
+              "word": "answered",
+              "strong": "H6030"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "It",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "unclean",
+              "strong": "H2931"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Then Haggai answered, “ ‘So is this people, and so is this nation before me,’ says Yahweh; ‘and so is every work of their hands. That which they offer there is unclean.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": null
+            },
+            {
+              "word": "answered",
+              "strong": "H6030"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "So",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "nation",
+              "strong": null
+            },
+            {
+              "word": "before",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "every",
+              "strong": null
+            },
+            {
+              "word": "work",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "hands",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "That",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "offer",
+              "strong": null
+            },
+            {
+              "word": "there",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "unclean",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Now, please consider from this day and backward, before a stone was laid on a stone in Yahweh’s temple.",
+          "words": [
+            {
+              "word": "Now",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "please",
+              "strong": null
+            },
+            {
+              "word": "consider",
+              "strong": "H7760"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "backward",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "before",
+              "strong": "H2962"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "stone",
+              "strong": "H68"
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "laid",
+              "strong": "H7760"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "stone",
+              "strong": "H68"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "temple",
+              "strong": "H1964"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "Through all that time, when one came to a heap of twenty measures, there were only ten. When one came to the wine vat to draw out fifty, there were only twenty.",
+          "words": [
+            {
+              "word": "Through",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "time",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "heap",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": "measures",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "there",
+              "strong": null
+            },
+            {
+              "word": "were",
+              "strong": null
+            },
+            {
+              "word": "only",
+              "strong": null
+            },
+            {
+              "word": "ten",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "When",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "wine",
+              "strong": null
+            },
+            {
+              "word": "vat",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "draw",
+              "strong": null
+            },
+            {
+              "word": "out",
+              "strong": null
+            },
+            {
+              "word": "fifty",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "there",
+              "strong": null
+            },
+            {
+              "word": "were",
+              "strong": null
+            },
+            {
+              "word": "only",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "I struck you with blight, mildew, and hail in all the work of your hands; yet you didn’t turn to me,’ says Yahweh.",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "struck",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "blight",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "mildew",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "hail",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "all",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "work",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "your",
+              "strong": null
+            },
+            {
+              "word": "hands",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "yet",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "didn",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "turn",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "‘Consider, please, from this day and backward, from the twenty-fourth day of the ninth month, since the day that the foundation of Yahweh’s temple was laid, consider it.",
+          "words": [
+            {
+              "word": "Consider",
+              "strong": "H7760"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "please",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "backward",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": "fourth",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "ninth",
+              "strong": "H8671"
+            },
+            {
+              "word": "month",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "since",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "foundation",
+              "strong": "H3245"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "temple",
+              "strong": "H1964"
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "laid",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "consider",
+              "strong": "H7760"
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 19,
+          "text": "Is the seed yet in the barn? Yes, the vine, the fig tree, the pomegranate, and the olive tree haven’t produced. From today I will bless you.’ ”",
+          "words": [
+            {
+              "word": "Is",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "seed",
+              "strong": "H2233"
+            },
+            {
+              "word": "yet",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "barn",
+              "strong": "H4035"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "Yes",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "vine",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fig",
+              "strong": null
+            },
+            {
+              "word": "tree",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "pomegranate",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "olive",
+              "strong": null
+            },
+            {
+              "word": "tree",
+              "strong": null
+            },
+            {
+              "word": "haven",
+              "strong": null
+            },
+            {
+              "word": "t",
+              "strong": null
+            },
+            {
+              "word": "produced",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "From",
+              "strong": null
+            },
+            {
+              "word": "today",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "bless",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "Yahweh’s word came the second time to Haggai in the twenty-fourth day of the month, saying,",
+          "words": [
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "second",
+              "strong": null
+            },
+            {
+              "word": "time",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Haggai",
+              "strong": "H2292"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "twenty",
+              "strong": null
+            },
+            {
+              "word": "fourth",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "month",
+              "strong": "H2320"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "“Speak to Zerubbabel, governor of Judah, saying, ‘I will shake the heavens and the earth.",
+          "words": [
+            {
+              "word": "Speak",
+              "strong": "H559"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "governor",
+              "strong": "H6346"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Judah",
+              "strong": "H3063"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "shake",
+              "strong": "H7493"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "heavens",
+              "strong": "H8064"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "earth",
+              "strong": "H776"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 22,
+          "text": "I will overthrow the throne of kingdoms. I will destroy the strength of the kingdoms of the nations. I will overthrow the chariots, and those who ride in them. The horses and their riders will come down, everyone by the sword of his brother.",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "overthrow",
+              "strong": "H2015"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "throne",
+              "strong": "H3678"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "kingdoms",
+              "strong": "H4467"
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "destroy",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "strength",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "kingdoms",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "nations",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "overthrow",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "chariots",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "those",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "ride",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "horses",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "riders",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "everyone",
+              "strong": null
+            },
+            {
+              "word": "by",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sword",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "brother",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "In that day, says Yahweh of Armies, I will take you, Zerubbabel, my servant, the son of Shealtiel,’ says Yahweh, ‘and will make you as a signet, for I have chosen you,’ says Yahweh of Armies.”",
+          "words": [
+            {
+              "word": "In",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H3117"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "take",
+              "strong": "H3947"
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Zerubbabel",
+              "strong": "H2216"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "servant",
+              "strong": "H5650"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Shealtiel",
+              "strong": "H7597"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "make",
+              "strong": "H7760"
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "signet",
+              "strong": "H2368"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "chosen",
+              "strong": "H977"
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "says",
+              "strong": null
+            },
+            {
+              "word": "Yahweh",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Armies",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

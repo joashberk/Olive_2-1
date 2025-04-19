@@ -1,0 +1,5925 @@
+{
+  "name": "Jonah",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Now the word of Jehovah came unto Jonah the son of Amittai, saying,",
+          "words": [
+            {
+              "word": "Now",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": "H1697"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "son",
+              "strong": "H1121"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Amittai",
+              "strong": "H573"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+          "words": [
+            {
+              "word": "Arise",
+              "strong": "H6965"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": "H3212"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "cry",
+              "strong": "H7121"
+            },
+            {
+              "word": "against",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "wickedness",
+              "strong": "H7451"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5927"
+            },
+            {
+              "word": "before",
+              "strong": "H6440"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "But Jonah rose up to flee unto Tarshish from the presence of Jehovah; and he went down to Joppa, and found a ship going to Tarshish: so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of Jehovah.",
+          "words": [
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "rose",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H6965"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "flee",
+              "strong": "H1272"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Tarshish",
+              "strong": "H8659"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "presence",
+              "strong": "H6440"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "went",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": "H3381"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Joppa",
+              "strong": "H3305"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "found",
+              "strong": "H4672"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "ship",
+              "strong": "H591"
+            },
+            {
+              "word": "going",
+              "strong": "H935"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Tarshish",
+              "strong": "H8659"
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "paid",
+              "strong": "H5414"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fare",
+              "strong": "H7939"
+            },
+            {
+              "word": "thereof",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "went",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": "H3381"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": "H935"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Tarshish",
+              "strong": "H8659"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "presence",
+              "strong": "H6440"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "But Jehovah sent out a great wind upon the sea, and there was a mighty tempest on the sea, so that the ship was like to be broken.",
+          "words": [
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "sent",
+              "strong": null
+            },
+            {
+              "word": "out",
+              "strong": "H2904"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "wind",
+              "strong": "H7307"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "there",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "mighty",
+              "strong": null
+            },
+            {
+              "word": "tempest",
+              "strong": null
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "ship",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "like",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "broken",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then the mariners were afraid, and cried every man unto his god; and they cast forth the wares that were in the ship into the sea, to lighten it unto them. But Jonah was gone down into the innermost parts of the ship; and he lay, and was fast asleep.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "mariners",
+              "strong": "H4419"
+            },
+            {
+              "word": "were",
+              "strong": null
+            },
+            {
+              "word": "afraid",
+              "strong": "H3372"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "cried",
+              "strong": "H2199"
+            },
+            {
+              "word": "every",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": "H376"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "god",
+              "strong": "H430"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": null
+            },
+            {
+              "word": "forth",
+              "strong": "H2904"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "wares",
+              "strong": "H3627"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "were",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "ship",
+              "strong": "H591"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "lighten",
+              "strong": "H7043"
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "gone",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": "H3381"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "innermost",
+              "strong": null
+            },
+            {
+              "word": "parts",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "ship",
+              "strong": "H591"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "lay",
+              "strong": "H7901"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "fast",
+              "strong": null
+            },
+            {
+              "word": "asleep",
+              "strong": "H7290"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not.",
+          "words": [
+            {
+              "word": "So",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "shipmaster",
+              "strong": "H7227"
+            },
+            {
+              "word": "came",
+              "strong": "H7126"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "What",
+              "strong": null
+            },
+            {
+              "word": "meanest",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "sleeper",
+              "strong": "H7290"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "arise",
+              "strong": "H6965"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "call",
+              "strong": "H7121"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "if",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "think",
+              "strong": "H6245"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "perish",
+              "strong": "H6"
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "every",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": "H376"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "fellow",
+              "strong": "H7453"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Come",
+              "strong": "H3212"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": "H5307"
+            },
+            {
+              "word": "lots",
+              "strong": "H1486"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "know",
+              "strong": "H3045"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "whose",
+              "strong": null
+            },
+            {
+              "word": "cause",
+              "strong": "H7945"
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": "H7451"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "So",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": "H5307"
+            },
+            {
+              "word": "lots",
+              "strong": "H1486"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "lot",
+              "strong": "H1486"
+            },
+            {
+              "word": "fell",
+              "strong": "H5307"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; what is thine occupation? and whence comest thou? what is thy country? and of what people art thou?",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Tell",
+              "strong": "H5046"
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "pray",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "whose",
+              "strong": null
+            },
+            {
+              "word": "cause",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": "H7451"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "thine",
+              "strong": null
+            },
+            {
+              "word": "occupation",
+              "strong": "H4399"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "whence",
+              "strong": "H370"
+            },
+            {
+              "word": "comest",
+              "strong": "H935"
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "thy",
+              "strong": null
+            },
+            {
+              "word": "country",
+              "strong": "H776"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H5971"
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "And he said unto them, I am a Hebrew; and I fear Jehovah, the God of heaven, who hath made the sea and the dry land.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "Hebrew",
+              "strong": "H5680"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "fear",
+              "strong": "H3373"
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "heaven",
+              "strong": "H8064"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "who",
+              "strong": null
+            },
+            {
+              "word": "hath",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": "H6213"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "dry",
+              "strong": "H3004"
+            },
+            {
+              "word": "land",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "Then were the men exceedingly afraid, and said unto him, What is this that thou hast done? For the men knew that he was fleeing from the presence of Jehovah, because he had told them.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "were",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "H582"
+            },
+            {
+              "word": "exceedingly",
+              "strong": "H1419"
+            },
+            {
+              "word": "afraid",
+              "strong": "H3372"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "What",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "hast",
+              "strong": null
+            },
+            {
+              "word": "done",
+              "strong": "H6213"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "For",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "H582"
+            },
+            {
+              "word": "knew",
+              "strong": "H3045"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "fleeing",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "presence",
+              "strong": "H6440"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "because",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "had",
+              "strong": null
+            },
+            {
+              "word": "told",
+              "strong": "H5046"
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea grew more and more tempestuous.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "What",
+              "strong": null
+            },
+            {
+              "word": "shall",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "do",
+              "strong": "H6213"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": "may",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "calm",
+              "strong": "H8367"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": "grew",
+              "strong": null
+            },
+            {
+              "word": "more",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "more",
+              "strong": null
+            },
+            {
+              "word": "tempestuous",
+              "strong": "H5590"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Take",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5375"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "forth",
+              "strong": "H2904"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "so",
+              "strong": null
+            },
+            {
+              "word": "shall",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "calm",
+              "strong": "H8367"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "know",
+              "strong": "H3045"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "sake",
+              "strong": "H7945"
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "tempest",
+              "strong": "H5591"
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "you",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Nevertheless the men rowed hard to get them back to the land; but they could not: for the sea grew more and more tempestuous against them.",
+          "words": [
+            {
+              "word": "Nevertheless",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "H582"
+            },
+            {
+              "word": "rowed",
+              "strong": null
+            },
+            {
+              "word": "hard",
+              "strong": "H2864"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "get",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "back",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "land",
+              "strong": "H3004"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "could",
+              "strong": "H3201"
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": "grew",
+              "strong": null
+            },
+            {
+              "word": "more",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "more",
+              "strong": null
+            },
+            {
+              "word": "tempestuous",
+              "strong": "H5590"
+            },
+            {
+              "word": "against",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Wherefore they cried unto Jehovah, and said, We beseech thee, O Jehovah, we beseech thee, let us not perish for this man’s life, and lay not upon us innocent blood; for thou, O Jehovah, hast done as it pleased thee.",
+          "words": [
+            {
+              "word": "Wherefore",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "cried",
+              "strong": "H7121"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "We",
+              "strong": null
+            },
+            {
+              "word": "beseech",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "H577"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "beseech",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": "H577"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "perish",
+              "strong": "H6"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "life",
+              "strong": "H5315"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "lay",
+              "strong": "H5414"
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "us",
+              "strong": null
+            },
+            {
+              "word": "innocent",
+              "strong": "H5355"
+            },
+            {
+              "word": "blood",
+              "strong": "H1818"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "hast",
+              "strong": null
+            },
+            {
+              "word": "done",
+              "strong": "H6213"
+            },
+            {
+              "word": "as",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "pleased",
+              "strong": "H2654"
+            },
+            {
+              "word": "thee",
+              "strong": "H577"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "So they took up Jonah, and cast him forth into the sea; and the sea ceased from its raging.",
+          "words": [
+            {
+              "word": "So",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "took",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5375"
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": "forth",
+              "strong": "H2904"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sea",
+              "strong": "H3220"
+            },
+            {
+              "word": "ceased",
+              "strong": "H5975"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "its",
+              "strong": null
+            },
+            {
+              "word": "raging",
+              "strong": "H2197"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "Then the men feared Jehovah exceedingly; and they offered a sacrifice unto Jehovah, and made vows.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "men",
+              "strong": "H582"
+            },
+            {
+              "word": "feared",
+              "strong": "H3372"
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "exceedingly",
+              "strong": "H1419"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "offered",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "sacrifice",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": null
+            },
+            {
+              "word": "vows",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "And Jehovah prepared a great fish to swallow up Jonah; and Jonah was in the belly of the fish three days and three nights.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "prepared",
+              "strong": "H4487"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "fish",
+              "strong": "H1709"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "swallow",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H1104"
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "belly",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fish",
+              "strong": null
+            },
+            {
+              "word": "three",
+              "strong": null
+            },
+            {
+              "word": "days",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "three",
+              "strong": null
+            },
+            {
+              "word": "nights",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Then Jonah prayed unto Jehovah his God out of the fish’s belly.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "prayed",
+              "strong": "H6419"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "out",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fish",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "belly",
+              "strong": "H4578"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "And he said,",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "For thou didst cast me into the depth, in the heart of the seas,",
+          "words": [
+            {
+              "word": "For",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "didst",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": "H7993"
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "depth",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "heart",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "seas",
+              "strong": "H3220"
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "And I said, I am cast out from before thine eyes;",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "am",
+              "strong": null
+            },
+            {
+              "word": "cast",
+              "strong": null
+            },
+            {
+              "word": "out",
+              "strong": "H1644"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "before",
+              "strong": null
+            },
+            {
+              "word": "thine",
+              "strong": null
+            },
+            {
+              "word": "eyes",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "The waters compassed me about, even to the soul;",
+          "words": [
+            {
+              "word": "The",
+              "strong": null
+            },
+            {
+              "word": "waters",
+              "strong": "H4325"
+            },
+            {
+              "word": "compassed",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "about",
+              "strong": "H661"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "even",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "soul",
+              "strong": "H5315"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "I went down to the bottoms of the mountains;",
+          "words": [
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "went",
+              "strong": null
+            },
+            {
+              "word": "down",
+              "strong": "H3381"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "bottoms",
+              "strong": "H7095"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "mountains",
+              "strong": "H2022"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "When my soul fainted within me, I remembered Jehovah;",
+          "words": [
+            {
+              "word": "When",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "soul",
+              "strong": "H5315"
+            },
+            {
+              "word": "fainted",
+              "strong": "H5848"
+            },
+            {
+              "word": "within",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "remembered",
+              "strong": "H2142"
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "They that regard lying vanities",
+          "words": [
+            {
+              "word": "They",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "regard",
+              "strong": null
+            },
+            {
+              "word": "lying",
+              "strong": "H7723"
+            },
+            {
+              "word": "vanities",
+              "strong": "H1892"
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "But I will sacrifice unto thee with the voice of thanksgiving;",
+          "words": [
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "sacrifice",
+              "strong": "H2076"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "voice",
+              "strong": "H6963"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "thanksgiving",
+              "strong": "H8426"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "And Jehovah spake unto the fish, and it vomited out Jonah upon the dry land.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "spake",
+              "strong": "H559"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "fish",
+              "strong": "H1709"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "vomited",
+              "strong": null
+            },
+            {
+              "word": "out",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": null
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "dry",
+              "strong": null
+            },
+            {
+              "word": "land",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "And the word of Jehovah came unto Jonah the second time, saying,",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": "H1697"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "second",
+              "strong": "H8145"
+            },
+            {
+              "word": "time",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.",
+          "words": [
+            {
+              "word": "Arise",
+              "strong": "H6965"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "go",
+              "strong": "H3212"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "preach",
+              "strong": "H7121"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "preaching",
+              "strong": "H7150"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "bid",
+              "strong": "H1696"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "So Jonah arose, and went unto Nineveh, according to the word of Jehovah. Now Nineveh was an exceeding great city, of three days’ journey.",
+          "words": [
+            {
+              "word": "So",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "arose",
+              "strong": "H6965"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "went",
+              "strong": "H3212"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "according",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "word",
+              "strong": "H1697"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "Now",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "an",
+              "strong": null
+            },
+            {
+              "word": "exceeding",
+              "strong": "H430"
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "three",
+              "strong": "H7969"
+            },
+            {
+              "word": "days",
+              "strong": "H3117"
+            },
+            {
+              "word": "journey",
+              "strong": "H4109"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "And Jonah began to enter into the city a day’s journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "began",
+              "strong": "H2490"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "enter",
+              "strong": "H935"
+            },
+            {
+              "word": "into",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": "a",
+              "strong": "H259"
+            },
+            {
+              "word": "day",
+              "strong": null
+            },
+            {
+              "word": "s",
+              "strong": null
+            },
+            {
+              "word": "journey",
+              "strong": "H4109"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "cried",
+              "strong": "H7121"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Yet",
+              "strong": null
+            },
+            {
+              "word": "forty",
+              "strong": "H705"
+            },
+            {
+              "word": "days",
+              "strong": "H3117"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": "shall",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "overthrown",
+              "strong": "H2015"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "And the people of Nineveh believed God; and they proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "people",
+              "strong": "H582"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": "believed",
+              "strong": "H539"
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "proclaimed",
+              "strong": "H7121"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "fast",
+              "strong": "H6685"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "put",
+              "strong": "H3847"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "sackcloth",
+              "strong": "H8242"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "greatest",
+              "strong": "H1419"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "even",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "least",
+              "strong": "H6996"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "And the tidings reached the king of Nineveh, and he arose from his throne, and laid his robe from him, and covered him with sackcloth, and sat in ashes.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "tidings",
+              "strong": null
+            },
+            {
+              "word": "reached",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "king",
+              "strong": "H4428"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "arose",
+              "strong": "H6965"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "throne",
+              "strong": "H3678"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "laid",
+              "strong": "H5674"
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "robe",
+              "strong": "H155"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "covered",
+              "strong": "H3680"
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "sackcloth",
+              "strong": "H8242"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "sat",
+              "strong": "H3427"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "ashes",
+              "strong": "H665"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "And he made proclamation and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste anything; let them not feed, nor drink water;",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": null
+            },
+            {
+              "word": "proclamation",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "published",
+              "strong": "H559"
+            },
+            {
+              "word": "through",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": "by",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "decree",
+              "strong": "H2940"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "king",
+              "strong": "H4428"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "nobles",
+              "strong": "H1419"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Let",
+              "strong": null
+            },
+            {
+              "word": "neither",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": "H120"
+            },
+            {
+              "word": "nor",
+              "strong": null
+            },
+            {
+              "word": "beast",
+              "strong": "H929"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "herd",
+              "strong": "H1241"
+            },
+            {
+              "word": "nor",
+              "strong": null
+            },
+            {
+              "word": "flock",
+              "strong": "H6629"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "taste",
+              "strong": "H2938"
+            },
+            {
+              "word": "anything",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "feed",
+              "strong": "H7462"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "nor",
+              "strong": null
+            },
+            {
+              "word": "drink",
+              "strong": "H8354"
+            },
+            {
+              "word": "water",
+              "strong": "H4325"
+            },
+            {
+              "word": ";",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "but let them be covered with sackcloth, both man and beast, and let them cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in his hands.",
+          "words": [
+            {
+              "word": "but",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "covered",
+              "strong": "H3680"
+            },
+            {
+              "word": "with",
+              "strong": null
+            },
+            {
+              "word": "sackcloth",
+              "strong": "H8242"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "both",
+              "strong": null
+            },
+            {
+              "word": "man",
+              "strong": "H120"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "beast",
+              "strong": "H929"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "cry",
+              "strong": "H7121"
+            },
+            {
+              "word": "mightily",
+              "strong": "H2394"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": ":",
+              "strong": null
+            },
+            {
+              "word": "yea",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "let",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": "turn",
+              "strong": "H7725"
+            },
+            {
+              "word": "every",
+              "strong": null
+            },
+            {
+              "word": "one",
+              "strong": "H376"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": "H7451"
+            },
+            {
+              "word": "way",
+              "strong": "H1870"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "violence",
+              "strong": "H2555"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "hands",
+              "strong": "H3709"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Who knoweth whether God will not turn and repent, and turn away from his fierce anger, that we perish not?",
+          "words": [
+            {
+              "word": "Who",
+              "strong": null
+            },
+            {
+              "word": "knoweth",
+              "strong": null
+            },
+            {
+              "word": "whether",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "will",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "turn",
+              "strong": "H7725"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "repent",
+              "strong": "H5162"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "turn",
+              "strong": "H7725"
+            },
+            {
+              "word": "away",
+              "strong": "H7725"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "fierce",
+              "strong": "H2740"
+            },
+            {
+              "word": "anger",
+              "strong": "H639"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "we",
+              "strong": null
+            },
+            {
+              "word": "perish",
+              "strong": "H6"
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "And God saw their works, that they turned from their evil way; and God repented of the evil which he said he would do unto them; and he did it not.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "saw",
+              "strong": "H7200"
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "works",
+              "strong": "H4639"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "they",
+              "strong": null
+            },
+            {
+              "word": "turned",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": null
+            },
+            {
+              "word": "way",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": null
+            },
+            {
+              "word": "repented",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "would",
+              "strong": null
+            },
+            {
+              "word": "do",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "them",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "did",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "But it displeased Jonah exceedingly, and he was angry.",
+          "words": [
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "displeased",
+              "strong": "H3415"
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "exceedingly",
+              "strong": "H1419"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "angry",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "And he prayed unto Jehovah, and said, I pray thee, O Jehovah, was not this my saying, when I was yet in my country? Therefore I hasted to flee unto Tarshish; for I knew that thou art a gracious God, and merciful, slow to anger, and abundant in lovingkindness, and repentest thee of the evil.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "prayed",
+              "strong": "H6419"
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "pray",
+              "strong": "H577"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "this",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "saying",
+              "strong": "H1697"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "yet",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "country",
+              "strong": "H127"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "Therefore",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "hasted",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "flee",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "Tarshish",
+              "strong": "H8659"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "knew",
+              "strong": "H3045"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "art",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "gracious",
+              "strong": "H2587"
+            },
+            {
+              "word": "God",
+              "strong": "H410"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "merciful",
+              "strong": "H7349"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "slow",
+              "strong": "H750"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "anger",
+              "strong": "H639"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "abundant",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "lovingkindness",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "repentest",
+              "strong": "H5162"
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": "H7451"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Therefore now, O Jehovah, take, I beseech thee, my life from me; for it is better for me to die than to live.",
+          "words": [
+            {
+              "word": "Therefore",
+              "strong": null
+            },
+            {
+              "word": "now",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "O",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "take",
+              "strong": "H3947"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "beseech",
+              "strong": null
+            },
+            {
+              "word": "thee",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "my",
+              "strong": null
+            },
+            {
+              "word": "life",
+              "strong": "H5315"
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "better",
+              "strong": "H2896"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "die",
+              "strong": "H4194"
+            },
+            {
+              "word": "than",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "live",
+              "strong": "H2416"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "And Jehovah said, Doest thou well to be angry?",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Doest",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "well",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "angry",
+              "strong": null
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Then Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shade, till he might see what would become of the city.",
+          "words": [
+            {
+              "word": "Then",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "went",
+              "strong": null
+            },
+            {
+              "word": "out",
+              "strong": "H3318"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "sat",
+              "strong": "H3427"
+            },
+            {
+              "word": "on",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "east",
+              "strong": null
+            },
+            {
+              "word": "side",
+              "strong": "H6924"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "there",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": "H6213"
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "booth",
+              "strong": "H5521"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "sat",
+              "strong": "H3427"
+            },
+            {
+              "word": "under",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "shade",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "till",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "might",
+              "strong": null
+            },
+            {
+              "word": "see",
+              "strong": "H7200"
+            },
+            {
+              "word": "what",
+              "strong": null
+            },
+            {
+              "word": "would",
+              "strong": null
+            },
+            {
+              "word": "become",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "And Jehovah God prepared a gourd, and made it to come up over Jonah, that it might be a shade over his head, to deliver him from his evil case. So Jonah was exceeding glad because of the gourd.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "prepared",
+              "strong": "H4487"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "gourd",
+              "strong": "H7021"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "made",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "come",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": "H5927"
+            },
+            {
+              "word": "over",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "might",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "shade",
+              "strong": null
+            },
+            {
+              "word": "over",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "head",
+              "strong": "H7218"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "deliver",
+              "strong": "H5337"
+            },
+            {
+              "word": "him",
+              "strong": null
+            },
+            {
+              "word": "from",
+              "strong": null
+            },
+            {
+              "word": "his",
+              "strong": null
+            },
+            {
+              "word": "evil",
+              "strong": null
+            },
+            {
+              "word": "case",
+              "strong": null
+            },
+            {
+              "word": ".",
+              "strong": null
+            },
+            {
+              "word": "So",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": "was",
+              "strong": null
+            },
+            {
+              "word": "exceeding",
+              "strong": "H1419"
+            },
+            {
+              "word": "glad",
+              "strong": "H8055"
+            },
+            {
+              "word": "because",
+              "strong": null
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gourd",
+              "strong": "H7021"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "But God prepared a worm when the morning rose the next day, and it smote the gourd, that it withered.",
+          "words": [
+            {
+              "word": "But",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "prepared",
+              "strong": "H4487"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "worm",
+              "strong": "H8438"
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "morning",
+              "strong": "H7837"
+            },
+            {
+              "word": "rose",
+              "strong": "H5927"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "next",
+              "strong": null
+            },
+            {
+              "word": "day",
+              "strong": "H4283"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "smote",
+              "strong": "H5221"
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gourd",
+              "strong": "H7021"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "withered",
+              "strong": "H3001"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "And it came to pass, when the sun arose, that God prepared a sultry east wind; and the sun beat upon the head of Jonah, that he fainted, and requested for himself that he might die, and said, It is better for me to die than to live.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "pass",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "when",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sun",
+              "strong": "H8121"
+            },
+            {
+              "word": "arose",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "prepared",
+              "strong": "H4487"
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "sultry",
+              "strong": null
+            },
+            {
+              "word": "east",
+              "strong": "H6921"
+            },
+            {
+              "word": "wind",
+              "strong": "H7307"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "sun",
+              "strong": "H8121"
+            },
+            {
+              "word": "beat",
+              "strong": "H5221"
+            },
+            {
+              "word": "upon",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "head",
+              "strong": "H7218"
+            },
+            {
+              "word": "of",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "fainted",
+              "strong": "H5968"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "requested",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "himself",
+              "strong": "H5315"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "might",
+              "strong": null
+            },
+            {
+              "word": "die",
+              "strong": "H4191"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "It",
+              "strong": null
+            },
+            {
+              "word": "is",
+              "strong": null
+            },
+            {
+              "word": "better",
+              "strong": "H2896"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "me",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "die",
+              "strong": "H4191"
+            },
+            {
+              "word": "than",
+              "strong": null
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "live",
+              "strong": "H2416"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death.",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "God",
+              "strong": "H430"
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "Jonah",
+              "strong": "H3124"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Doest",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "well",
+              "strong": "H3190"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "angry",
+              "strong": "H2734"
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gourd",
+              "strong": "H7021"
+            },
+            {
+              "word": "?",
+              "strong": null
+            },
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "he",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "do",
+              "strong": null
+            },
+            {
+              "word": "well",
+              "strong": "H3190"
+            },
+            {
+              "word": "to",
+              "strong": null
+            },
+            {
+              "word": "be",
+              "strong": null
+            },
+            {
+              "word": "angry",
+              "strong": "H2734"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "even",
+              "strong": null
+            },
+            {
+              "word": "unto",
+              "strong": null
+            },
+            {
+              "word": "death",
+              "strong": "H4194"
+            },
+            {
+              "word": ".",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "And Jehovah said, Thou hast had regard for the gourd, for which thou hast not labored, neither madest it grow; which came up in a night, and perished in a night:",
+          "words": [
+            {
+              "word": "And",
+              "strong": null
+            },
+            {
+              "word": "Jehovah",
+              "strong": null
+            },
+            {
+              "word": "said",
+              "strong": "H559"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "Thou",
+              "strong": null
+            },
+            {
+              "word": "hast",
+              "strong": null
+            },
+            {
+              "word": "had",
+              "strong": null
+            },
+            {
+              "word": "regard",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "the",
+              "strong": null
+            },
+            {
+              "word": "gourd",
+              "strong": "H7021"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "thou",
+              "strong": null
+            },
+            {
+              "word": "hast",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "labored",
+              "strong": null
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "neither",
+              "strong": null
+            },
+            {
+              "word": "madest",
+              "strong": null
+            },
+            {
+              "word": "it",
+              "strong": null
+            },
+            {
+              "word": "grow",
+              "strong": "H1431"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "which",
+              "strong": null
+            },
+            {
+              "word": "came",
+              "strong": null
+            },
+            {
+              "word": "up",
+              "strong": null
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "night",
+              "strong": "H1121"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "perished",
+              "strong": "H6"
+            },
+            {
+              "word": "in",
+              "strong": null
+            },
+            {
+              "word": "a",
+              "strong": null
+            },
+            {
+              "word": "night",
+              "strong": "H1121"
+            },
+            {
+              "word": ":",
+              "strong": null
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "and should not I have regard for Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?",
+          "words": [
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "should",
+              "strong": null
+            },
+            {
+              "word": "not",
+              "strong": null
+            },
+            {
+              "word": "I",
+              "strong": null
+            },
+            {
+              "word": "have",
+              "strong": null
+            },
+            {
+              "word": "regard",
+              "strong": null
+            },
+            {
+              "word": "for",
+              "strong": null
+            },
+            {
+              "word": "Nineveh",
+              "strong": "H5210"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "great",
+              "strong": "H1419"
+            },
+            {
+              "word": "city",
+              "strong": "H5892"
+            },
+            {
+              "word": ",",
+              "strong": null
+            },
+            {
+              "word": "wherein",
+              "strong": null
+            },
+            {
+              "word": "are",
+              "strong": "H3426"
+            },
+            {
+              "word": "more",
+              "strong": "H7235"
+            },
+            {
+              "word": "than",
+              "strong": null
+            },
+            {
+              "word": "sixscore",
+              "strong": "H8147"
+            },
+            {
+              "word": "thousand",
+              "strong": "H7239"
+            },
+            {
+              "word": "persons",
+              "strong": "H120"
+            },
+            {
+              "word": "that",
+              "strong": null
+            },
+            {
+              "word": "cannot",
+              "strong": null
+            },
+            {
+              "word": "discern",
+              "strong": "H3045"
+            },
+            {
+              "word": "between",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "right",
+              "strong": null
+            },
+            {
+              "word": "hand",
+              "strong": "H3225"
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "their",
+              "strong": null
+            },
+            {
+              "word": "left",
+              "strong": null
+            },
+            {
+              "word": "hand",
+              "strong": "H3225"
+            },
+            {
+              "word": ";",
+              "strong": null
+            },
+            {
+              "word": "and",
+              "strong": null
+            },
+            {
+              "word": "also",
+              "strong": null
+            },
+            {
+              "word": "much",
+              "strong": "H7227"
+            },
+            {
+              "word": "cattle",
+              "strong": "H929"
+            },
+            {
+              "word": "?",
+              "strong": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

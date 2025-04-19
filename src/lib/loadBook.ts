@@ -104,11 +104,17 @@ export async function loadBook(bookId: string): Promise<BibleBook | null> {
 
     console.log(`📥 Loading book: ${normalizedId} (${translation})`);
 
+    // Determine the correct path for the book file
+    // For KJV, use the kjv_books directory
+    const bookPath = translation === 'kjv' 
+      ? `/bibles/kjv_books/${normalizedId}.json`
+      : `/bibles/${translation}/${normalizedId}.json`;
+
     // Load the entire book from local files
     try {
-      const response = await fetch(`/bibles/${translation}/${normalizedId}.json`);
+      const response = await fetch(bookPath);
       if (!response.ok) {
-        throw new Error(`Failed to load book file: ${normalizedId}.json (${response.status} ${response.statusText})`);
+        throw new Error(`Failed to load book file: ${bookPath} (${response.status} ${response.statusText})`);
       }
 
       const bookData: BookData = await response.json();

@@ -11,6 +11,24 @@ interface NotebookSelectDialogProps {
   className?: string;
 }
 
+const zIndexes = {
+  base: 0,
+  toolbar: 50,
+  dialog: {
+    base: 100,
+    overlay: 100,
+    content: 100
+  },
+  confirmDialog: {
+    overlay: 150,
+    content: 150
+  },
+  selectDialog: {
+    overlay: 200,
+    content: 200
+  }
+}
+
 export function NotebookSelectDialog({
   open,
   onOpenChange,
@@ -31,8 +49,8 @@ export function NotebookSelectDialog({
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
       <Dialog.Portal>
-        <Dialog.Overlay className={`fixed inset-0 bg-black/50 z-[200] ${className}`} />
-        <Dialog.Content className={`fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark-800 p-6 rounded-lg shadow-xl w-[90vw] max-w-md z-[200] ${className}`}>
+        <Dialog.Overlay className={`fixed inset-0 bg-black/50 z-[70] ${className}`} />
+        <Dialog.Content className={`fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark-800 p-6 rounded-lg shadow-xl w-[90vw] max-w-md z-[70] ${className}`}>
           <div className="p-6 border-b border-dark-700">
             <Dialog.Title className="text-2xl font-serif text-dark-100">
               Select Notebook

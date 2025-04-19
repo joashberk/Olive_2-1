@@ -54,14 +54,14 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
   const navigate = useNavigate();
   
   // Get the current translation
-  const [currentTranslation, setCurrentTranslation] = useState<'asv' | 'web'>(() => {
-    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
+  const [currentTranslation, setCurrentTranslation] = useState<'asv' | 'web' | 'kjv'>(() => {
+    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' | 'kjv' || 'web';
   });
   
   // Update translation when localStorage changes
   useEffect(() => {
     const handleStorageChange = () => {
-      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
+      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' | 'kjv' || 'web';
       setCurrentTranslation(translation);
     };
     
@@ -157,7 +157,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       }
 
       // Get current translation
-      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
+      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' | 'kjv' || 'web';
       console.log('Saving verse with translation:', translation);
 
       const result = await insertSavedVerse(
@@ -524,6 +524,11 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
                 <p className="mb-1">World English Bible (WEB)</p>
                 <p className="mb-1">The World English Bible is in the public domain.</p>
                 <p className="mb-1"><a href="https://worldenglish.bible/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://worldenglish.bible/</a></p>
+              </>
+            ) : currentTranslation === 'kjv' ? (
+              <>
+                <p className="mb-1">King James Version (KJV, 1611)</p>
+                <p>Public domain, with Strong's numbers.</p>
               </>
             ) : (
               <>
