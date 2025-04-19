@@ -43,7 +43,7 @@
 
 @layer components {
   .prose {
-    @apply text-[#e3e3e6] leading-relaxed font-serif;
+    @apply text-[#e3e3e6] leading-relaxed;
   }
   
   .prose p {
@@ -60,7 +60,7 @@
   }
 
   .verse-text {
-    @apply inline text-[#777777] transition-colors duration-300 ease-in-out font-serif;
+    @apply inline text-[#777777] transition-colors duration-300 ease-in-out;
   }
 
   /* Only apply hover styles on non-touch devices */

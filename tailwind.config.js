@@ -39,6 +39,7 @@ export default {
       fontFamily: {
         sans: ['SF Pro Text', ...fontFamily.sans],
         serif: ['Georgia', 'Times New Roman', 'serif'],
+        'travelsans': ['TravelSans-Screen', ...fontFamily.sans],
       },
     },
   },

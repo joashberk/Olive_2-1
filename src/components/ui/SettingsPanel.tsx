@@ -6,6 +6,7 @@ import { useMediaQuery } from '@/hooks/useMediaQuery';
 interface ReaderSettings {
   fontSize: number;
   lineSpacing: number;
+  fontFamily: 'serif' | 'sans';
 }
 
 interface SettingsPanelProps {
@@ -119,6 +120,56 @@ export function SettingsPanel({
                       [&::-moz-range-thumb]:shadow-sm
                       [&::-moz-range-thumb]:hover:bg-olive-200"
                   />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-dark-200 mb-2">
+                    Font Family
+                  </label>
+                  <div className="flex space-x-2">
+                    <button
+                      onClick={() => {
+                        console.log("Font toggle clicked: serif");
+                        console.log("Current settings before change:", settings);
+                        onSettingsChange({
+                          ...settings,
+                          fontFamily: 'serif'
+                        });
+                        console.log("New settings value sent:", {...settings, fontFamily: 'serif'});
+                      }}
+                      className={`
+                        flex-1 px-4 py-3 rounded-md text-center transition-colors
+                        ${settings.fontFamily === 'serif' 
+                          ? 'bg-olive-900/50 text-olive-300 border-2 border-olive-700' 
+                          : 'bg-dark-700 text-dark-300 hover:bg-dark-600 border-2 border-transparent'
+                        }
+                      `}
+                    >
+                      <span className="font-serif text-lg">A</span>
+                      <span className="sr-only">Serif Font</span>
+                    </button>
+                    <button
+                      onClick={() => {
+                        console.log("Font toggle clicked: sans");
+                        console.log("Current settings before change:", settings);
+                        onSettingsChange({
+                          ...settings,
+                          fontFamily: 'sans'
+                        });
+                        console.log("New settings value sent:", {...settings, fontFamily: 'sans'});
+                      }}
+                      className={`
+                        flex-1 px-4 py-3 rounded-md text-center transition-colors
+                        ${settings.fontFamily === 'sans' 
+                          ? 'bg-olive-900/50 text-olive-300 border-2 border-olive-700' 
+                          : 'bg-dark-700 text-dark-300 hover:bg-dark-600 border-2 border-transparent'
+                        }
+                      `}
+                    >
+                      <span className="font-travelsans text-lg">A</span>
+                      <span className="sr-only">Sans Serif Font</span>
+                    </button>
+                  </div>
                 </div>
               </div>
 

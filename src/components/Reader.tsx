@@ -24,11 +24,13 @@ interface ReaderProps {
 interface ReaderSettings {
   fontSize: number;
   lineSpacing: number;
+  fontFamily: 'serif' | 'sans';
 }
 
 const defaultSettings: ReaderSettings = {
   fontSize: 23,
-  lineSpacing: 2.0
+  lineSpacing: 2.0,
+  fontFamily: 'sans'
 };
 
 function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }: ReaderProps) {
@@ -39,7 +41,9 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
   const [lastScrollY, setLastScrollY] = useState(0);
   const [settings, setSettings] = useState<ReaderSettings>(() => {
     const saved = localStorage.getItem('readerSettings');
-    return saved ? JSON.parse(saved) : defaultSettings;
+    const parsedSettings = saved ? JSON.parse(saved) : defaultSettings;
+    console.log("Initial reader settings:", parsedSettings);
+    return parsedSettings;
   });
   
   const isMobile = useMediaQuery('(max-width: 768px)');
@@ -204,6 +208,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
   });
 
   useEffect(() => {
+    console.log("Settings changed, saving to localStorage:", settings);
     localStorage.setItem('readerSettings', JSON.stringify(settings));
   }, [settings]);
 
@@ -378,7 +383,11 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
           lineHeight: settings.lineSpacing
         }}
       >
-        <div className="font-serif space-y-4">
+        <div 
+          className={`${settings.fontFamily === 'serif' ? 'font-serif' : 'font-travelsans'} space-y-4`}
+          data-font-family={settings.fontFamily}
+        >
+          {console.log("Rendering verses with fontFamily:", settings.fontFamily)}
           {chapterData.verses.map((verse, index) => {
             const isSelected = selectedVerses.has(verse.verse);
             const isSaved = savedVerses?.has(verse.verse);
@@ -454,9 +463,9 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       
       {/* Desktop header without animation - starts below nav and sticks to top */}
       {isMobile === false && (
-        <div className="sticky top-0 bg-dark-900/95 backdrop-blur-sm z-50 border-b border-dark-800 w-full">
+        <div className="sticky top-0 bg-dark-900/95 backdrop-blur-sm z-50 w-full">
           <div className="w-full">
-            <div className="md:container md:mx-auto md:px-8 md:py-3">
+            <div className="md:container md:mx-auto md:px-8 md:py-6 md:pt-8">
               <div className="max-w-2xl mx-auto relative">
                 <ChapterNavigation
                   selectedBook={selectedBook}
@@ -473,7 +482,7 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
       
       {/* Fallback header when isMobile is undefined during initial load */}
       {isMobile === undefined && (
-        <div className="sticky top-0 bg-dark-900/95 backdrop-blur-sm z-50 border-b border-dark-800 w-full">
+        <div className="sticky top-0 bg-dark-900/95 backdrop-blur-sm z-50 w-full">
           <div className="w-full">
             <div className="container mx-auto px-4 py-4 md:px-8 md:py-3">
               <div className="max-w-2xl mx-auto relative">
@@ -529,7 +538,11 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
           open={showSettings}
           onOpenChange={setShowSettings}
           settings={settings}
-          onSettingsChange={setSettings}
+          onSettingsChange={(newSettings) => {
+            console.log("Settings being updated from:", settings);
+            console.log("New settings:", newSettings);
+            setSettings(newSettings);
+          }}
         />
       </div>
     </div>
