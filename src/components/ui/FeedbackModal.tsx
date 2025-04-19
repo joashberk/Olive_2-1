@@ -1,5 +1,5 @@
 import * as Dialog from '@radix-ui/react-dialog';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, ImagePlus, Trash2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useToast } from './useToast';
@@ -7,20 +7,60 @@ import { supabase } from '@/lib/supabase';
 import { FeedbackType } from '@/lib/types';
 import { feedbackCategories, validateImage } from '@/lib/feedback';
 import { useLocation } from 'react-router-dom';
+import { useMediaQuery } from '@/hooks/useMediaQuery';
 
 export function FeedbackButton() {
   const [open, setOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
+  // Add scroll event handler only for mobile
+  useEffect(() => {
+    // Skip scroll handling for desktop
+    if (!isMobile) {
+      setIsVisible(true);
+      return;
+    }
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollY;
+      
+      // Show navigation when scrolling up or at the top
+      if (currentScrollY < 10 || scrollDelta < 0) {
+        setIsVisible(true);
+      } 
+      // Hide navigation when scrolling down
+      else if (scrollDelta > 5) {
+        setIsVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY, isMobile]);
 
   return (
     <>
-      <button
+      <motion.button
         data-feedback-button
         onClick={() => setOpen(true)}
-        className="fixed bottom-24 md:bottom-8 right-8 z-40 p-3 bg-dark-800/80 hover:bg-dark-800 backdrop-blur-sm rounded-full shadow-lg transition-all duration-200 hover:scale-105 group"
+        className="fixed right-8 z-40 p-3 bg-dark-800/80 hover:bg-dark-800 backdrop-blur-sm rounded-full shadow-lg hover:scale-105 group md:bottom-8"
+        style={{ bottom: '6rem' }}
+        animate={{ y: isMobile ? (isVisible ? 0 : 64) : 0 }}
+        transition={{ 
+          type: 'spring',
+          damping: 30,
+          stiffness: 300,
+          mass: 0.8
+        }}
         aria-label="Send feedback"
       >
         <MessageSquare className="w-5 h-5 text-dark-300 group-hover:text-olive-300" />
-      </button>
+      </motion.button>
 
       <FeedbackModal open={open} onOpenChange={setOpen} />
     </>

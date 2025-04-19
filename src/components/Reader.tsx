@@ -12,6 +12,7 @@ import { ChapterNavigation } from './ui/ChapterNavigation';
 import { ChapterNavigationButtons } from './ui/ChapterNavigationButtons';
 import { SettingsPanel } from './ui/SettingsPanel';
 import { testTranslationColumn } from '@/lib/supabase';
+import { useMediaQuery } from '@/hooks/useMediaQuery';
 
 interface ReaderProps {
   selectedBook: string;
@@ -34,16 +35,35 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
   const [selectedVerses, setSelectedVerses] = useState<Set<number>>(new Set());
   const [showSettings, setShowSettings] = useState(false);
   const [showStudyDrawer, setShowStudyDrawer] = useState(false);
+  const [isNavVisible, setIsNavVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const [settings, setSettings] = useState<ReaderSettings>(() => {
     const saved = localStorage.getItem('readerSettings');
     return saved ? JSON.parse(saved) : defaultSettings;
   });
   
+  const isMobile = useMediaQuery('(max-width: 768px)');
   const { toast } = useToast();
   const queryClient = useQueryClient();
   const contentRef = useRef<HTMLDivElement>(null);
   const { book, chapter } = useParams();
   const navigate = useNavigate();
+  
+  // Get the current translation
+  const [currentTranslation, setCurrentTranslation] = useState<'asv' | 'web'>(() => {
+    return localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
+  });
+  
+  // Update translation when localStorage changes
+  useEffect(() => {
+    const handleStorageChange = () => {
+      const translation = localStorage.getItem('selectedTranslation') as 'asv' | 'web' || 'web';
+      setCurrentTranslation(translation);
+    };
+    
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
+  }, []);
 
   const { data: savedVerses } = useQuery({
     queryKey: ['userSavedVerses', selectedBook, selectedChapter],
@@ -283,6 +303,28 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
     });
   }, []);
 
+  // Add scroll event handler
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollY;
+      
+      // Show navigation when scrolling up or at the top
+      if (currentScrollY < 10 || scrollDelta < 0) {
+        setIsNavVisible(true);
+      } 
+      // Hide navigation when scrolling down
+      else if (scrollDelta > 5) {
+        setIsNavVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
   const getSelectedVerseText = () => {
     if (!chapterData?.verses || selectedVerses.size === 0) return '';
 
@@ -391,19 +433,65 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
 
   return (
     <div className="relative min-h-screen">
-      <div className="bg-dark-900 sticky top-0 z-50">
-        <div className="md:container md:mx-auto px-4 py-4 md:px-8 md:py-3 md:pt-8 border-b md:border-b-0 border-dark-800">
-          <div className="max-w-2xl mx-auto relative">
-            <ChapterNavigation
-              selectedBook={selectedBook}
-              selectedChapter={selectedChapter}
-              onBookChange={onBookChange}
-              onChapterChange={onChapterChange}
-              onSettingsClick={() => setShowSettings(true)}
-            />
+      {/* Mobile header with animation */}
+      {isMobile === true && (
+        <div className={`bg-dark-900/95 backdrop-blur-sm z-50 transition-transform duration-300 fixed top-0 left-0 right-0 border-b border-dark-800 ${
+          isNavVisible ? 'translate-y-0' : '-translate-y-full'
+        }`}>
+          <div className="px-4 py-4 border-b border-dark-800">
+            <div className="max-w-2xl mx-auto relative">
+              <ChapterNavigation
+                selectedBook={selectedBook}
+                selectedChapter={selectedChapter}
+                onBookChange={onBookChange}
+                onChapterChange={onChapterChange}
+                onSettingsClick={() => setShowSettings(true)}
+              />
+            </div>
           </div>
         </div>
-      </div>
+      )}
+      
+      {/* Desktop header without animation - starts below nav and sticks to top */}
+      {isMobile === false && (
+        <div className="sticky top-0 bg-dark-900/95 backdrop-blur-sm z-50 border-b border-dark-800 w-full">
+          <div className="w-full">
+            <div className="md:container md:mx-auto md:px-8 md:py-3">
+              <div className="max-w-2xl mx-auto relative">
+                <ChapterNavigation
+                  selectedBook={selectedBook}
+                  selectedChapter={selectedChapter}
+                  onBookChange={onBookChange}
+                  onChapterChange={onChapterChange}
+                  onSettingsClick={() => setShowSettings(true)}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Fallback header when isMobile is undefined during initial load */}
+      {isMobile === undefined && (
+        <div className="sticky top-0 bg-dark-900/95 backdrop-blur-sm z-50 border-b border-dark-800 w-full">
+          <div className="w-full">
+            <div className="container mx-auto px-4 py-4 md:px-8 md:py-3">
+              <div className="max-w-2xl mx-auto relative">
+                <ChapterNavigation
+                  selectedBook={selectedBook}
+                  selectedChapter={selectedChapter}
+                  onBookChange={onBookChange}
+                  onChapterChange={onChapterChange}
+                  onSettingsClick={() => setShowSettings(true)}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Only add spacer for mobile view */}
+      {isMobile === true && <div className="h-[4.5rem]" />}
 
       <ChapterNavigationButtons
         selectedBook={selectedBook}
@@ -416,6 +504,24 @@ function Reader({ selectedBook, selectedChapter, onBookChange, onChapterChange }
         <div className="md:container md:mx-auto px-4 py-4 md:p-8 flex-1 overflow-y-auto" ref={contentRef}>
           <div className="max-w-2xl mx-auto">
             {renderContent()}
+          </div>
+        </div>
+
+        {/* Copyright message at the bottom */}
+        <div className="md:container md:mx-auto px-4 md:px-8 pb-16 md:pb-8 pt-4">
+          <div className="max-w-2xl mx-auto text-center text-[#777777] text-xs">
+            {currentTranslation === 'web' ? (
+              <>
+                <p className="mb-1">World English Bible (WEB)</p>
+                <p className="mb-1">The World English Bible is in the public domain.</p>
+                <p className="mb-1"><a href="https://worldenglish.bible/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://worldenglish.bible/</a></p>
+              </>
+            ) : (
+              <>
+                <p className="mb-1">American Standard Version (ASV, 1901)</p>
+                <p>Public domain.</p>
+              </>
+            )}
           </div>
         </div>
 
